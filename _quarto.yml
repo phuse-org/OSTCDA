@@ -1,0 +1,39 @@
+project:
+  type: book
+  render:
+    - "*.qmd"
+    - "!slides/" # do not render slides folder
+  output-dir: _rendered
+    
+book:
+  title: "Open Source Technology in Clinical Data Analysis"
+  #subtitle: "Data Visualisation & Open Source Technology Working Group"
+  edition: "DRAFT"
+  author: "PHUSE"
+  abstract: "A significant amount of time and energy has been invested in recent years exploring the desirability (do we want it?), feasibility (can we do it?), and viability (is it worth it?) of integrating open source solutions into our clinical data pipelines which transform source data into clinical study reports and submission data packages."
+  #date: "10/27/2023"
+  sharing: [twitter, facebook]
+  downloads: [pdf, docx]
+  sidebar:
+    search: true
+    logo: assets/phuse.png
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+  docx:
+    toc: true
+    number-sections: true
+    highlight-style: github
+
+editor: visual
+
