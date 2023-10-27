@@ -37,7 +37,6 @@ jobs:
       - name: Render 
         run: |
           quarto render
-          quarto render slides/eu23
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
