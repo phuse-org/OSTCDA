@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Open Source Technology in Clinical Data Analysis",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "intro.html#purpose-and-background",
+    "href": "intro.html#purpose-and-background",
+    "title": "1  OSTCDA",
+    "section": "1.1 Purpose and Background",
+    "text": "1.1 Purpose and Background\nThere are many questions around understanding and using open source for clinical data analysis. We want to create a comprehesive knowledge base about the “state of the union” and provide an overview and ideally also answers for core questions. We need and collect input from our community to compile the knowledge base, so please join the discussions to allow a broad and complete picutre.\nIf you like to know more, please join the R/Pharma talk “The State of Open Source Technology in Clinical Data Analysis, Reporting, and Submissions”. The recording will be made available after the conference."
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+  }
+]
