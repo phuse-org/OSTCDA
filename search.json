@@ -14,38 +14,73 @@
     "text": "1.1 Purpose and Background\nThere are many questions around understanding and using open source for clinical data analysis. We want to create a comprehesive knowledge base about the “state of the union” and provide an overview and ideally also answers for core questions. We need and collect input from our community to compile the knowledge base, so please join the discussions to allow a broad and complete picutre.\nIf you like to know more, please join the R/Pharma talk “The State of Open Source Technology in Clinical Data Analysis, Reporting, and Submissions”. The recording is here: 2023 R/Pharma presentation."
   },
   {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  What is Open Source?",
+    "section": "",
+    "text": "3 What is Open Source?\nWhen someone says ‘open source’ - what does that mean to you?\nWhat are the important characteristics of something that is regarded as ‘open source’?"
+  },
+  {
     "objectID": "summary.html#contribute",
     "href": "summary.html#contribute",
     "title": "2  What is Open Source?",
-    "section": "2.1 Contribute",
-    "text": "2.1 Contribute\nContribute to the discussion here:\nWhat is open source?"
+    "section": "3.1 Contribute",
+    "text": "3.1 Contribute\nContribute to the discussion here:\nWhat is open source?"
   },
   {
     "objectID": "summary.html#guidance",
     "href": "summary.html#guidance",
     "title": "2  What is Open Source?",
-    "section": "2.2 Guidance",
-    "text": "2.2 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+    "section": "3.2 Guidance",
+    "text": "3.2 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
   },
   {
     "objectID": "summary.html#examples",
     "href": "summary.html#examples",
     "title": "2  What is Open Source?",
-    "section": "2.3 Examples",
-    "text": "2.3 Examples\nExample 1: The Open Source Initiative provides a definition:\n\nFree distribution\nAvailable source code\nDerived works possible\n\nExample 2: Merriam-Webster defines open source as “having the source code freely available for possible modification and redistribution”."
+    "section": "3.3 Examples",
+    "text": "3.3 Examples\nExample 1: The Open Source Initiative provides a definition:\n\nFree distribution\nAvailable source code\nDerived works possible\n\nExample 2: Merriam-Webster defines open source as “having the source code freely available for possible modification and redistribution”."
+  },
+  {
+    "objectID": "why.html",
+    "href": "why.html",
+    "title": "3  Why Open Source?",
+    "section": "",
+    "text": "4 What is the ‘why’ for using open source solutions in pharma clinical data analytics?"
   },
   {
     "objectID": "why.html#contribute",
     "href": "why.html#contribute",
-    "title": "3  What is the ‘why’ for using open source solutions in pharma clinical data analytics?",
-    "section": "3.1 Contribute",
-    "text": "3.1 Contribute\nContribute to the discussion here:\nWhat is they ‘why’ for open source?"
+    "title": "3  Why Open Source?",
+    "section": "4.1 Contribute",
+    "text": "4.1 Contribute\nContribute to the discussion here:\nWhat is the ‘why’ for open source?"
   },
   {
     "objectID": "why.html#guidance",
     "href": "why.html#guidance",
-    "title": "3  What is the ‘why’ for using open source solutions in pharma clinical data analytics?",
-    "section": "3.2 Guidance",
-    "text": "3.2 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+    "title": "3  Why Open Source?",
+    "section": "4.2 Guidance",
+    "text": "4.2 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+  },
+  {
+    "objectID": "trust.html",
+    "href": "trust.html",
+    "title": "4  Establishing Trust",
+    "section": "",
+    "text": "5 Can an open source solution be trusted?"
+  },
+  {
+    "objectID": "trust.html#contribute",
+    "href": "trust.html#contribute",
+    "title": "4  Establishing Trust",
+    "section": "5.1 Contribute",
+    "text": "5.1 Contribute\nContribute to the discussion here:\nCan an open source solution be trusted to be accurate?"
+  },
+  {
+    "objectID": "trust.html#guidance",
+    "href": "trust.html#guidance",
+    "title": "4  Establishing Trust",
+    "section": "5.2 Guidance",
+    "text": "5.2 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
   }
 ]
