@@ -1,3 +1,6 @@
+---
+title: "Why Open Source?"
+---
 # What is the 'why' for using open source solutions in pharma clinical data analytics?
 
 -   What is the attraction to open source solutions?
@@ -9,7 +12,7 @@
 ## Contribute
 
 Contribute to the discussion here:\
-[What is they 'why' for open source?](https://github.com/phuse-org/OSTCDA/discussions/2)
+[What is the 'why' for open source?](https://github.com/phuse-org/OSTCDA/discussions/2)
 
 ## Guidance
 

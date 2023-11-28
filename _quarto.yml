@@ -22,6 +22,7 @@ book:
     - intro.qmd
     - summary.qmd
     - why.qmd
+    - trust.qmd
     - references.qmd
 
 bibliography: references.bib
