@@ -1,0 +1,20 @@
+# What is the 'why' for using open source solutions in pharma clinical data analytics?
+
+-   What is the attraction to open source solutions?
+
+-   Why do users like open source solutions?
+
+-   Why are leaders of organizations in Data Management, Biostatistics, and Programming devoting resources toward the development, testing, and adoption of open source solutions?
+
+## Contribute
+
+Contribute to the discussion here:\
+[What is they 'why' for open source?](https://github.com/phuse-org/OSTCDA/discussions/2)
+
+## Guidance
+
+-   Provide your thoughts and perspectives
+
+-   Provide references to articles, webinars, presentations (citations, links)
+
+-   Be respectful in this community

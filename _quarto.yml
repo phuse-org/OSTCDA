@@ -21,6 +21,7 @@ book:
     - index.qmd
     - intro.qmd
     - summary.qmd
+    - why.qmd
     - references.qmd
 
 bibliography: references.bib

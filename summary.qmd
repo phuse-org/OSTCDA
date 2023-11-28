@@ -1,7 +1,34 @@
-# Summary
+# What is Open Source?
 
-In summary, this book has no content whatsoever.
+When someone says 'open source' - what does that mean to you?\
+What are the important characteristics of something that is regarded as 'open source'?
 
-```{r}
-1 + 1
-```
+-   Does the cost matter?
+-   Does the ability to review the code matter?
+-   Does the ability to reuse the code matter?
+-   Does the ability to modify the code matter?
+
+## Contribute
+
+Contribute to the discussion here:\
+[What is open source?](https://github.com/phuse-org/OSTCDA/discussions/1)
+
+## Guidance
+
+-   Provide your thoughts and perspectives
+
+-   Provide references to articles, webinars, presentations (citations, links)
+
+-   Be respectful in this community
+
+## Examples
+
+[**Example 1:**]{.underline} The Open Source Initiative provides a [definition](https://opensource.org/osd/):
+
+-   Free distribution
+
+-   Available source code
+
+-   Derived works possible
+
+[**Example 2:**]{.underline} [Merriam-Webster](#0){style="font-size: 11.4pt;"} defines open source as "having the source code freely available for possible modification and redistribution".
