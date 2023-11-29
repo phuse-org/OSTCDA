@@ -21,11 +21,11 @@
     "text": "3 What is Open Source?\nWhen someone says ‘open source’ - what does that mean to you?\nWhat are the important characteristics of something that is regarded as ‘open source’?"
   },
   {
-    "objectID": "summary.html#contribute",
-    "href": "summary.html#contribute",
+    "objectID": "summary.html#how-to-contribute",
+    "href": "summary.html#how-to-contribute",
     "title": "2  What is Open Source?",
-    "section": "3.1 Contribute",
-    "text": "3.1 Contribute\nContribute to the discussion here:\nWhat is open source?"
+    "section": "3.1 How to Contribute",
+    "text": "3.1 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nWhat is open source?"
   },
   {
     "objectID": "summary.html#guidance",
@@ -42,45 +42,87 @@
     "text": "3.3 Examples\nExample 1: The Open Source Initiative provides a definition:\n\nFree distribution\nAvailable source code\nDerived works possible\n\nExample 2: Merriam-Webster defines open source as “having the source code freely available for possible modification and redistribution”."
   },
   {
-    "objectID": "why.html",
-    "href": "why.html",
+    "objectID": "why.html#what-is-the-why-for-using-open-source-solutions-in-pharma-clinical-data-analytics",
+    "href": "why.html#what-is-the-why-for-using-open-source-solutions-in-pharma-clinical-data-analytics",
     "title": "3  Why Open Source?",
-    "section": "",
-    "text": "4 What is the ‘why’ for using open source solutions in pharma clinical data analytics?"
+    "section": "3.1 What is the ‘why’ for using open source solutions in pharma clinical data analytics?",
+    "text": "3.1 What is the ‘why’ for using open source solutions in pharma clinical data analytics?\n\nWhat is the attraction to open source solutions?\nWhy do users like open source solutions?\nWhy are leaders of organizations in Data Management, Biostatistics, and Programming devoting resources toward the development, testing, and adoption of open source solutions?"
   },
   {
-    "objectID": "why.html#contribute",
-    "href": "why.html#contribute",
+    "objectID": "why.html#how-to-contribute",
+    "href": "why.html#how-to-contribute",
     "title": "3  Why Open Source?",
-    "section": "4.1 Contribute",
-    "text": "4.1 Contribute\nContribute to the discussion here:\nWhat is the ‘why’ for open source?"
+    "section": "3.2 How to Contribute",
+    "text": "3.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nWhat is the ‘why’ for open source?"
   },
   {
     "objectID": "why.html#guidance",
     "href": "why.html#guidance",
     "title": "3  Why Open Source?",
-    "section": "4.2 Guidance",
-    "text": "4.2 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+    "section": "3.3 Guidance",
+    "text": "3.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
   },
   {
-    "objectID": "trust.html",
-    "href": "trust.html",
+    "objectID": "trust.html#can-an-open-source-solution-be-trusted",
+    "href": "trust.html#can-an-open-source-solution-be-trusted",
     "title": "4  Establishing Trust",
-    "section": "",
-    "text": "5 Can an open source solution be trusted?"
+    "section": "4.1 Can an open source solution be trusted?",
+    "text": "4.1 Can an open source solution be trusted?\n\nHow do we have confidence that an open source solution is accurate?\nWhat are the relevant considerations?"
   },
   {
-    "objectID": "trust.html#contribute",
-    "href": "trust.html#contribute",
+    "objectID": "trust.html#how-to-contribute",
+    "href": "trust.html#how-to-contribute",
     "title": "4  Establishing Trust",
-    "section": "5.1 Contribute",
-    "text": "5.1 Contribute\nContribute to the discussion here:\nCan an open source solution be trusted to be accurate?"
+    "section": "4.2 How to Contribute",
+    "text": "4.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nCan an open source solution be trusted to be accurate?"
   },
   {
     "objectID": "trust.html#guidance",
     "href": "trust.html#guidance",
     "title": "4  Establishing Trust",
-    "section": "5.2 Guidance",
-    "text": "5.2 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+    "section": "4.3 Guidance",
+    "text": "4.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+  },
+  {
+    "objectID": "doc_trust.html#how-do-you-document-your-trust-in-an-open-source-solution",
+    "href": "doc_trust.html#how-do-you-document-your-trust-in-an-open-source-solution",
+    "title": "5  Documenting Trust",
+    "section": "5.1 How do you document your trust in an open source solution?",
+    "text": "5.1 How do you document your trust in an open source solution?\n\nHow do we have document our trust that an open source solution is accurate?\nHow do we know if a third-party will accept our documentation of trust?"
+  },
+  {
+    "objectID": "doc_trust.html#how-to-contribute",
+    "href": "doc_trust.html#how-to-contribute",
+    "title": "5  Documenting Trust",
+    "section": "5.2 How to Contribute",
+    "text": "5.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nHow do you document your trust in an open source solution to satisfy a third-party inquiry?"
+  },
+  {
+    "objectID": "doc_trust.html#guidance",
+    "href": "doc_trust.html#guidance",
+    "title": "5  Documenting Trust",
+    "section": "5.3 Guidance",
+    "text": "5.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+  },
+  {
+    "objectID": "cost.html#what-is-the-true-cost-of-implementing-open-source-solutions",
+    "href": "cost.html#what-is-the-true-cost-of-implementing-open-source-solutions",
+    "title": "6  Cost of Open Source",
+    "section": "6.1 What is the true cost of implementing open source solutions?",
+    "text": "6.1 What is the true cost of implementing open source solutions?\n\nIs it essentially free?\nWhat resources are required for proper implementation?"
+  },
+  {
+    "objectID": "cost.html#how-to-contribute",
+    "href": "cost.html#how-to-contribute",
+    "title": "6  Cost of Open Source",
+    "section": "6.2 How to Contribute",
+    "text": "6.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nWhat is the true cost of implementing open source solutions into clinical data analytic processes??"
+  },
+  {
+    "objectID": "cost.html#guidance",
+    "href": "cost.html#guidance",
+    "title": "6  Cost of Open Source",
+    "section": "6.3 Guidance",
+    "text": "6.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
   }
 ]
