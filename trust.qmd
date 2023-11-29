@@ -2,15 +2,15 @@
 title: "Establishing Trust"
 ---
 
-# Can an open source solution be trusted?
+## Can an open source solution be trusted?
 
 -   How do we have confidence that an open source solution is accurate?
 
 -   What are the relevant considerations?
 
-## Contribute
+## How to Contribute
 
-Contribute to the discussion here:\
+Contribute to the discussion here in GitHub Discussions:\
 [Can an open source solution be trusted to be accurate?](https://github.com/phuse-org/OSTCDA/discussions/3)
 
 ## Guidance

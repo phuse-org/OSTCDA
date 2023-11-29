@@ -1,6 +1,7 @@
 ---
 title: "What is Open Source?"
 ---
+
 # What is Open Source?
 
 When someone says 'open source' - what does that mean to you?\
@@ -11,9 +12,9 @@ What are the important characteristics of something that is regarded as 'open so
 -   Does the ability to reuse the code matter?
 -   Does the ability to modify the code matter?
 
-## Contribute
+## How to Contribute
 
-Contribute to the discussion here:\
+Contribute to the discussion here in GitHub Discussions:\
 [What is open source?](https://github.com/phuse-org/OSTCDA/discussions/1)
 
 ## Guidance

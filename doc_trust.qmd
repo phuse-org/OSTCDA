@@ -1,0 +1,22 @@
+---
+title: "Documenting Trust"
+---
+
+## How do you document your trust in an open source solution?
+
+-   How do we have document our trust that an open source solution is accurate?
+
+-   How do we know if a third-party will accept our documentation of trust?
+
+## How to Contribute
+
+Contribute to the discussion here in GitHub Discussions:\
+[How do you document your trust in an open source solution to satisfy a third-party inquiry?](https://github.com/phuse-org/OSTCDA/discussions/5)
+
+## Guidance
+
+-   Provide your thoughts and perspectives
+
+-   Provide references to articles, webinars, presentations (citations, links)
+
+-   Be respectful in this community

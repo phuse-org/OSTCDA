@@ -1,0 +1,22 @@
+---
+title: "Cost of Open Source"
+---
+
+## What is the true cost of implementing open source solutions?
+
+-   Is it essentially free?
+
+-   What resources are required for proper implementation?
+
+## How to Contribute
+
+Contribute to the discussion here in GitHub Discussions:\
+[What is the true cost of implementing open source solutions into clinical data analytic processes??](https://github.com/phuse-org/OSTCDA/discussions/4)
+
+## Guidance
+
+-   Provide your thoughts and perspectives
+
+-   Provide references to articles, webinars, presentations (citations, links)
+
+-   Be respectful in this community
