@@ -11,7 +11,7 @@ title: "Documenting Trust"
 ## How to Contribute
 
 Contribute to the discussion here in GitHub Discussions:\
-[How do you document your trust in an open source solution to satisfy a third-party inquiry?](https://github.com/phuse-org/OSTCDA/discussions/5)
+[How do you document your trust in an open source solution to satisfy a third-party inquiry?](https://github.com/phuse-org/OSTCDA/discussions/5){:target="_blank"}
 
 ## Guidance
 
