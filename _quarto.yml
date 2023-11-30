@@ -25,6 +25,8 @@ book:
     - trust.qmd
     - doc_trust.qmd
     - cost.qmd
+    - reg_accept.qmd
+    - art.qmd
     - references.qmd
 
 bibliography: references.bib

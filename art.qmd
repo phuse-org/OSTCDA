@@ -1,0 +1,24 @@
+---
+title: "GxP Compliance"
+---
+
+## How do you establish reproducibility and traceability?
+
+GxP compliance means establishing accuracy, reproducibility, and traceability. When working with open source solutions to process and analyze clinical trial data:
+
+-   How do we establish reproducibility of the outputs?
+
+-   How do we establish traceability of the input through to the output?
+
+## How to Contribute
+
+Contribute to the discussion here in GitHub Discussions:\
+[How do you establish reproducibility and traceability with open source solutions?](https://github.com/phuse-org/OSTCDA/discussions/8)
+
+## Guidance
+
+-   Provide your thoughts and perspectives
+
+-   Provide references to articles, webinars, presentations (citations, links)
+
+-   Be respectful in this community

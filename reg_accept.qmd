@@ -1,0 +1,27 @@
+---
+title: "Regulatory Acceptance"
+---
+
+## Will the regulatory agencies accept data and analyses generated with solutions developed and available as open source?
+
+-   What do we know regarding data submissions to FDA?
+
+-   What do we know regarding data submissions to other regulatory agencies?
+
+-   Are there technical considerations for the creation of submission data packages?
+
+## How to Contribute
+
+Contribute to the discussion here in GitHub Discussions:
+
+1.  [Will the **FDA** accept data and analyses generated with solutions developed and available as open source?](https://github.com/phuse-org/OSTCDA/discussions/6)
+
+2.  [Will **other regulatory agencies** accept data and analyses generated with solutions developed and available as open source?](https://github.com/phuse-org/OSTCDA/discussions/7)
+
+## Guidance
+
+-   Provide your thoughts and perspectives
+
+-   Provide references to articles, webinars, presentations (citations, links)
+
+-   Be respectful in this community
