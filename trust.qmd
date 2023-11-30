@@ -11,7 +11,7 @@ title: "Establishing Trust"
 ## How to Contribute
 
 Contribute to the discussion here in GitHub Discussions:\
-[Can an open source solution be trusted to be accurate?](https://github.com/phuse-org/OSTCDA/discussions/3)
+[Can an open source solution be trusted to be accurate?](https://github.com/phuse-org/OSTCDA/discussions/3){target="_blank"}
 
 ## Guidance
 

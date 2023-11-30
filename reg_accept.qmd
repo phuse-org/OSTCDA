@@ -14,9 +14,9 @@ title: "Regulatory Acceptance"
 
 Contribute to the discussion here in GitHub Discussions:
 
-1.  [Will the **FDA** accept data and analyses generated with solutions developed and available as open source?](https://github.com/phuse-org/OSTCDA/discussions/6)
+1.  [Will the **FDA** accept data and analyses generated with solutions developed and available as open source?](https://github.com/phuse-org/OSTCDA/discussions/6){target="_blank"}
 
-2.  [Will **other regulatory agencies** accept data and analyses generated with solutions developed and available as open source?](https://github.com/phuse-org/OSTCDA/discussions/7)
+2.  [Will **other regulatory agencies** accept data and analyses generated with solutions developed and available as open source?](https://github.com/phuse-org/OSTCDA/discussions/7){target="_blank"}
 
 ## Guidance
 

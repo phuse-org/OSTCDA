@@ -13,7 +13,7 @@ GxP compliance means establishing accuracy, reproducibility, and traceability. W
 ## How to Contribute
 
 Contribute to the discussion here in GitHub Discussions:\
-[How do you establish reproducibility and traceability with open source solutions?](https://github.com/phuse-org/OSTCDA/discussions/8)
+[How do you establish reproducibility and traceability with open source solutions?](https://github.com/phuse-org/OSTCDA/discussions/8){target="_blank"}
 
 ## Guidance
 

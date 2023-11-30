@@ -15,7 +15,7 @@ What are the important characteristics of something that is regarded as 'open so
 ## How to Contribute
 
 Contribute to the discussion here in GitHub Discussions:\
-[What is open source?](https://github.com/phuse-org/OSTCDA/discussions/1)
+[What is open source?](https://github.com/phuse-org/OSTCDA/discussions/1){target="_blank"}
 
 ## Guidance
 
