@@ -124,5 +124,47 @@
     "title": "6  Cost of Open Source",
     "section": "6.3 Guidance",
     "text": "6.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+  },
+  {
+    "objectID": "reg_accept.html#will-the-regulatory-agencies-accept-data-and-analyses-generated-with-solutions-developed-and-available-as-open-source",
+    "href": "reg_accept.html#will-the-regulatory-agencies-accept-data-and-analyses-generated-with-solutions-developed-and-available-as-open-source",
+    "title": "7  Regulatory Acceptance",
+    "section": "7.1 Will the regulatory agencies accept data and analyses generated with solutions developed and available as open source?",
+    "text": "7.1 Will the regulatory agencies accept data and analyses generated with solutions developed and available as open source?\n\nWhat do we know regarding data submissions to FDA?\nWhat do we know regarding data submissions to other regulatory agencies?\nAre there technical considerations for the creation of submission data packages?"
+  },
+  {
+    "objectID": "reg_accept.html#how-to-contribute",
+    "href": "reg_accept.html#how-to-contribute",
+    "title": "7  Regulatory Acceptance",
+    "section": "7.2 How to Contribute",
+    "text": "7.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\n\nWill the FDA accept data and analyses generated with solutions developed and available as open source?\nWill other regulatory agencies accept data and analyses generated with solutions developed and available as open source?"
+  },
+  {
+    "objectID": "reg_accept.html#guidance",
+    "href": "reg_accept.html#guidance",
+    "title": "7  Regulatory Acceptance",
+    "section": "7.3 Guidance",
+    "text": "7.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+  },
+  {
+    "objectID": "art.html#how-do-you-establish-reproducibility-and-traceability",
+    "href": "art.html#how-do-you-establish-reproducibility-and-traceability",
+    "title": "8  GxP Compliance",
+    "section": "8.1 How do you establish reproducibility and traceability?",
+    "text": "8.1 How do you establish reproducibility and traceability?\nGxP compliance means establishing accuracy, reproducibility, and traceability. When working with open source solutions to process and analyze clinical trial data:\n\nHow do we establish reproducibility of the outputs?\nHow do we establish traceability of the input through to the output?"
+  },
+  {
+    "objectID": "art.html#how-to-contribute",
+    "href": "art.html#how-to-contribute",
+    "title": "8  GxP Compliance",
+    "section": "8.2 How to Contribute",
+    "text": "8.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nHow do you establish reproducibility and traceability with open source solutions?"
+  },
+  {
+    "objectID": "art.html#guidance",
+    "href": "art.html#guidance",
+    "title": "8  GxP Compliance",
+    "section": "8.3 Guidance",
+    "text": "8.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
   }
 ]
