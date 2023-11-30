@@ -95,7 +95,7 @@
     "href": "doc_trust.html#how-to-contribute",
     "title": "5  Documenting Trust",
     "section": "5.2 How to Contribute",
-    "text": "5.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nHow do you document your trust in an open source solution to satisfy a third-party inquiry?{:target=“_blank”}"
+    "text": "5.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nHow do you document your trust in an open source solution to satisfy a third-party inquiry?"
   },
   {
     "objectID": "doc_trust.html#guidance",
@@ -166,5 +166,26 @@
     "title": "8  GxP Compliance",
     "section": "8.3 Guidance",
     "text": "8.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+  },
+  {
+    "objectID": "users.html#how-do-we-support-users-in-managing-an-ever-evolving-environment-of-open-source-solutions",
+    "href": "users.html#how-do-we-support-users-in-managing-an-ever-evolving-environment-of-open-source-solutions",
+    "title": "9  User Support",
+    "section": "9.1 How do we support users in managing an ever-evolving environment of Open Source solutions?",
+    "text": "9.1 How do we support users in managing an ever-evolving environment of Open Source solutions?\nThe conventional user (programmer) processing clinical trial data may be used to stability of the available toolbox at their disposal.\n\nHow can we help users to operate in a (potentially) more variable environment?\nHow can we help users to address unexpected challenges due to changes in their computational environment??"
+  },
+  {
+    "objectID": "users.html#how-to-contribute",
+    "href": "users.html#how-to-contribute",
+    "title": "9  User Support",
+    "section": "9.2 How to Contribute",
+    "text": "9.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nHow do we support users in managing an ever-evolving environment of Open Source solutions?"
+  },
+  {
+    "objectID": "users.html#guidance",
+    "href": "users.html#guidance",
+    "title": "9  User Support",
+    "section": "9.3 Guidance",
+    "text": "9.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
   }
 ]
