@@ -27,6 +27,7 @@ book:
     - cost.qmd
     - reg_accept.qmd
     - art.qmd
+    - users.qmd
     - references.qmd
 
 bibliography: references.bib

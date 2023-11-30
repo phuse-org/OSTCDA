@@ -1,0 +1,24 @@
+---
+title: "User Support"
+---
+
+## How do we support users in managing an ever-evolving environment of Open Source solutions?
+
+The conventional user (programmer) processing clinical trial data may be used to stability of the available toolbox at their disposal. 
+
+-   How can we help users to operate in a (potentially) more variable environment?
+
+-   How can we help users to address unexpected challenges due to changes in their computational environment??
+
+## How to Contribute
+
+Contribute to the discussion here in GitHub Discussions:\
+[How do we support users in managing an ever-evolving environment of Open Source solutions?](https://github.com/phuse-org/OSTCDA/discussions/9){target="_blank"}
+
+## Guidance
+
+-   Provide your thoughts and perspectives
+
+-   Provide references to articles, webinars, presentations (citations, links)
+
+-   Be respectful in this community
