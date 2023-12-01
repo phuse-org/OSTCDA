@@ -1,0 +1,40 @@
+---
+title: "User Development"
+---
+
+## How do you transform the traditional Statistical Programmer into the future Data Scientist?
+
+The traditional Statistical Programmer/Analyst in pharmaceutical and vaccine development primarily fulfills their role using the SAS programming language to develop single-use scripts that read in data and create an output dataset or analysis display.
+
+Many Data Scientists are:
+
+-   programmatically multilingual
+
+-   leverage open source tools
+
+-   are familiar with object-oriented languages
+
+-   develop code collaboratively with platforms such as GitHub
+
+-   version control code with technologies such as git 
+
+-   are comfortable having code reviewed for functionality and good programming practice
+
+-   are familiar with good software development practices
+
+-   are familiar and comfortable with agile ways of working
+
+How will we transform the traditional Statistical Programmer into the future Data Scientist?
+
+## How to Contribute
+
+Contribute to the discussion here in GitHub Discussions:\
+[How do you transform the traditional Statistical Programmer into the future Data Scientist?](https://github.com/phuse-org/OSTCDA/discussions/10-){target="_blank"}
+
+## Guidance
+
+-   Provide your thoughts and perspectives
+
+-   Provide references to articles, webinars, presentations (citations, links)
+
+-   Be respectful in this community
