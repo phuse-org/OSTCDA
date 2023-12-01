@@ -28,6 +28,7 @@ book:
     - reg_accept.qmd
     - art.qmd
     - users.qmd
+    - user_dev.qmd
     - references.qmd
 
 bibliography: references.bib
