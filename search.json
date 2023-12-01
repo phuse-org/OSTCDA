@@ -187,5 +187,26 @@
     "title": "9  User Support",
     "section": "9.3 Guidance",
     "text": "9.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+  },
+  {
+    "objectID": "user_dev.html#how-do-you-transform-the-traditional-statistical-programmer-into-the-future-data-scientist",
+    "href": "user_dev.html#how-do-you-transform-the-traditional-statistical-programmer-into-the-future-data-scientist",
+    "title": "10  User Development",
+    "section": "10.1 How do you transform the traditional Statistical Programmer into the future Data Scientist?",
+    "text": "10.1 How do you transform the traditional Statistical Programmer into the future Data Scientist?\nThe traditional Statistical Programmer/Analyst in pharmaceutical and vaccine development primarily fulfills their role using the SAS programming language to develop single-use scripts that read in data and create an output dataset or analysis display.\nMany Data Scientists are:\n\nprogrammatically multilingual\nleverage open source tools\nare familiar with object-oriented languages\ndevelop code collaboratively with platforms such as GitHub\nversion control code with technologies such as git\nare comfortable having code reviewed for functionality and good programming practice\nare familiar with good software development practices\nare familiar and comfortable with agile ways of working\n\nHow will we transform the traditional Statistical Programmer into the future Data Scientist?"
+  },
+  {
+    "objectID": "user_dev.html#how-to-contribute",
+    "href": "user_dev.html#how-to-contribute",
+    "title": "10  User Development",
+    "section": "10.2 How to Contribute",
+    "text": "10.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nHow do you transform the traditional Statistical Programmer into the future Data Scientist?"
+  },
+  {
+    "objectID": "user_dev.html#guidance",
+    "href": "user_dev.html#guidance",
+    "title": "10  User Development",
+    "section": "10.3 Guidance",
+    "text": "10.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
   }
 ]
