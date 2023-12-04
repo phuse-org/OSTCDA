@@ -10,7 +10,6 @@ book:
   #subtitle: "Data Visualisation & Open Source Technology Working Group"
   edition: "DRAFT"
   author: "PHUSE"
-  curator: "Michael Rimler"
   abstract: "A significant amount of time and energy has been invested in recent years exploring the desirability (do we want it?), feasibility (can we do it?), and viability (is it worth it?) of integrating open source solutions into our clinical data pipelines which transform source data into clinical study reports and submission data packages. When this manuscsript is complete, we hope to put to rest some of the burning questions that we believe we now know the answers to. This will allow industry, and all the passionate people in it, to look ahead and start tackling the next horizon of challenges related to using open source solutions for clinical data pipelines. We hope you will contribute your expertise to this effort."
   date: today
   date-format: long
@@ -21,7 +20,7 @@ book:
     logo: assets/phuse.png
   chapters:
     - index.qmd
-    - intro.qmd
+    #- intro.qmd
     - summary.qmd
     - why.qmd
     - trust.qmd
