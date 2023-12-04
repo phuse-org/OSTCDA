@@ -21,7 +21,7 @@ To learn more about this initiative, please watch our [2023 R in Pharma](https:/
 ## How to Contribute
 
 Contribute to the discussion here in GitHub Discussions:\
-[What is open source?](https://github.com/phuse-org/OSTCDA/discussions/1){target="_blank"}
+[https://github.com/phuse-org/OSTCDA/discussions/](https://github.com/phuse-org/OSTCDA/discussions/){target="_blank"}
 
 ## Guidance
 
