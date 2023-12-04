@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="PHUSE">
+<meta name="dcterms.date" content="2023-12-04">
 
 <title>Open Source Technology in Clinical Data Analysis</title>
 <style>
@@ -20,40 +21,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -158,6 +125,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
             <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
               <i class="bi bi-bi-facebook pe-1"></i>
             Facebook
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.linkedin.com/sharing/share-offsite/?url=|url|">
+              <i class="bi bi-bi-linkedin pe-1"></i>
+            LinkedIn
             </a>
           </li>
       </ul>
@@ -296,7 +269,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a></li>
+  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a>
+  <ul class="collapse">
+  <li><a href="#draft-december-2023" id="toc-draft-december-2023" class="nav-link" data-scroll-target="#draft-december-2023">DRAFT (December 2023)</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -319,6 +295,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           </div>
   </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 4, 2023</p>
+    </div>
+  </div>
   
     
   </div>
@@ -326,7 +308,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div>
   <div class="abstract">
     <div class="abstract-title">Abstract</div>
-    A significant amount of time and energy has been invested in recent years exploring the desirability (do we want it?), feasibility (can we do it?), and viability (is it worth it?) of integrating open source solutions into our clinical data pipelines which transform source data into clinical study reports and submission data packages.
+    A significant amount of time and energy has been invested in recent years exploring the desirability (do we want it?), feasibility (can we do it?), and viability (is it worth it?) of integrating open source solutions into our clinical data pipelines which transform source data into clinical study reports and submission data packages. When this manuscsript is complete, we hope to put to rest some of the burning questions that we believe we now know the answers to. This will allow industry, and all the passionate people in it, to look ahead and start tackling the next horizon of challenges related to using open source solutions for clinical data pipelines. We hope you will contribute your expertise to this effort.
   </div>
 </div>
 
@@ -334,16 +316,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="preface" class="level1 unnumbered">
 <h1 class="unnumbered">Preface</h1>
-<p>This is a Quarto book.</p>
-<p>To learn more about Quarto books visit <a href="https://quarto.org/docs/books" class="uri">https://quarto.org/docs/books</a>.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
+<section id="draft-december-2023" class="level2">
+<h2 class="anchored" data-anchor-id="draft-december-2023">DRAFT (December 2023)</h2>
+<p>The information contained in this <a href="https://quarto.org/" target="_blank">Quarto</a> book we aim to comprehensively address the most important questions related to deploying open source solutions for clinical data analytics in the pharmaceutical and vaccine development industry.</p>
+<ul>
+<li>What questions have been asked and <u><strong><em>already</em></strong></u> answered?</li>
+<li>What questions have been asked and <u><strong><em>nearly</em></strong></u> answered?</li>
+<li>What questions have been asked and <u><strong><em>not yet</em></strong></u> answered?</li>
+</ul>
+<p>We are developing this manuscript in the open and accepting contributions by the community via our GitHub repository’s <a href="https://github.com/phuse-org/OSTCDA/discussions" target="_blank">Discussions</a> tab. Please contribute your thoughts, perspectives, references, citations, and links through that mechanism. We’d like to be able to attribute your ideas to you, so providing the rationale supporting your thoughts will strengthen your argument. Please be as thoughtful and thorough in your contributions as you can! You can also upvote questions and/or responses that you find particularly valuable.</p>
+<p>At the moment, this document is in draft form, hence please <u><strong><em>DO NOT CITE</em></strong></u> it as a reference.</p>
+<p>To learn more about this initiative, please watch our <strong>[2023 R in Pharma]</strong>(https://rinpharma.com/){target=“_blank”} lightning talk <a href="https://www.youtube.com/watch?v=cbFzcXMOfTM" target="_blank">The State of Open Source Technology in Clinical Data Analysis, Reporting, and Submissions</a>.</p>
+<p>Thank you to <a href="https://phuse.global/" target="_blank">PHUSE</a> for supporting this endeavor. And thank you to <strong><em>YOU</em></strong> for your thoughtful contributions to the effort.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

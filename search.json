@@ -4,7 +4,14 @@
     "href": "index.html",
     "title": "Open Source Technology in Clinical Data Analysis",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
+    "text": "Preface"
+  },
+  {
+    "objectID": "index.html#draft-december-2023",
+    "href": "index.html#draft-december-2023",
+    "title": "Open Source Technology in Clinical Data Analysis",
+    "section": "DRAFT (December 2023)",
+    "text": "DRAFT (December 2023)\nThe information contained in this Quarto book we aim to comprehensively address the most important questions related to deploying open source solutions for clinical data analytics in the pharmaceutical and vaccine development industry.\n\nWhat questions have been asked and already answered?\nWhat questions have been asked and nearly answered?\nWhat questions have been asked and not yet answered?\n\nWe are developing this manuscript in the open and accepting contributions by the community via our GitHub repository’s Discussions tab. Please contribute your thoughts, perspectives, references, citations, and links through that mechanism. We’d like to be able to attribute your ideas to you, so providing the rationale supporting your thoughts will strengthen your argument. Please be as thoughtful and thorough in your contributions as you can! You can also upvote questions and/or responses that you find particularly valuable.\nAt the moment, this document is in draft form, hence please DO NOT CITE it as a reference.\nTo learn more about this initiative, please watch our [2023 R in Pharma](https://rinpharma.com/){target=“_blank”} lightning talk The State of Open Source Technology in Clinical Data Analysis, Reporting, and Submissions.\nThank you to PHUSE for supporting this endeavor. And thank you to YOU for your thoughtful contributions to the effort."
   },
   {
     "objectID": "intro.html#purpose-and-background",
