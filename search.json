@@ -11,14 +11,14 @@
     "href": "index.html#draft",
     "title": "Open Source Technology in Clinical Data Analysis",
     "section": "DRAFT",
-    "text": "DRAFT\nThe information contained in this Quarto book aims to comprehensively address the most important questions related to deploying open source solutions for clinical data analytics in the pharmaceutical and vaccine development industry.\n\nWhat questions have been asked and already answered?\nWhat questions have been asked and nearly answered?\nWhat questions have been asked and not yet answered?\n\nWe are developing this manuscript in the open and accepting contributions by the community via our GitHub repository’s Discussions tab. Please contribute your thoughts, perspectives, references, citations, and links through that mechanism. We’d like to be able to attribute your ideas to you, so providing the rationale supporting your thoughts will strengthen your argument. Please be as thoughtful and thorough in your contributions as you can! You can also upvote questions and/or responses that you find particularly valuable.\n\nDO NOT CITE\nAt the moment, this document is in draft form, hence please DO NOT CITE it as a reference.\n\n\nLEARN MORE\nTo learn more about this initiative, please watch our 2023 R in Pharma lightning talk: The State of Open Source Technology in Clinical Data Analysis, Reporting, and Submissions."
+    "text": "DRAFT\nThe information contained in this Quarto book aims to comprehensively address the most important questions related to deploying open source solutions for clinical data analytics in the pharmaceutical and vaccine development industry.\n\nWhat questions have been asked and already answered?\nWhat questions have been asked and nearly answered?\nWhat questions have been asked and not yet answered?\n\nWe are developing this manuscript in the open and accepting contributions by the community via our GitHub repository’s Discussions tab. Please contribute your thoughts, perspectives, references, citations, and links through that mechanism. We’d like to be able to attribute your ideas to you, so providing the rationale supporting your thoughts will strengthen your argument. Please be as thoughtful and thorough in your contributions as you can! You can also upvote questions and/or responses that you find particularly valuable.\n\nDO NOT CITE\nAt the moment, this document is in draft form, hence please DO NOT CITE it as a reference.\n\n\nLEARN MORE\nTo learn more about this initiative, please watch our 2023 R in Pharma lightning talk:\nThe State of Open Source Technology in Clinical Data Analysis, Reporting, and Submissions."
   },
   {
     "objectID": "index.html#how-to-contribute",
     "href": "index.html#how-to-contribute",
     "title": "Open Source Technology in Clinical Data Analysis",
     "section": "How to Contribute",
-    "text": "How to Contribute\nContribute to the discussion here in GitHub Discussions:\nWhat is open source?"
+    "text": "How to Contribute\nContribute to the discussion here in GitHub Discussions:\nhttps://github.com/phuse-org/OSTCDA/discussions/"
   },
   {
     "objectID": "index.html#guidance",
