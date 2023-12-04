@@ -172,7 +172,7 @@
     "href": "users.html#how-do-we-support-users-in-managing-an-ever-evolving-environment-of-open-source-solutions",
     "title": "9  User Support",
     "section": "9.1 How do we support users in managing an ever-evolving environment of Open Source solutions?",
-    "text": "9.1 How do we support users in managing an ever-evolving environment of Open Source solutions?\nThe conventional user (programmer) processing clinical trial data may be used to stability of the available toolbox at their disposal.\n\nHow can we help users to operate in a (potentially) more variable environment?\nHow can we help users to address unexpected challenges due to changes in their computational environment??"
+    "text": "9.1 How do we support users in managing an ever-evolving environment of Open Source solutions?\nThe conventional user (programmer) processing clinical trial data may be used to stability of the available toolbox at their disposal.\n\nHow can we help users to operate in a (potentially) more variable environment?\nHow can we help users to address unexpected challenges due to changes in their computational environment?"
   },
   {
     "objectID": "users.html#how-to-contribute",
@@ -208,5 +208,89 @@
     "title": "10  User Development",
     "section": "10.3 Guidance",
     "text": "10.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+  },
+  {
+    "objectID": "match.html#do-we-need-to-match-sas-numerically-when-using-a-different-language",
+    "href": "match.html#do-we-need-to-match-sas-numerically-when-using-a-different-language",
+    "title": "11  Numerical Matching",
+    "section": "11.1 Do we need to match SAS numerically when using a different language?",
+    "text": "11.1 Do we need to match SAS numerically when using a different language?\n\nWhat if we the same inputs yield similar, but numerically different results?\nWhat if we the same inputs yield drastically different results?\nWhat is the truth? Which is correct?\nWhat if SAS and R are equivalent, but a third language yields numerical differences?"
+  },
+  {
+    "objectID": "match.html#how-to-contribute",
+    "href": "match.html#how-to-contribute",
+    "title": "11  Numerical Matching",
+    "section": "11.2 How to Contribute",
+    "text": "11.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nDo we need to match SAS numerically when using a different language?"
+  },
+  {
+    "objectID": "match.html#guidance",
+    "href": "match.html#guidance",
+    "title": "11  Numerical Matching",
+    "section": "11.3 Guidance",
+    "text": "11.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+  },
+  {
+    "objectID": "longrun.html#how-do-we-ensure-that-the-solutions-being-developed-today-will-exist-in-the-long-run",
+    "href": "longrun.html#how-do-we-ensure-that-the-solutions-being-developed-today-will-exist-in-the-long-run",
+    "title": "12  OS in the Long Run",
+    "section": "12.1 How do we ensure that the solutions being developed today will exist in the long run?",
+    "text": "12.1 How do we ensure that the solutions being developed today will exist in the long run?\nWhen these solutions are embedded in data pipelines, if development and maintenance support disappears, there is a risk to the pipelines which leverage them.\n\nHow do we ensure long term viability?\nHow do we ensure long term sustainability?\nHow do we ensure long term maintainability?"
+  },
+  {
+    "objectID": "longrun.html#how-to-contribute",
+    "href": "longrun.html#how-to-contribute",
+    "title": "12  OS in the Long Run",
+    "section": "12.2 How to Contribute",
+    "text": "12.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nHow do we ensure that the solutions being developed today will exist in the long run?"
+  },
+  {
+    "objectID": "longrun.html#guidance",
+    "href": "longrun.html#guidance",
+    "title": "12  OS in the Long Run",
+    "section": "12.3 Guidance",
+    "text": "12.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+  },
+  {
+    "objectID": "fundOS.html#is-it-possible-for-industry-fund-open-source",
+    "href": "fundOS.html#is-it-possible-for-industry-fund-open-source",
+    "title": "13  Funding OS",
+    "section": "13.1 Is it possible for industry fund open source?",
+    "text": "13.1 Is it possible for industry fund open source?\n\nIs it possible to fund OS development in pharmaceutical drug and vaccine development?\nWhat might a funding model look like?\nWhat problem(s) would funding solve?\nAre there examples of this in other industries?"
+  },
+  {
+    "objectID": "fundOS.html#how-to-contribute",
+    "href": "fundOS.html#how-to-contribute",
+    "title": "13  Funding OS",
+    "section": "13.2 How to Contribute",
+    "text": "13.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nIs it possible for industry fund open source?"
+  },
+  {
+    "objectID": "fundOS.html#guidance",
+    "href": "fundOS.html#guidance",
+    "title": "13  Funding OS",
+    "section": "13.3 Guidance",
+    "text": "13.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+  },
+  {
+    "objectID": "liability.html#are-contributors-to-open-source-exposing-themselves-to-any-liability-of-their-solutions",
+    "href": "liability.html#are-contributors-to-open-source-exposing-themselves-to-any-liability-of-their-solutions",
+    "title": "14  Liability with OS",
+    "section": "14.1 Are contributors to open source exposing themselves to any liability of their solutions?",
+    "text": "14.1 Are contributors to open source exposing themselves to any liability of their solutions?\n\nWhat are possible sources of liabilities?\nAre there mitigating actions which can limit or eliminate liabilities?"
+  },
+  {
+    "objectID": "liability.html#how-to-contribute",
+    "href": "liability.html#how-to-contribute",
+    "title": "14  Liability with OS",
+    "section": "14.2 How to Contribute",
+    "text": "14.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nAre contributors to open source exposing themselves to any liability of their solutions?"
+  },
+  {
+    "objectID": "liability.html#guidance",
+    "href": "liability.html#guidance",
+    "title": "14  Liability with OS",
+    "section": "14.3 Guidance",
+    "text": "14.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
   }
 ]
