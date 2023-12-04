@@ -16,7 +16,8 @@ At the moment, this document is in draft form, hence please [***DO NOT CITE***]{
 
 #### LEARN MORE
 
-To learn more about this initiative, please watch our [2023 R in Pharma](https://rinpharma.com/){target="_blank"} lightning talk: [The State of Open Source Technology in Clinical Data Analysis, Reporting, and Submissions](https://www.youtube.com/watch?v=cbFzcXMOfTM){target="_blank"}.
+To learn more about this initiative, please watch our [2023 R in Pharma](https://rinpharma.com/){target="_blank"} lightning talk:\
+[The State of Open Source Technology in Clinical Data Analysis, Reporting, and Submissions](https://www.youtube.com/watch?v=cbFzcXMOfTM){target="_blank"}.
 
 ## How to Contribute
 
