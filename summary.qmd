@@ -2,7 +2,7 @@
 title: "What is Open Source?"
 ---
 
-# What is Open Source?
+## What is Open Source?
 
 When someone says 'open source' - what does that mean to you?\
 What are the important characteristics of something that is regarded as 'open source'?
