@@ -1,0 +1,27 @@
+---
+title: "OS in the Long Run"
+---
+
+## How do we ensure that the solutions being developed today will exist in the long run?
+
+When these solutions are embedded in data pipelines, if development and maintenance support disappears, there is a risk to the pipelines which leverage them.
+
+-   How do we ensure long term viability?
+
+-   How do we ensure long term sustainability?
+
+-   How do we ensure long term maintainability?
+
+## How to Contribute
+
+Contribute to the discussion here in GitHub Discussions:\
+[How do we ensure that the solutions being developed today will exist in the long run?](https://github.com/phuse-org/OSTCDA/discussions/12){target="_blank"}
+
+## Guidance
+
+-   Provide your thoughts and perspectives
+
+-   Provide references to articles, webinars, presentations (citations, links)
+
+-   Be respectful in this community
+

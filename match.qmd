@@ -1,0 +1,26 @@
+---
+title: "Numerical Matching"
+---
+
+## Do we need to match SAS numerically when using a different language?
+
+-   What if we the same inputs yield similar, but numerically different results?
+
+-   What if we the same inputs yield drastically different results?
+
+-   What is the truth? Which is correct?
+
+-   What if SAS and R are equivalent, but a third language yields numerical differences?
+
+## How to Contribute
+
+Contribute to the discussion here in GitHub Discussions:\
+[Do we need to match SAS numerically when using a different language?](https://github.com/phuse-org/OSTCDA/discussions/11){target="_blank"}
+
+## Guidance
+
+-   Provide your thoughts and perspectives
+
+-   Provide references to articles, webinars, presentations (citations, links)
+
+-   Be respectful in this community

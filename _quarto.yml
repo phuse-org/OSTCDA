@@ -29,6 +29,10 @@ book:
     - art.qmd
     - users.qmd
     - user_dev.qmd
+    - match.qmd
+    - longrun.qmd
+    - fundOS.qmd
+    - liability.qmd
     - references.qmd
 
 bibliography: references.bib

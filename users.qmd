@@ -8,7 +8,7 @@ The conventional user (programmer) processing clinical trial data may be used to
 
 -   How can we help users to operate in a (potentially) more variable environment?
 
--   How can we help users to address unexpected challenges due to changes in their computational environment??
+-   How can we help users to address unexpected challenges due to changes in their computational environment?
 
 ## How to Contribute
 

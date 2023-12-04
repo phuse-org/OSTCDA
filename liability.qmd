@@ -1,0 +1,22 @@
+---
+title: "Liability with OS"
+---
+
+## Are contributors to open source exposing themselves to any liability of their solutions?
+
+-   What are possible sources of liabilities?
+
+-   Are there mitigating actions which can limit or eliminate liabilities?
+
+## How to Contribute
+
+Contribute to the discussion here in GitHub Discussions:\
+[Are contributors to open source exposing themselves to any liability of their solutions?](https://github.com/phuse-org/OSTCDA/discussions/14){target="_blank"}
+
+## Guidance
+
+-   Provide your thoughts and perspectives
+
+-   Provide references to articles, webinars, presentations (citations, links)
+
+-   Be respectful in this community
