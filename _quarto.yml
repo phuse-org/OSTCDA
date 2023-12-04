@@ -33,6 +33,9 @@ book:
     - longrun.qmd
     - fundOS.qmd
     - liability.qmd
+    - legal.qmd
+    - OSmodels.qmd
+    - whatelse.qmd
     - references.qmd
 
 bibliography: references.bib

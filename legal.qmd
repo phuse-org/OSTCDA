@@ -1,0 +1,26 @@
+---
+title: "Legal Concerns"
+---
+
+## Are there any legal concerns from open source development?
+
+-   What do individuals need to know?
+
+-   What do organizations need to know?
+
+-   How does this differ if the solution is an individual or a collaborative effort?
+
+## How to Contribute
+
+Contribute to the discussion here in GitHub Discussions:\
+[Are there any legal concerns or ramifications from open source development (on the user, developer, organization)?](https://github.com/phuse-org/OSTCDA/discussions/15){target="_blank"}
+
+## Guidance
+
+-   Provide your thoughts and perspectives
+
+-   Provide references to articles, webinars, presentations (citations, links)
+
+-   Be respectful in this community
+
+
