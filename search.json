@@ -292,5 +292,68 @@
     "title": "14  Liability with OS",
     "section": "14.3 Guidance",
     "text": "14.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+  },
+  {
+    "objectID": "legal.html#are-there-any-legal-concerns-from-open-source-development",
+    "href": "legal.html#are-there-any-legal-concerns-from-open-source-development",
+    "title": "15  Legal Concerns",
+    "section": "15.1 Are there any legal concerns from open source development?",
+    "text": "15.1 Are there any legal concerns from open source development?\n\nWhat do individuals need to know?\nWhat do organizations need to know?\nHow does this differ if the solution is an individual or a collaborative effort?"
+  },
+  {
+    "objectID": "legal.html#how-to-contribute",
+    "href": "legal.html#how-to-contribute",
+    "title": "15  Legal Concerns",
+    "section": "15.2 How to Contribute",
+    "text": "15.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nAre there any legal concerns or ramifications from open source development (on the user, developer, organization)?"
+  },
+  {
+    "objectID": "legal.html#guidance",
+    "href": "legal.html#guidance",
+    "title": "15  Legal Concerns",
+    "section": "15.3 Guidance",
+    "text": "15.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+  },
+  {
+    "objectID": "OSmodels.html#what-open-source-models-are-available-for-businesses",
+    "href": "OSmodels.html#what-open-source-models-are-available-for-businesses",
+    "title": "16  OS Business Models",
+    "section": "16.1 What open source models are available for businesses?",
+    "text": "16.1 What open source models are available for businesses?\n\nHow to address the challenge of making money providing software that is, by definition, licensed free of charge?\nWhat is open core?\nWikipedia page"
+  },
+  {
+    "objectID": "OSmodels.html#how-to-contribute",
+    "href": "OSmodels.html#how-to-contribute",
+    "title": "16  OS Business Models",
+    "section": "16.2 How to Contribute",
+    "text": "16.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nWhat open source models are available for businesses?"
+  },
+  {
+    "objectID": "OSmodels.html#guidance",
+    "href": "OSmodels.html#guidance",
+    "title": "16  OS Business Models",
+    "section": "16.3 Guidance",
+    "text": "16.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+  },
+  {
+    "objectID": "whatelse.html#what-else-can-we-do",
+    "href": "whatelse.html#what-else-can-we-do",
+    "title": "17  What Else?",
+    "section": "17.1 What else can we do?",
+    "text": "17.1 What else can we do?\nThis is very open ended and initially intended as a catch-all for the future considerations not already covered by the other discussions.\n\nWhat have we missed?\nWhat other questions are being asked and/or need to be addressed?"
+  },
+  {
+    "objectID": "whatelse.html#how-to-contribute",
+    "href": "whatelse.html#how-to-contribute",
+    "title": "17  What Else?",
+    "section": "17.2 How to Contribute",
+    "text": "17.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nWhat else can we do?"
+  },
+  {
+    "objectID": "whatelse.html#guidance",
+    "href": "whatelse.html#guidance",
+    "title": "17  What Else?",
+    "section": "17.3 Guidance",
+    "text": "17.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
   }
 ]
