@@ -1,0 +1,91 @@
+---
+title: "Documenting Trust"
+---
+
+## How do you document your trust in an open source solution?
+
+-   How do we have document our trust that an open source solution is accurate?
+
+-   How do we know if a third-party will accept our documentation of trust?
+
+## Community Input \[DRAFT\]
+
+> Once we've chosen our process, \[we must\] either demonstrate that any human action in the process is without error (quality control and quality assurance) or any machine action in the process works as intended (testing and validation). We accomplish this by demonstrating the **accuracy**, **reproducibility** and **traceability** of the data which is transformed through that process.\
+> -- Michael Rimler, [Can Clinical Data Processed With R Be Used in a Regulatory Submission?](https://phuse.global/Communications/PHUSE_Blog/can-clinical-data-processed-with-r-be-used-in-a-regulatory-submission), PHUSE Blog, 2022
+
+The two primary efforts which have tackled the question of documenting trust in software solutions in the industry come from:
+
+-   Transcelerate's [Modernization of Statistical Analytics (MSA) Framework](https://www.transceleratebiopharmainc.com/wp-content/uploads/2021/04/MoA-Initiative_MSAFramework_April-2021.pdf)
+
+-   [R Validation Hub](https://www.pharmar.org/)
+
+Each of these efforts speak to the value of accuracy, reproducibility, and traceability in establishing trust in a software solution, which must be documented in case it is ever interrogated by a third-party.
+
+According to Transcelerate's MSA Framework:
+
+-   **Accuracy** is the "measure of correctness of software libraries that are used to generate results."
+
+-   **Reproducibility** indicates the ability that that result "can be recreated from the original dataset along with the associated environment, including all artifacts and dependencies."
+
+-   **Traceability** "refers to the ability to trace inputs to outputs, with the main goal being to provide evidence to connect e-data, code, and environment to the final output that is produced.
+
+The R Validation Hub cites the FDA's [Glossary of Computer System Software Development Technology](https://www.fda.gov/iceci/inspections/inspectionguides/ucm074875.htm) in defining **validation** as "establishing documented evidence which provides a high degree of assurance (accuracy) that a specific process consistently (reproducibility) produces a product meeting its predetermined specifications (traceability) and quality attributes."
+
+In 2020, the R Validation Hub issued a white paper "[A Risk-based Approach for Assessing R Package Accuracy within a Validated Infrastructure](https://www.pharmar.org/white-paper/)," suggesting a risk assessment framework based on four criteria:
+
+1.  Purpose
+
+2.  Maintenance Good Practice (SDLC)
+
+3.  Community Usage
+
+4.  Testing
+
+Essentially, we may choose to trust a solution if that solution:
+
+-   is well documented
+
+-   follows a well-defined and well-designed software development process,
+
+-   is widely used by the community, and
+
+-   contains documentable and thorough testing of algorithms
+
+Andy Nicholls, former Chair of the R Validation Hub and co-author of the [white paper](https://www.pharmar.org/white-paper/), suggests that there are 3 key documents required for establishing trust in a solution:
+
+1.  Explanation of the overall approach to validation
+
+2.  Explanation of why one might be willing to accept suites of packages, full-stop. For example, when considering [tidyverse](https://www.tidyverse.org/) or core R packages, documenting that "We've reviewed \[*list of documents*\] from posit (or R Foundation) and accept that they follow good practice." may be sufficient.
+
+3.  An assessment report for each additional package, which may include both human-written interpretations and automated metrics.
+
+### Useful Packages for R
+
+The risk assessment framework described in the white paper has resulted in two open-sourced R packages which perform automated checks on characteristics which correlate with the four criteria:
+
+-   [riskmetric](https://pharmar.github.io/riskmetric/): "a framework to quantify an R package's"risk of use" by assessing a number of meaningful metrics designed to evaluate package development best practices, code documentation, community engagement, and development sustainability."
+
+-   [riskassessment](https://pharmar.github.io/riskassessment/): "an R package containing a shiny front-end to augment the utility of the {riskmetric} package within an organizational context."
+
+In addition, the {[valtools](https://phuse-org.github.io/valtools/)} package "helps automate the validation of R packages used in clinical research and drug development" by providing "useful templates and helper functions for tasks that arise during project set up and development of the validation framework."
+
+Another open-sourced R package is {[thevalidatoR](https://github.com/insightsengineering/thevalidatoR)} which is "a GitHub action that generates a validation report for an R package."
+
+These packages help a user perform and document risk assessments on R packages, which aids in justifying why that individual (or organization) places trust in the results of the functionality provided by the solution.
+
+### Approaches Across Industry
+
+PHUSE's [End-to-End Open-Source Collaboration Guidance](https://phuse-org.github.io/E2E-OS-Guidance/) references a [Case Studies Repository](https://github.com/pharmaR/case_studies), "which contains examples from Roche, Merck and Novartis on how they approach validation and risk mitigation." The main takeaway, according to James Black, is of "the 4 companies that shared their process for assessing R packages, each company currently takes a very different approach." Coline Zeballos presented on Roche's to package validation at the [R/Pharma conference](https://rinpharma.com/), both in [2021](https://www.youtube.com/watch?v=xksxuvXVimM) and [2022](https://www.youtube.com/watch?v=ZfZpypQ1jSM) (co-presenting with Doug Kelkhoff).
+
+## How to Contribute
+
+Contribute to the discussion here in GitHub Discussions:\
+[How do you document your trust in an open source solution to satisfy a third-party inquiry?](https://github.com/phuse-org/OSTCDA/discussions/5)
+
+All contributions should:
+
+-   Provide your thoughts and perspectives
+
+-   Provide references to articles, webinars, presentations (citations, links)
+
+-   Be respectful in this community

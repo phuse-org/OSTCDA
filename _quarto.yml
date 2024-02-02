@@ -14,7 +14,7 @@ book:
   date: today
   date-format: long
   sharing: [twitter, facebook, linkedin]
-  # downloads: [pdf, docx]
+  downloads: [pdf, docx]
   sidebar:
     search: true
     logo: assets/phuse.png
@@ -24,7 +24,7 @@ book:
     - summary.qmd
     - why.qmd
     - trust.qmd
-    #- doc_trust.qmd
+    - doc_trust.qmd
     - cost.qmd
     - reg_accept.qmd
     - art.qmd
