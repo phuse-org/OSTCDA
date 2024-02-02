@@ -14,7 +14,7 @@ book:
   date: today
   date-format: long
   sharing: [twitter, facebook, linkedin]
-  downloads: [pdf, docx]
+  # downloads: [pdf, docx]
   sidebar:
     search: true
     logo: assets/phuse.png
