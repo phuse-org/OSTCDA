@@ -8,20 +8,7 @@ title: "Documenting Trust"
 
 -   How do we know if a third-party will accept our documentation of trust?
 
-## How to Contribute
-
-Contribute to the discussion here in GitHub Discussions:\
-[How do you document your trust in an open source solution to satisfy a third-party inquiry?](https://github.com/phuse-org/OSTCDA/discussions/5){target="_blank"}
-
-## Guidance
-
--   Provide your thoughts and perspectives
-
--   Provide references to articles, webinars, presentations (citations, links)
-
--   Be respectful in this community
-
-## Draft Answers from Community Input
+## Community Input [DRAFT]
 
 > Once we've chosen our process, \[we must\] either demonstrate that any human action in the process is without error (quality control and quality assurance) or any machine action in the process works as intended (testing and validation). We accomplish this by demonstrating the **accuracy**, **reproducibility** and **traceability** of the data which is transformed through that process.\
 > \
@@ -69,7 +56,7 @@ Andy Nicholls, former Chair of the R Validation Hub and co-author of the [white 
 
 1.  Explanation of the overall approach to validation
 
-2.  Explanation of why one might be willing to accept suites of packages, full-stop. For example, when considering [tidyverse](https://www.tidyverse.org/) or core R packages, documenting that "We've reviewed \[*list of documents*\] from posit (or R Foundation) and accept that they follow good practice." may be sufficient.0
+2.  Explanation of why one might be willing to accept suites of packages, full-stop. For example, when considering [tidyverse](https://www.tidyverse.org/) or core R packages, documenting that "We've reviewed \[*list of documents*\] from posit (or R Foundation) and accept that they follow good practice." may be sufficient.
 
 3.  An assessment report for each additional package, which may include both human-written interpretations and automated metrics.
 
@@ -90,3 +77,16 @@ These packages help a user perform and document risk assessments on R packages, 
 ### Approaches Across Industry
 
 PHUSE's [End-to-End Open-Source Collaboration Guidance](https://phuse-org.github.io/E2E-OS-Guidance/) references a [Case Studies Repository](https://github.com/pharmaR/case_studies), "which contains examples from Roche, Merck and Novartis on how they approach validation and risk mitigation." The main takeaway, according to James Black, is of "the 4 companies that shared their process for assessing R packages, each company currently takes a very different approach." Coline Zeballos presented on Roche's to package validation at the [R/Pharma conference](https://rinpharma.com/), both in [2021](https://www.youtube.com/watch?v=xksxuvXVimM) and [2022](https://www.youtube.com/watch?v=ZfZpypQ1jSM) (co-presenting with Doug Kelkhoff).
+
+## How to Contribute
+
+Contribute to the discussion here in GitHub Discussions:\
+[How do you document your trust in an open source solution to satisfy a third-party inquiry?](https://github.com/phuse-org/OSTCDA/discussions/5){target="_blank"}
+
+All contributions should:
+
+-   Provide your thoughts and perspectives
+
+-   Provide references to articles, webinars, presentations (citations, links)
+
+-   Be respectful in this community
