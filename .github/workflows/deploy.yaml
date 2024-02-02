@@ -36,7 +36,7 @@ jobs:
 
       - name: Render 
         run: |
-          quarto render
+          quarto render --to html
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
