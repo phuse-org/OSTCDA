@@ -24,7 +24,7 @@ book:
     - summary.qmd
     - why.qmd
     - trust.qmd
-    - doc_trust.qmd
+    #- doc_trust.qmd
     - cost.qmd
     - reg_accept.qmd
     - art.qmd
