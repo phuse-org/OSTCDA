@@ -8,10 +8,9 @@ title: "Documenting Trust"
 
 -   How do we know if a third-party will accept our documentation of trust?
 
-## Community Input [DRAFT]
+## Community Input \[DRAFT\]
 
 > Once we've chosen our process, \[we must\] either demonstrate that any human action in the process is without error (quality control and quality assurance) or any machine action in the process works as intended (testing and validation). We accomplish this by demonstrating the **accuracy**, **reproducibility** and **traceability** of the data which is transformed through that process.\
-> \
 > -- Michael Rimler, [Can Clinical Data Processed With R Be Used in a Regulatory Submission?](https://phuse.global/Communications/PHUSE_Blog/can-clinical-data-processed-with-r-be-used-in-a-regulatory-submission), PHUSE Blog, 2022
 
 The two primary efforts which have tackled the question of documenting trust in software solutions in the industry come from:
@@ -30,7 +29,7 @@ According to Transcelerate's MSA Framework:
 
 -   **Traceability** "refers to the ability to trace inputs to outputs, with the main goal being to provide evidence to connect e-data, code, and environment to the final output that is produced.
 
-The R Validation Hub cites the FDA's [Glossary of Computer System Software Development Technology](https://www.fda.gov/iceci/inspections/inspectionguides/ucm074875.htm) in defining **validation** as "\[e\]stablishing documented evidence which provides a high degree of assurance (accuracy) that a specific process consistently (reproducibility) produces a product meeting its predetermined specifications (traceability) and quality attributes."
+The R Validation Hub cites the FDA's [Glossary of Computer System Software Development Technology](https://www.fda.gov/iceci/inspections/inspectionguides/ucm074875.htm) in defining **validation** as "establishing documented evidence which provides a high degree of assurance (accuracy) that a specific process consistently (reproducibility) produces a product meeting its predetermined specifications (traceability) and quality attributes."
 
 In 2020, the R Validation Hub issued a white paper "[A Risk-based Approach for Assessing R Package Accuracy within a Validated Infrastructure](https://www.pharmar.org/white-paper/)," suggesting a risk assessment framework based on four criteria:
 
@@ -81,7 +80,7 @@ PHUSE's [End-to-End Open-Source Collaboration Guidance](https://phuse-org.github
 ## How to Contribute
 
 Contribute to the discussion here in GitHub Discussions:\
-[How do you document your trust in an open source solution to satisfy a third-party inquiry?](https://github.com/phuse-org/OSTCDA/discussions/5){target="_blank"}
+[How do you document your trust in an open source solution to satisfy a third-party inquiry?](https://github.com/phuse-org/OSTCDA/discussions/5)
 
 All contributions should:
 
