@@ -4,377 +4,659 @@
     "href": "index.html",
     "title": "Open Source Technology in Clinical Data Analysis",
     "section": "",
-    "text": "Preface"
+    "text": "Preface",
+    "crumbs": [
+      "Preface"
+    ]
   },
   {
     "objectID": "index.html#draft",
     "href": "index.html#draft",
     "title": "Open Source Technology in Clinical Data Analysis",
     "section": "DRAFT",
-    "text": "DRAFT\nThe information contained in this Quarto book aims to comprehensively address the most important questions related to deploying open source solutions for clinical data analytics in the pharmaceutical and vaccine development industry.\n\nWhat questions have been asked and already answered?\nWhat questions have been asked and nearly answered?\nWhat questions have been asked and not yet answered?\n\nWe are developing this manuscript in the open and accepting contributions by the community via our GitHub repository’s Discussions tab. Please contribute your thoughts, perspectives, references, citations, and links through that mechanism. We’d like to be able to attribute your ideas to you, so providing the rationale supporting your thoughts will strengthen your argument. Please be as thoughtful and thorough in your contributions as you can! You can also upvote questions and/or responses that you find particularly valuable.\n\nDO NOT CITE\nAt the moment, this document is in draft form, hence please DO NOT CITE it as a reference.\n\n\nLEARN MORE\nTo learn more about this initiative, please watch our 2023 R in Pharma lightning talk:\nThe State of Open Source Technology in Clinical Data Analysis, Reporting, and Submissions."
+    "text": "DRAFT\nThe information contained in this Quarto book aims to comprehensively address the most important questions related to deploying open source solutions for clinical data analytics in the pharmaceutical and vaccine development industry.\n\nWhat questions have been asked and already answered?\nWhat questions have been asked and nearly answered?\nWhat questions have been asked and not yet answered?\n\nWe are developing this manuscript in the open and accepting contributions by the community via our GitHub repository’s Discussions tab. Please contribute your thoughts, perspectives, references, citations, and links through that mechanism. We’d like to be able to attribute your ideas to you, so providing the rationale supporting your thoughts will strengthen your argument. Please be as thoughtful and thorough in your contributions as you can! You can also upvote questions and/or responses that you find particularly valuable.\n\nDO NOT CITE\nAt the moment, this document is in draft form, hence please DO NOT CITE it as a reference.\n\n\nLEARN MORE\nTo learn more about this initiative, please watch our 2023 R in Pharma lightning talk:\nThe State of Open Source Technology in Clinical Data Analysis, Reporting, and Submissions.",
+    "crumbs": [
+      "Preface"
+    ]
   },
   {
     "objectID": "index.html#how-to-contribute",
     "href": "index.html#how-to-contribute",
     "title": "Open Source Technology in Clinical Data Analysis",
     "section": "How to Contribute",
-    "text": "How to Contribute\nContribute to the discussion here in GitHub Discussions:\nhttps://github.com/phuse-org/OSTCDA/discussions/"
+    "text": "How to Contribute\nContribute to the discussion here in GitHub Discussions:\nhttps://github.com/phuse-org/OSTCDA/discussions/",
+    "crumbs": [
+      "Preface"
+    ]
   },
   {
     "objectID": "index.html#guidance",
     "href": "index.html#guidance",
     "title": "Open Source Technology in Clinical Data Analysis",
     "section": "Guidance",
-    "text": "Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+    "text": "Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
+    "crumbs": [
+      "Preface"
+    ]
   },
   {
     "objectID": "index.html#thank-you",
     "href": "index.html#thank-you",
     "title": "Open Source Technology in Clinical Data Analysis",
     "section": "Thank you",
-    "text": "Thank you\nThank you to PHUSE for supporting this endeavor. And thank you to YOU for your thoughtful contributions to the effort."
+    "text": "Thank you\nThank you to PHUSE for supporting this endeavor. And thank you to YOU for your thoughtful contributions to the effort.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "1  What is Open Source?",
+    "section": "",
+    "text": "1.1 What is Open Source?\nWhen someone says ‘open source’ - what does that mean to you?\nWhat are the important characteristics of something that is regarded as ‘open source’?",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>What is Open Source?</span>"
+    ]
   },
   {
     "objectID": "summary.html#what-is-open-source",
     "href": "summary.html#what-is-open-source",
     "title": "1  What is Open Source?",
-    "section": "1.1 What is Open Source?",
-    "text": "1.1 What is Open Source?\nWhen someone says ‘open source’ - what does that mean to you?\nWhat are the important characteristics of something that is regarded as ‘open source’?\n\nDoes the cost matter?\nDoes the ability to review the code matter?\nDoes the ability to reuse the code matter?\nDoes the ability to modify the code matter?"
+    "section": "",
+    "text": "Does the cost matter?\nDoes the ability to review the code matter?\nDoes the ability to reuse the code matter?\nDoes the ability to modify the code matter?",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>What is Open Source?</span>"
+    ]
   },
   {
     "objectID": "summary.html#how-to-contribute",
     "href": "summary.html#how-to-contribute",
     "title": "1  What is Open Source?",
     "section": "1.2 How to Contribute",
-    "text": "1.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nWhat is open source?"
+    "text": "1.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nWhat is open source?",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>What is Open Source?</span>"
+    ]
   },
   {
     "objectID": "summary.html#guidance",
     "href": "summary.html#guidance",
     "title": "1  What is Open Source?",
     "section": "1.3 Guidance",
-    "text": "1.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+    "text": "1.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>What is Open Source?</span>"
+    ]
   },
   {
     "objectID": "summary.html#examples",
     "href": "summary.html#examples",
     "title": "1  What is Open Source?",
     "section": "1.4 Examples",
-    "text": "1.4 Examples\nExample 1: The Open Source Initiative provides a definition:\n\nFree distribution\nAvailable source code\nDerived works possible\n\nExample 2: Merriam-Webster defines open source as “having the source code freely available for possible modification and redistribution”."
+    "text": "1.4 Examples\nExample 1: The Open Source Initiative provides a definition:\n\nFree distribution\nAvailable source code\nDerived works possible\n\nExample 2: Merriam-Webster defines open source as “having the source code freely available for possible modification and redistribution”.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>What is Open Source?</span>"
+    ]
+  },
+  {
+    "objectID": "why.html",
+    "href": "why.html",
+    "title": "2  Why Open Source?",
+    "section": "",
+    "text": "2.1 What is the ‘why’ for using open source solutions in pharma clinical data analytics?",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Why Open Source?</span>"
+    ]
   },
   {
     "objectID": "why.html#what-is-the-why-for-using-open-source-solutions-in-pharma-clinical-data-analytics",
     "href": "why.html#what-is-the-why-for-using-open-source-solutions-in-pharma-clinical-data-analytics",
     "title": "2  Why Open Source?",
-    "section": "2.1 What is the ‘why’ for using open source solutions in pharma clinical data analytics?",
-    "text": "2.1 What is the ‘why’ for using open source solutions in pharma clinical data analytics?\n\nWhat is the attraction to open source solutions?\nWhy do users like open source solutions?\nWhy are leaders of organizations in Data Management, Biostatistics, and Programming devoting resources toward the development, testing, and adoption of open source solutions?"
+    "section": "",
+    "text": "What is the attraction to open source solutions?\nWhy do users like open source solutions?\nWhy are leaders of organizations in Data Management, Biostatistics, and Programming devoting resources toward the development, testing, and adoption of open source solutions?",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Why Open Source?</span>"
+    ]
   },
   {
     "objectID": "why.html#how-to-contribute",
     "href": "why.html#how-to-contribute",
     "title": "2  Why Open Source?",
     "section": "2.2 How to Contribute",
-    "text": "2.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nWhat is the ‘why’ for open source?"
+    "text": "2.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nWhat is the ‘why’ for open source?",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Why Open Source?</span>"
+    ]
   },
   {
     "objectID": "why.html#guidance",
     "href": "why.html#guidance",
     "title": "2  Why Open Source?",
     "section": "2.3 Guidance",
-    "text": "2.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+    "text": "2.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Why Open Source?</span>"
+    ]
+  },
+  {
+    "objectID": "trust.html",
+    "href": "trust.html",
+    "title": "3  Establishing Trust",
+    "section": "",
+    "text": "3.1 Can an open source solution be trusted?",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Establishing Trust</span>"
+    ]
   },
   {
     "objectID": "trust.html#can-an-open-source-solution-be-trusted",
     "href": "trust.html#can-an-open-source-solution-be-trusted",
     "title": "3  Establishing Trust",
-    "section": "3.1 Can an open source solution be trusted?",
-    "text": "3.1 Can an open source solution be trusted?\n\nHow do we have confidence that an open source solution is accurate?\nWhat are the relevant considerations?"
+    "section": "",
+    "text": "How do we have confidence that an open source solution is accurate?\nWhat are the relevant considerations?",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Establishing Trust</span>"
+    ]
   },
   {
     "objectID": "trust.html#how-to-contribute",
     "href": "trust.html#how-to-contribute",
     "title": "3  Establishing Trust",
     "section": "3.2 How to Contribute",
-    "text": "3.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nCan an open source solution be trusted to be accurate?"
+    "text": "3.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nCan an open source solution be trusted to be accurate?",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Establishing Trust</span>"
+    ]
   },
   {
     "objectID": "trust.html#guidance",
     "href": "trust.html#guidance",
     "title": "3  Establishing Trust",
     "section": "3.3 Guidance",
-    "text": "3.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+    "text": "3.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Establishing Trust</span>"
+    ]
   },
   {
-    "objectID": "doc_trust.html#how-do-you-document-your-trust-in-an-open-source-solution",
-    "href": "doc_trust.html#how-do-you-document-your-trust-in-an-open-source-solution",
-    "title": "4  Documenting Trust",
-    "section": "4.1 How do you document your trust in an open source solution?",
-    "text": "4.1 How do you document your trust in an open source solution?\n\nHow do we have document our trust that an open source solution is accurate?\nHow do we know if a third-party will accept our documentation of trust?"
-  },
-  {
-    "objectID": "doc_trust.html#how-to-contribute",
-    "href": "doc_trust.html#how-to-contribute",
-    "title": "4  Documenting Trust",
-    "section": "4.2 How to Contribute",
-    "text": "4.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nHow do you document your trust in an open source solution to satisfy a third-party inquiry?"
-  },
-  {
-    "objectID": "doc_trust.html#guidance",
-    "href": "doc_trust.html#guidance",
-    "title": "4  Documenting Trust",
-    "section": "4.3 Guidance",
-    "text": "4.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+    "objectID": "cost.html",
+    "href": "cost.html",
+    "title": "4  Cost of Open Source",
+    "section": "",
+    "text": "4.1 What is the true cost of implementing open source solutions?",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Cost of Open Source</span>"
+    ]
   },
   {
     "objectID": "cost.html#what-is-the-true-cost-of-implementing-open-source-solutions",
     "href": "cost.html#what-is-the-true-cost-of-implementing-open-source-solutions",
-    "title": "5  Cost of Open Source",
-    "section": "5.1 What is the true cost of implementing open source solutions?",
-    "text": "5.1 What is the true cost of implementing open source solutions?\n\nIs it essentially free?\nWhat resources are required for proper implementation?"
+    "title": "4  Cost of Open Source",
+    "section": "",
+    "text": "Is it essentially free?\nWhat resources are required for proper implementation?",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Cost of Open Source</span>"
+    ]
   },
   {
     "objectID": "cost.html#how-to-contribute",
     "href": "cost.html#how-to-contribute",
-    "title": "5  Cost of Open Source",
-    "section": "5.2 How to Contribute",
-    "text": "5.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nWhat is the true cost of implementing open source solutions into clinical data analytic processes??"
+    "title": "4  Cost of Open Source",
+    "section": "4.2 How to Contribute",
+    "text": "4.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nWhat is the true cost of implementing open source solutions into clinical data analytic processes??",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Cost of Open Source</span>"
+    ]
   },
   {
     "objectID": "cost.html#guidance",
     "href": "cost.html#guidance",
-    "title": "5  Cost of Open Source",
-    "section": "5.3 Guidance",
-    "text": "5.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+    "title": "4  Cost of Open Source",
+    "section": "4.3 Guidance",
+    "text": "4.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Cost of Open Source</span>"
+    ]
+  },
+  {
+    "objectID": "reg_accept.html",
+    "href": "reg_accept.html",
+    "title": "5  Regulatory Acceptance",
+    "section": "",
+    "text": "5.1 Will the regulatory agencies accept data and analyses generated with solutions developed and available as open source?",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Regulatory Acceptance</span>"
+    ]
   },
   {
     "objectID": "reg_accept.html#will-the-regulatory-agencies-accept-data-and-analyses-generated-with-solutions-developed-and-available-as-open-source",
     "href": "reg_accept.html#will-the-regulatory-agencies-accept-data-and-analyses-generated-with-solutions-developed-and-available-as-open-source",
-    "title": "6  Regulatory Acceptance",
-    "section": "6.1 Will the regulatory agencies accept data and analyses generated with solutions developed and available as open source?",
-    "text": "6.1 Will the regulatory agencies accept data and analyses generated with solutions developed and available as open source?\n\nWhat do we know regarding data submissions to FDA?\nWhat do we know regarding data submissions to other regulatory agencies?\nAre there technical considerations for the creation of submission data packages?"
+    "title": "5  Regulatory Acceptance",
+    "section": "",
+    "text": "What do we know regarding data submissions to FDA?\nWhat do we know regarding data submissions to other regulatory agencies?\nAre there technical considerations for the creation of submission data packages?",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Regulatory Acceptance</span>"
+    ]
   },
   {
     "objectID": "reg_accept.html#how-to-contribute",
     "href": "reg_accept.html#how-to-contribute",
-    "title": "6  Regulatory Acceptance",
-    "section": "6.2 How to Contribute",
-    "text": "6.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\n\nWill the FDA accept data and analyses generated with solutions developed and available as open source?\nWill other regulatory agencies accept data and analyses generated with solutions developed and available as open source?"
+    "title": "5  Regulatory Acceptance",
+    "section": "5.2 How to Contribute",
+    "text": "5.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\n\nWill the FDA accept data and analyses generated with solutions developed and available as open source?\nWill other regulatory agencies accept data and analyses generated with solutions developed and available as open source?",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Regulatory Acceptance</span>"
+    ]
   },
   {
     "objectID": "reg_accept.html#guidance",
     "href": "reg_accept.html#guidance",
-    "title": "6  Regulatory Acceptance",
-    "section": "6.3 Guidance",
-    "text": "6.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+    "title": "5  Regulatory Acceptance",
+    "section": "5.3 Guidance",
+    "text": "5.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Regulatory Acceptance</span>"
+    ]
+  },
+  {
+    "objectID": "art.html",
+    "href": "art.html",
+    "title": "6  GxP Compliance",
+    "section": "",
+    "text": "6.1 How do you establish reproducibility and traceability?\nGxP compliance means establishing accuracy, reproducibility, and traceability. When working with open source solutions to process and analyze clinical trial data:",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>GxP Compliance</span>"
+    ]
   },
   {
     "objectID": "art.html#how-do-you-establish-reproducibility-and-traceability",
     "href": "art.html#how-do-you-establish-reproducibility-and-traceability",
-    "title": "7  GxP Compliance",
-    "section": "7.1 How do you establish reproducibility and traceability?",
-    "text": "7.1 How do you establish reproducibility and traceability?\nGxP compliance means establishing accuracy, reproducibility, and traceability. When working with open source solutions to process and analyze clinical trial data:\n\nHow do we establish reproducibility of the outputs?\nHow do we establish traceability of the input through to the output?"
+    "title": "6  GxP Compliance",
+    "section": "",
+    "text": "How do we establish reproducibility of the outputs?\nHow do we establish traceability of the input through to the output?",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>GxP Compliance</span>"
+    ]
   },
   {
     "objectID": "art.html#how-to-contribute",
     "href": "art.html#how-to-contribute",
-    "title": "7  GxP Compliance",
-    "section": "7.2 How to Contribute",
-    "text": "7.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nHow do you establish reproducibility and traceability with open source solutions?"
+    "title": "6  GxP Compliance",
+    "section": "6.2 How to Contribute",
+    "text": "6.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nHow do you establish reproducibility and traceability with open source solutions?",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>GxP Compliance</span>"
+    ]
   },
   {
     "objectID": "art.html#guidance",
     "href": "art.html#guidance",
-    "title": "7  GxP Compliance",
-    "section": "7.3 Guidance",
-    "text": "7.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+    "title": "6  GxP Compliance",
+    "section": "6.3 Guidance",
+    "text": "6.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>GxP Compliance</span>"
+    ]
+  },
+  {
+    "objectID": "users.html",
+    "href": "users.html",
+    "title": "7  User Support",
+    "section": "",
+    "text": "7.1 How do we support users in managing an ever-evolving environment of Open Source solutions?\nThe conventional user (programmer) processing clinical trial data may be used to stability of the available toolbox at their disposal.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>User Support</span>"
+    ]
   },
   {
     "objectID": "users.html#how-do-we-support-users-in-managing-an-ever-evolving-environment-of-open-source-solutions",
     "href": "users.html#how-do-we-support-users-in-managing-an-ever-evolving-environment-of-open-source-solutions",
-    "title": "8  User Support",
-    "section": "8.1 How do we support users in managing an ever-evolving environment of Open Source solutions?",
-    "text": "8.1 How do we support users in managing an ever-evolving environment of Open Source solutions?\nThe conventional user (programmer) processing clinical trial data may be used to stability of the available toolbox at their disposal.\n\nHow can we help users to operate in a (potentially) more variable environment?\nHow can we help users to address unexpected challenges due to changes in their computational environment?"
+    "title": "7  User Support",
+    "section": "",
+    "text": "How can we help users to operate in a (potentially) more variable environment?\nHow can we help users to address unexpected challenges due to changes in their computational environment?",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>User Support</span>"
+    ]
   },
   {
     "objectID": "users.html#how-to-contribute",
     "href": "users.html#how-to-contribute",
-    "title": "8  User Support",
-    "section": "8.2 How to Contribute",
-    "text": "8.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nHow do we support users in managing an ever-evolving environment of Open Source solutions?"
+    "title": "7  User Support",
+    "section": "7.2 How to Contribute",
+    "text": "7.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nHow do we support users in managing an ever-evolving environment of Open Source solutions?",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>User Support</span>"
+    ]
   },
   {
     "objectID": "users.html#guidance",
     "href": "users.html#guidance",
-    "title": "8  User Support",
-    "section": "8.3 Guidance",
-    "text": "8.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+    "title": "7  User Support",
+    "section": "7.3 Guidance",
+    "text": "7.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>User Support</span>"
+    ]
+  },
+  {
+    "objectID": "user_dev.html",
+    "href": "user_dev.html",
+    "title": "8  User Development",
+    "section": "",
+    "text": "8.1 How do you transform the traditional Statistical Programmer into the future Data Scientist?\nThe traditional Statistical Programmer/Analyst in pharmaceutical and vaccine development primarily fulfills their role using the SAS programming language to develop single-use scripts that read in data and create an output dataset or analysis display.\nMany Data Scientists are:\nHow will we transform the traditional Statistical Programmer into the future Data Scientist?",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>User Development</span>"
+    ]
   },
   {
     "objectID": "user_dev.html#how-do-you-transform-the-traditional-statistical-programmer-into-the-future-data-scientist",
     "href": "user_dev.html#how-do-you-transform-the-traditional-statistical-programmer-into-the-future-data-scientist",
-    "title": "9  User Development",
-    "section": "9.1 How do you transform the traditional Statistical Programmer into the future Data Scientist?",
-    "text": "9.1 How do you transform the traditional Statistical Programmer into the future Data Scientist?\nThe traditional Statistical Programmer/Analyst in pharmaceutical and vaccine development primarily fulfills their role using the SAS programming language to develop single-use scripts that read in data and create an output dataset or analysis display.\nMany Data Scientists are:\n\nprogrammatically multilingual\nleverage open source tools\nare familiar with object-oriented languages\ndevelop code collaboratively with platforms such as GitHub\nversion control code with technologies such as git\nare comfortable having code reviewed for functionality and good programming practice\nare familiar with good software development practices\nare familiar and comfortable with agile ways of working\n\nHow will we transform the traditional Statistical Programmer into the future Data Scientist?"
+    "title": "8  User Development",
+    "section": "",
+    "text": "programmatically multilingual\nleverage open source tools\nare familiar with object-oriented languages\ndevelop code collaboratively with platforms such as GitHub\nversion control code with technologies such as git\nare comfortable having code reviewed for functionality and good programming practice\nare familiar with good software development practices\nare familiar and comfortable with agile ways of working",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>User Development</span>"
+    ]
   },
   {
     "objectID": "user_dev.html#how-to-contribute",
     "href": "user_dev.html#how-to-contribute",
-    "title": "9  User Development",
-    "section": "9.2 How to Contribute",
-    "text": "9.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nHow do you transform the traditional Statistical Programmer into the future Data Scientist?"
+    "title": "8  User Development",
+    "section": "8.2 How to Contribute",
+    "text": "8.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nHow do you transform the traditional Statistical Programmer into the future Data Scientist?",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>User Development</span>"
+    ]
   },
   {
     "objectID": "user_dev.html#guidance",
     "href": "user_dev.html#guidance",
-    "title": "9  User Development",
-    "section": "9.3 Guidance",
-    "text": "9.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+    "title": "8  User Development",
+    "section": "8.3 Guidance",
+    "text": "8.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>User Development</span>"
+    ]
+  },
+  {
+    "objectID": "match.html",
+    "href": "match.html",
+    "title": "9  Numerical Matching",
+    "section": "",
+    "text": "9.1 Do we need to match SAS numerically when using a different language?",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Numerical Matching</span>"
+    ]
   },
   {
     "objectID": "match.html#do-we-need-to-match-sas-numerically-when-using-a-different-language",
     "href": "match.html#do-we-need-to-match-sas-numerically-when-using-a-different-language",
-    "title": "10  Numerical Matching",
-    "section": "10.1 Do we need to match SAS numerically when using a different language?",
-    "text": "10.1 Do we need to match SAS numerically when using a different language?\n\nWhat if we the same inputs yield similar, but numerically different results?\nWhat if we the same inputs yield drastically different results?\nWhat is the truth? Which is correct?\nWhat if SAS and R are equivalent, but a third language yields numerical differences?"
+    "title": "9  Numerical Matching",
+    "section": "",
+    "text": "What if we the same inputs yield similar, but numerically different results?\nWhat if we the same inputs yield drastically different results?\nWhat is the truth? Which is correct?\nWhat if SAS and R are equivalent, but a third language yields numerical differences?",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Numerical Matching</span>"
+    ]
   },
   {
     "objectID": "match.html#how-to-contribute",
     "href": "match.html#how-to-contribute",
-    "title": "10  Numerical Matching",
-    "section": "10.2 How to Contribute",
-    "text": "10.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nDo we need to match SAS numerically when using a different language?"
+    "title": "9  Numerical Matching",
+    "section": "9.2 How to Contribute",
+    "text": "9.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nDo we need to match SAS numerically when using a different language?",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Numerical Matching</span>"
+    ]
   },
   {
     "objectID": "match.html#guidance",
     "href": "match.html#guidance",
-    "title": "10  Numerical Matching",
-    "section": "10.3 Guidance",
-    "text": "10.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+    "title": "9  Numerical Matching",
+    "section": "9.3 Guidance",
+    "text": "9.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Numerical Matching</span>"
+    ]
+  },
+  {
+    "objectID": "longrun.html",
+    "href": "longrun.html",
+    "title": "10  OS in the Long Run",
+    "section": "",
+    "text": "10.1 How do we ensure that the solutions being developed today will exist in the long run?\nWhen these solutions are embedded in data pipelines, if development and maintenance support disappears, there is a risk to the pipelines which leverage them.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>OS in the Long Run</span>"
+    ]
   },
   {
     "objectID": "longrun.html#how-do-we-ensure-that-the-solutions-being-developed-today-will-exist-in-the-long-run",
     "href": "longrun.html#how-do-we-ensure-that-the-solutions-being-developed-today-will-exist-in-the-long-run",
-    "title": "11  OS in the Long Run",
-    "section": "11.1 How do we ensure that the solutions being developed today will exist in the long run?",
-    "text": "11.1 How do we ensure that the solutions being developed today will exist in the long run?\nWhen these solutions are embedded in data pipelines, if development and maintenance support disappears, there is a risk to the pipelines which leverage them.\n\nHow do we ensure long term viability?\nHow do we ensure long term sustainability?\nHow do we ensure long term maintainability?"
+    "title": "10  OS in the Long Run",
+    "section": "",
+    "text": "How do we ensure long term viability?\nHow do we ensure long term sustainability?\nHow do we ensure long term maintainability?",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>OS in the Long Run</span>"
+    ]
   },
   {
     "objectID": "longrun.html#how-to-contribute",
     "href": "longrun.html#how-to-contribute",
-    "title": "11  OS in the Long Run",
-    "section": "11.2 How to Contribute",
-    "text": "11.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nHow do we ensure that the solutions being developed today will exist in the long run?"
+    "title": "10  OS in the Long Run",
+    "section": "10.2 How to Contribute",
+    "text": "10.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nHow do we ensure that the solutions being developed today will exist in the long run?",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>OS in the Long Run</span>"
+    ]
   },
   {
     "objectID": "longrun.html#guidance",
     "href": "longrun.html#guidance",
-    "title": "11  OS in the Long Run",
-    "section": "11.3 Guidance",
-    "text": "11.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+    "title": "10  OS in the Long Run",
+    "section": "10.3 Guidance",
+    "text": "10.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>OS in the Long Run</span>"
+    ]
+  },
+  {
+    "objectID": "fundOS.html",
+    "href": "fundOS.html",
+    "title": "11  Funding OS",
+    "section": "",
+    "text": "11.1 Is it possible for industry fund open source?",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Funding OS</span>"
+    ]
   },
   {
     "objectID": "fundOS.html#is-it-possible-for-industry-fund-open-source",
     "href": "fundOS.html#is-it-possible-for-industry-fund-open-source",
-    "title": "12  Funding OS",
-    "section": "12.1 Is it possible for industry fund open source?",
-    "text": "12.1 Is it possible for industry fund open source?\n\nIs it possible to fund OS development in pharmaceutical drug and vaccine development?\nWhat might a funding model look like?\nWhat problem(s) would funding solve?\nAre there examples of this in other industries?"
+    "title": "11  Funding OS",
+    "section": "",
+    "text": "Is it possible to fund OS development in pharmaceutical drug and vaccine development?\nWhat might a funding model look like?\nWhat problem(s) would funding solve?\nAre there examples of this in other industries?",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Funding OS</span>"
+    ]
   },
   {
     "objectID": "fundOS.html#how-to-contribute",
     "href": "fundOS.html#how-to-contribute",
-    "title": "12  Funding OS",
-    "section": "12.2 How to Contribute",
-    "text": "12.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nIs it possible for industry fund open source?"
+    "title": "11  Funding OS",
+    "section": "11.2 How to Contribute",
+    "text": "11.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nIs it possible for industry fund open source?",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Funding OS</span>"
+    ]
   },
   {
     "objectID": "fundOS.html#guidance",
     "href": "fundOS.html#guidance",
-    "title": "12  Funding OS",
-    "section": "12.3 Guidance",
-    "text": "12.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+    "title": "11  Funding OS",
+    "section": "11.3 Guidance",
+    "text": "11.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Funding OS</span>"
+    ]
+  },
+  {
+    "objectID": "liability.html",
+    "href": "liability.html",
+    "title": "12  Liability with OS",
+    "section": "",
+    "text": "12.1 Are contributors to open source exposing themselves to any liability of their solutions?",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Liability with OS</span>"
+    ]
   },
   {
     "objectID": "liability.html#are-contributors-to-open-source-exposing-themselves-to-any-liability-of-their-solutions",
     "href": "liability.html#are-contributors-to-open-source-exposing-themselves-to-any-liability-of-their-solutions",
-    "title": "13  Liability with OS",
-    "section": "13.1 Are contributors to open source exposing themselves to any liability of their solutions?",
-    "text": "13.1 Are contributors to open source exposing themselves to any liability of their solutions?\n\nWhat are possible sources of liabilities?\nAre there mitigating actions which can limit or eliminate liabilities?"
+    "title": "12  Liability with OS",
+    "section": "",
+    "text": "What are possible sources of liabilities?\nAre there mitigating actions which can limit or eliminate liabilities?",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Liability with OS</span>"
+    ]
   },
   {
     "objectID": "liability.html#how-to-contribute",
     "href": "liability.html#how-to-contribute",
-    "title": "13  Liability with OS",
-    "section": "13.2 How to Contribute",
-    "text": "13.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nAre contributors to open source exposing themselves to any liability of their solutions?"
+    "title": "12  Liability with OS",
+    "section": "12.2 How to Contribute",
+    "text": "12.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nAre contributors to open source exposing themselves to any liability of their solutions?",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Liability with OS</span>"
+    ]
   },
   {
     "objectID": "liability.html#guidance",
     "href": "liability.html#guidance",
-    "title": "13  Liability with OS",
-    "section": "13.3 Guidance",
-    "text": "13.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+    "title": "12  Liability with OS",
+    "section": "12.3 Guidance",
+    "text": "12.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Liability with OS</span>"
+    ]
+  },
+  {
+    "objectID": "legal.html",
+    "href": "legal.html",
+    "title": "13  Legal Concerns",
+    "section": "",
+    "text": "13.1 Are there any legal concerns from open source development?",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Legal Concerns</span>"
+    ]
   },
   {
     "objectID": "legal.html#are-there-any-legal-concerns-from-open-source-development",
     "href": "legal.html#are-there-any-legal-concerns-from-open-source-development",
-    "title": "14  Legal Concerns",
-    "section": "14.1 Are there any legal concerns from open source development?",
-    "text": "14.1 Are there any legal concerns from open source development?\n\nWhat do individuals need to know?\nWhat do organizations need to know?\nHow does this differ if the solution is an individual or a collaborative effort?"
+    "title": "13  Legal Concerns",
+    "section": "",
+    "text": "What do individuals need to know?\nWhat do organizations need to know?\nHow does this differ if the solution is an individual or a collaborative effort?",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Legal Concerns</span>"
+    ]
   },
   {
     "objectID": "legal.html#how-to-contribute",
     "href": "legal.html#how-to-contribute",
-    "title": "14  Legal Concerns",
-    "section": "14.2 How to Contribute",
-    "text": "14.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nAre there any legal concerns or ramifications from open source development (on the user, developer, organization)?"
+    "title": "13  Legal Concerns",
+    "section": "13.2 How to Contribute",
+    "text": "13.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nAre there any legal concerns or ramifications from open source development (on the user, developer, organization)?",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Legal Concerns</span>"
+    ]
   },
   {
     "objectID": "legal.html#guidance",
     "href": "legal.html#guidance",
-    "title": "14  Legal Concerns",
-    "section": "14.3 Guidance",
-    "text": "14.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+    "title": "13  Legal Concerns",
+    "section": "13.3 Guidance",
+    "text": "13.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Legal Concerns</span>"
+    ]
+  },
+  {
+    "objectID": "OSmodels.html",
+    "href": "OSmodels.html",
+    "title": "14  OS Business Models",
+    "section": "",
+    "text": "14.1 What open source models are available for businesses?",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>OS Business Models</span>"
+    ]
   },
   {
     "objectID": "OSmodels.html#what-open-source-models-are-available-for-businesses",
     "href": "OSmodels.html#what-open-source-models-are-available-for-businesses",
-    "title": "15  OS Business Models",
-    "section": "15.1 What open source models are available for businesses?",
-    "text": "15.1 What open source models are available for businesses?\n\nHow to address the challenge of making money providing software that is, by definition, licensed free of charge?\nWhat is open core?\nWikipedia page"
+    "title": "14  OS Business Models",
+    "section": "",
+    "text": "How to address the challenge of making money providing software that is, by definition, licensed free of charge?\nWhat is open core?\nWikipedia page",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>OS Business Models</span>"
+    ]
   },
   {
     "objectID": "OSmodels.html#how-to-contribute",
     "href": "OSmodels.html#how-to-contribute",
-    "title": "15  OS Business Models",
-    "section": "15.2 How to Contribute",
-    "text": "15.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nWhat open source models are available for businesses?"
+    "title": "14  OS Business Models",
+    "section": "14.2 How to Contribute",
+    "text": "14.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nWhat open source models are available for businesses?",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>OS Business Models</span>"
+    ]
   },
   {
     "objectID": "OSmodels.html#guidance",
     "href": "OSmodels.html#guidance",
-    "title": "15  OS Business Models",
-    "section": "15.3 Guidance",
-    "text": "15.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+    "title": "14  OS Business Models",
+    "section": "14.3 Guidance",
+    "text": "14.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>OS Business Models</span>"
+    ]
+  },
+  {
+    "objectID": "whatelse.html",
+    "href": "whatelse.html",
+    "title": "15  What Else?",
+    "section": "",
+    "text": "15.1 What else can we do?\nThis is very open ended and initially intended as a catch-all for the future considerations not already covered by the other discussions.",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>What Else?</span>"
+    ]
   },
   {
     "objectID": "whatelse.html#what-else-can-we-do",
     "href": "whatelse.html#what-else-can-we-do",
-    "title": "16  What Else?",
-    "section": "16.1 What else can we do?",
-    "text": "16.1 What else can we do?\nThis is very open ended and initially intended as a catch-all for the future considerations not already covered by the other discussions.\n\nWhat have we missed?\nWhat other questions are being asked and/or need to be addressed?"
+    "title": "15  What Else?",
+    "section": "",
+    "text": "What have we missed?\nWhat other questions are being asked and/or need to be addressed?",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>What Else?</span>"
+    ]
   },
   {
     "objectID": "whatelse.html#how-to-contribute",
     "href": "whatelse.html#how-to-contribute",
-    "title": "16  What Else?",
-    "section": "16.2 How to Contribute",
-    "text": "16.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nWhat else can we do?"
+    "title": "15  What Else?",
+    "section": "15.2 How to Contribute",
+    "text": "15.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nWhat else can we do?",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>What Else?</span>"
+    ]
   },
   {
     "objectID": "whatelse.html#guidance",
     "href": "whatelse.html#guidance",
-    "title": "16  What Else?",
-    "section": "16.3 Guidance",
-    "text": "16.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community"
+    "title": "15  What Else?",
+    "section": "15.3 Guidance",
+    "text": "15.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>What Else?</span>"
+    ]
   }
 ]
