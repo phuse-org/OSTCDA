@@ -10,3 +10,5 @@ _book/
 *.docx
 
 _rendered/
+intro_files
+intro.html
