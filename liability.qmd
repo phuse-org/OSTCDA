@@ -10,13 +10,13 @@ title: "Liability with OS"
 
 ## Understanding Liability and Warranty in Software Development
 
-Liability and warranty are two crucial legal concepts in the realm of software development. Liability refers to the legal obligation or responsibility that arises from actions or lack thereof. In the context of software, this could mean the responsibility for any system malfunctions, data breaches, or data loss that occur due to the software.
+Liability and warranty are two crucial legal concepts in the realm of software development. **Liability** refers to the legal obligation or responsibility that arises from actions or lack thereof. In the context of software, this could mean the responsibility for any system malfunctions, data breaches, or data loss that occur due to the software.
 
-On the other hand, a warranty is a pledge or assurance given by the provider of the source code. It's a promise that the software will perform as described and that any defects or issues will be addressed within a specified period.
+On the other hand, a **warranty** is a pledge or assurance given by the provider of the source code. It's a promise that the software will perform as described and that any defects or issues will be addressed within a specified period.
 
 Given the potential risks associated with software use, such as system malfunctions or data breaches, the liability and warranty of the source code provider become critical considerations. 
 
-Most open-source licenses include a disclaimer to shield developers from claims. However, the responsibility for liability and warranty doesn't solely rest with open-source users. It extends to all software users, including those using commercial software.
+Most open-source licenses include a disclaimer to shield developers from claims. However, the responsibility for liability and warranty doesn't solely rest with open-source users, either. It extends to all software users, including those using commercial software.
 
 Andy Nicholls has helpfully provided a link to the [EMA's Notice on validation and qualification of software tools used in clinical trials](https://www.ema.europa.eu/en/documents/regulatory-procedural-guideline/notice-sponsors-validation-and-qualification-computerised-systems-used-clinical-trials_en.pdf){target="_blank"}. This document clearly states that the sponsor bears the ultimate responsibility for the validation of the computerised system. They must provide adequate documented evidence of the validation process. 
 
@@ -26,9 +26,9 @@ While the sponsor can rely on qualification documentation provided by the vendor
 
 **Summary**: Regardless of whether open-source or commercial software is used, the sponsor carries the responsibility for warranty and liability. While commercial software requires reliance on the vendor, the transparency of open-source software offers additional avenues for assurance and accountability.
 
-## Liability and Warrenty according Open Source Licenses
+## Liability and Warranty according Open Source Licenses
 
-Most open source licenses include a disclaimer of liability and warranty. So according the license there is no liability and warrenty from the source code provider.
+Most open source licenses include a disclaimer of liability and warranty. So according the license there is no liability and warranty from the source code provider.
 
 Examples:
 
