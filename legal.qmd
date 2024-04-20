@@ -9,18 +9,99 @@ title: "Legal Concerns"
 -   What do organizations need to know?
 
 -   How does this differ if the solution is an individual or a collaborative effort?
+ 
+## Understanding Legal Concerns
+
+In our world today, where claims are frequently made, it's clear that many of us have concerns about the potential legal issues tied to open source development. Whether we're contributing as individuals or as part of an organization, we all have a role to play. It's only natural and indeed obvious that we might feel unsure or anxious about possible missteps. However, by deepening our understanding of these legal concerns, we can navigate this space with greater confidence, mitigate risks, and avoid potential claims.
+
+This involves being aware of the terms of open source licenses, understanding how to comply with them, and knowing how to properly attribute open source contributions.
+
+### What Individuals Need to Know
+
+As an individual contributing to open source projects, you should be aware of the licenses under which your contributions will be distributed. Different open source licenses have different requirements and restrictions. Failing to comply with them can lead to legal issues. Therefore, before contributing to any open source project, make sure to:
+
+- Understand the terms of the license under which your contribution will be distributed.
+- Ensure your contributions do not infringe upon someone else's intellectual property.
+- Respect Your Employer's Intellectual Property Rights.
+- Keep a record of your contributions for future reference.
+
+**Examples**
+
+As a user, creator, or contributor of open source software, you have responsibilities to understand and respect the licenses of the software you interact with. Here are a few key points:
+
+- **Understand the terms of the license of the software you are using.**
+
+  For example, if you're using software licensed under the GNU General Public License (GPL), you should know that you are free to use, modify, and distribute the software, but any derivative work must also be distributed under the GPL. If you're using software under the MIT license, you can use it for any purpose, even commercial ones, but you must include the original copyright notice.
+
+- **Ensure your use of the software does not infringe upon the software's license.**
+
+  This means that you should use the software in a way that complies with its license. For instance, if the software is licensed under the GPL, and you modify it and distribute the modified version, you must also distribute the source code of your modified version under the GPL.
+
+  Additionally, it's important to remember that this principle applies to all code you incorporate into your project, not just the original software. If you copy code from another source, such as a Stack Overflow answer, you must respect the license of that code as well. For example, code posted in Stack Overflow answers is licensed under a Creative Commons Attribution-ShareAlike license (CC BY-SA). This means that you can use and modify the code, but you must give appropriate credit and distribute any modifications under the same license. Ignoring these requirements can lead to legal issues.
+
+- **Respect Your Employer's Intellectual Property Rights**
+
+  If you're contributing to open source projects as part of your job, it's important to remember that the code you write for your employer is likely their intellectual property. This means that you can't just take code you've written for them and contribute it to an open source project without their permission.
+
+  However, this doesn't mean that you can't contribute at all. If you've developed a useful piece of code for your job and you think it could benefit the open source community, consider reprogramming it in your free time. This way, you're not directly using your employer's code, but you're still able to contribute your ideas and skills to the project.
+
+  Always check your employment contract and consult with your employer or a legal professional if you're unsure about what you can and can't do. Ignoring these requirements can lead to legal issues, including potential job loss or lawsuits.
+
+- **Keep a record of the software you use and their licenses for future reference.**
+
+  This could be as simple as maintaining a list of the software you use and their licenses, or using a software composition analysis tool, which can automatically detect the licenses of the software you use. This can help you ensure that you are complying with all the licenses and avoid potential legal issues.
+
+**Tips for Individuals**
+
+As an individual working with open-source software, here are some tips to help you navigate the legal landscape:
+
+- **Always Check for a License**: Before using, modifying, or contributing to an open-source project, always check for a license. The license will tell you what you can and cannot do with the source code.
+
+- **Prefer Permissive Licenses**: If you have a choice, prefer software with permissive licenses like MIT or Apache. These licenses allow you to use, modify, and distribute the software with fewer restrictions.
+
+- **Rewrite Instead of Copy**: Especially for smaller code snippets, consider rewriting the code in your own words instead of copying it directly. This can help you avoid potential licensing issues.
+
+- **Maintain a List of Used Open-Source Software**: Keep a list of all open-source code that you use or incorporate into your projects. Include a copy of their licenses and any attribution notices. This can help you ensure that you are complying with all licenses and avoid potential legal issues.
+
+
+### What Organizations Need to Know
+
+Organizations using or contributing to open source projects ideally should maintain a clear open source policy. This policy should outline how to handle open source licenses, how to contribute to open source projects, and how to use open source software in a way that complies with the respective licenses. To mitigate risks and avoid potential claims, organizations should:
+
+- Develop a comprehensive open source policy and ensure all members understand it.
+- Regularly review and update the policy to keep it in line with current legal standards.
+- Use tools to track the use of open source software and ensure compliance with their licenses.
+- Seek legal advice when necessary.
+
+By deepening our understanding of these legal concerns, we can all contribute to the open source community in a way that respects the rights of all parties involved.
+
+### Different Risks to Individuals and Organizations
+
+The legal risks associated with open source development can vary for individuals and organizations due to the nature of their involvement and the scale of their operations.
+
+As an **individual contributor**, you might face the following risks:
+
+- **License Violations**: If you contribute to a project without fully understanding the terms of its license, you might inadvertently violate it. This could potentially lead to legal action from the project owner or other contributors.
+- **Intellectual Property Infringement**: If your contributions to an open source project infringe upon someone else's intellectual property, you could face legal consequences. This could happen if you contribute code that you don't have the rights to or that is covered by a proprietary license.
+- **Personal Liability**: In some cases, you could be held personally liable for issues with your contributions, such as security vulnerabilities or bugs that cause damage to users.
+
+**Organizations** face similar risks to individuals but on a larger scale. Additional risks include:
+
+- **Reputation Damage**: If an organization is found to have violated an open source license or infringed upon someone else's intellectual property, it could suffer significant damage to its reputation.
+- **Operational Disruptions**: Legal issues related to open source software could lead to operational disruptions. For example, if an organization is found to be using open source software in violation of its license, it might be required to stop using that software, which could disrupt its operations.
+- **Financial Losses**: Legal issues can lead to financial losses due to legal fees, fines, or the costs associated with operational disruptions.
+
+By understanding these risks and taking steps to mitigate them, both individuals and organizations can contribute to open source projects in a way that minimizes their legal exposure.
 
 ## How to Contribute
 
 Contribute to the discussion here in GitHub Discussions:\
-[Are there any legal concerns or ramifications from open source development (on the user, developer, organization)?](https://github.com/phuse-org/OSTCDA/discussions/15){target="_blank"}
+[Are contributors to open source exposing themselves to any liability of their solutions?](https://github.com/phuse-org/OSTCDA/discussions/14){target="_blank"}
 
-## Guidance
+All contributions should:
 
 -   Provide your thoughts and perspectives
 
 -   Provide references to articles, webinars, presentations (citations, links)
 
 -   Be respectful in this community
-
-
