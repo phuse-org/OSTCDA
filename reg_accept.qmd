@@ -43,7 +43,7 @@ And what about agencies who typically do not re-analyse sponsor data? How can th
 ## How to Contribute
 
 Contribute to the discussion here in GitHub Discussions:\
-[Are contributors to open source exposing themselves to any liability of their solutions?](https://github.com/phuse-org/OSTCDA/discussions/14){target="_blank"}
+[Will the **FDA** accept data and analyses generated with solutions developed and available as open source?](https://github.com/phuse-org/OSTCDA/discussions/6){target="_blank"}
 
 All contributions should:
 
