@@ -93,10 +93,36 @@ As an **individual contributor**, you might face the following risks:
 
 By understanding these risks and taking steps to mitigate them, both individuals and organizations can contribute to open source projects in a way that minimizes their legal exposure.
 
+## Legal Practicalities
+
+It's crucial to understand that everything written down, including texts, images, and source code, is protected by copyright. This applies unless there's an explicit license attached to the material. This means we are not permitted to copy source code from papers, blogs, or forums unless a license is provided. Using copyrighted code could potentially lead to legal action. However, we can learn from what we read and re-implement the source code. We are always free to take an idea and reprogram it.
+
+If you wish to facilitate the usage of your source code, remember to apply a license. For instance, the "Unlicense" or "Public Domain" license allows unrestricted use, while the "MIT" license requires that you are credited in any derivative works. Apply a license when you include source code in papers, blogs, forums, or any documentation. Without a license, it's legally risky to use your source code.
+
+## Additional Insights
+
+### Contributor License Agreements
+
+For organizations, managing internal contributions to open-source projects can be streamlined with appropriate training. This ensures that employees understand what can and cannot be included in open-source contributions. However, a common concern arises with external contributors. 
+
+It's crucial to ensure that no unauthorized code is incorporated into the solution. In theory, when individuals submit changes, for instance, via GitHub, they agree to abide by the repository's license. 
+
+To further safeguard the project, organizations could consider implementing a formal **Contributor License Agreement** (CLA). This agreement provides a clear understanding that contributors relinquish (and simultaneously regain) the rights to their contributed source code. It also ensures that they do not include any proprietary secrets or unshareable source code. Implementing a CLA adds an extra layer of legal protection for both the project and its contributors.
+
+### Cyber Resilience Act
+
+Another topic brought up by James Black is the ["Cyber Resilience Act"](https://www.european-cyber-resilience-act.com/){target="_blank"}. The Cyber Resilience Act is a significant piece of legislation that will introduce new responsibilities specifically for organizations and companies providing open-source software. This act aims to enhance the overall cybersecurity posture of the digital ecosystem by establishing a robust framework for managing cyber risks. 
+
+For open-source providers, this could mean implementing more stringent security measures, conducting regular vulnerability assessments, and ensuring timely patching and updates. It may also necessitate greater transparency about their security practices and more rigorous reporting of security incidents. 
+
+While the specifics of the act are still being finalized, it's clear that it will have far-reaching implications for the open-source community. Organizations and companies involved in open-source should closely monitor the development of this legislation and start preparing for its potential impact.
+
+For single-individual open-source projects, the impact might be less direct. However, it could still influence the way these projects are managed. For instance, the act might encourage individual developers to adopt more robust security practices, such as conducting regular vulnerability assessments and ensuring timely patching and updates.
+
 ## How to Contribute
 
 Contribute to the discussion here in GitHub Discussions:\
-[Are contributors to open source exposing themselves to any liability of their solutions?](https://github.com/phuse-org/OSTCDA/discussions/14){target="_blank"}
+[Are there any legal concerns or ramifications from open source development (on the user, developer, organization)?](https://github.com/phuse-org/OSTCDA/discussions/15){target="_blank"}
 
 All contributions should:
 
