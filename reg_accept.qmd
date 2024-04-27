@@ -28,7 +28,7 @@ Fortunately we now have a growing number of examples of companies who are on thi
 
 The Novo Nordisk experience [@Novo2023] provides critical learnings. In their filing to US FDA, PMDA and other health authorities, they used a combination of SAS and R to prepare submission datasets and deliverables. They described their process as being an evolution, rather than revolution, using R to replicate tables and figures usually generated via SAS. Key also to the process was building an infrastructure and environment around R that would meet expectations pertaining to quality and reproducibility. This, more so than the replication of SAS output provides the backbone of "validated" work in R. They communicated in advance of submission with the regulatory authorities, which allowed both parties (sponsor and authority) to set expectations and "get ready" in good time. This did not prevent "Information Requests" from the FDA for clarification - causing anxious moments for the sponsor - but in the end this was about information sharing, reaching mutual understanding, for clarification and ensuring that the FDA internal environment would match Novo Nordisk's rather than a refusal to accept open source software approaches. The results of their work is giving Novo Nordisk and the pharmaceutical industry generally, more confidence to move forward with R and open source tools as the core of their submission work.
 
-Similarly, [@Roche2023] are spending a great deal of effort in preparation - organisationally and technologically - for submission to regulatory agencies. The common thread across both Novo Nordisk and Roche / Genentech is about preparation and dialogue within the company (with regulatory, quality assurance and process groups) and with regulatory agencies in the lead up to submission. Proper preparation prevents poor performance, as the aphorism goes.
+Similarly, Roche [@Roche2023] is spending a great deal of effort in preparation - organisationally and technologically - for submission to regulatory agencies. The common thread across both Novo Nordisk and Roche / Genentech is about preparation and dialogue within the company (with regulatory, quality assurance and process groups) and with regulatory agencies in the lead up to submission. Proper preparation prevents poor performance, as the aphorism goes.
 
 ## (Avoiding) Doubt
 
@@ -42,13 +42,10 @@ And what about agencies who typically do not re-analyse sponsor data? How can th
 
 ## How to Contribute
 
-Contribute to the discussion here in GitHub Discussions:
+Contribute to the discussion here in GitHub Discussions:\
+[Are contributors to open source exposing themselves to any liability of their solutions?](https://github.com/phuse-org/OSTCDA/discussions/14){target="_blank"}
 
-1.  [Will the **FDA** accept data and analyses generated with solutions developed and available as open source?](https://github.com/phuse-org/OSTCDA/discussions/6){target="_blank"}
-
-2.  [Will **other regulatory agencies** accept data and analyses generated with solutions developed and available as open source?](https://github.com/phuse-org/OSTCDA/discussions/7){target="_blank"}
-
-## Guidance
+All contributions should:
 
 -   Provide your thoughts and perspectives
 
