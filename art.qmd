@@ -2,13 +2,117 @@
 title: "GxP Compliance"
 ---
 
-## How do you establish reproducibility and traceability?
+## How do you establish accuracy, reproducibility and traceability?
 
-GxP compliance means establishing accuracy, reproducibility, and traceability. When working with open source solutions to process and analyze clinical trial data:
+FDA definition of validation and GxP compliance means establishing accuracy, reproducibility, and traceability. When working with open source solutions to process and analyze clinical trial data:
 
 -   How do we establish reproducibility of the outputs?
 
 -   How do we establish traceability of the input through to the output?
+
+## Are we validating R packages or the R environment?
+
+When discussing R validation, most of the discussion centres around validation of R functions and packages individually. Do they give the "right" or "expected" answer within a defined tolerability / accuracy? Can we trust the developers of the packages that they have adequately tested and documented all aspects of their package? Are there some packages that don't need validation?
+
+Using the FDA definition of "validation" - establishing accuracy, reproducibility and traceability - the accuracy part is only one piece of the puzzle. The ability to get this accurate answer every time, and often over a period of years (so maintaining a validated environment) is also a critical part. It is not unknown for regulatory agencies to request re-analysis or extension of analysis to additional data many years after a regulatory submission. In that event it may be expedient to be able to reuse the environment from the original analysis, rather than trying to replicate the old analysis in a new environment, with new versions of software and packages.
+
+With that in mind, having a validated ***environment***, tested and held under change control and able to reproduce results for many years to come would seem like an important aspect of the FDA validation definition. But this raises some interesting questions and problems: how do we maintain a "snapshot" of that environment such that it will be reproducible for years, when operating systems and underlying core software changes more frequently? How do we balance the need for stability and change control with the desire from scientists to have "latest and greatest" packages and versions of packages in order to be most efficient and do the best science? Can both of these states be possible?
+
+## R Validation Hub and \\{riskmetric\\}
+
+The R Consortium R Validation Hub Working Group have prepared a white paper on R validation, what it means from a package and environment perspective. They propose a risk-based approach where a package's risk is based on a collection of metrics such as
+
+-   testing and documentation
+
+-   active development and contribution
+
+-   maintenance and release cycles
+
+-   usage and licensing
+
+The {[riskmetric](https://pharmar.github.io/riskmetric/articles/riskmetric.html)} package (@riskmetric) has been developed to help collect these metrics for packages on CRAN or Github and an associated Shiny application {riskassessment} (@riskassessment) has been developed.
+
+The risk-based approach passes the assessment back to individual organisations. A package may be considered "high risk" but may also be business critical for delivery in a given part of the organisation. So instead of defining a cutoff above which packages would be "not recommended" the R Validation Hub and {riskmetric} are encouraging organisations (and individuals) to give it consideration and perhaps focus effort and resources on assessing and testing packages that are medium to higher risk, rather than those with lower risk.
+
+### Testing
+
+Modern package development processes [@RPackages] encourage the use of test cases to demonstrate that functions within the package are performing as expected. Tools such as {covr} [@covr] examines the test cases within a package and reports the test coverage - what proportion of functions within the package have associated tests - which can be used as a metric to what extent the package developer has assessed that functions within the package work as expected (and fail when appropriate). The associated {covtracer} [@covtracer] package uses {covr} to identify which functions do or do not have associated tests. These packages help build a picture of how thoroughly tested functions and packages are.
+
+While not mandatory for submission to CRAN, this good practice of providing test cases and verifying function behaviour and performance goes a long way to satisfying the validation requirement of accuracy, and, because these tests are run as part of building the R package for inclusion in CRAN, they will be tested across many different operating systems, versions of R, and compatibility with other CRAN packages they may rely on. With this in mind, the question arises: If a package has good test coverage and tests key or critical functions within the package adequately, and if the package is tested via CRAN build across a range of operating systems, is it really necessary to build new tests and verify internal to an organisation that said package does what it is purported to do?
+
+If a package has ***low*** test coverage, or if key functions are ***not*** tested adequately, then what do we do? Rather than each organisation write new tests, in the spirit of open-source development, surely the correct thing to do is to contribute new tests to the package for the benefit of the broader user community.
+
+### Documentation
+
+A key attribute (and expecation) of an R package is that functions accessible to users should be adequately documented. In the past, this was done by the user writing .Rd manual files. Today, tools such as {roxygen2} [@roxygen2] and {pkgdown} [@pkgdown] take a lot of burden from the user and elegant documentation and associated web pages can be built with very little additional effort on the developer. Tools within Integrated Development Environments such as RStudio IDE [@RStudioIDE] can assist the developer in creating the {roxygen2} header based on inputs to the function being written. With these frameworks it is easier than ever to provide quality documentation for functions and packages. Documentation is ***not*** on the FDA list of validation attributes, but it could be argued that without good documentation, the user could easily use functions inappropriately, leading to poor accuracy of results.
+
+### Active contribution, maintenance and release cycles
+
+The R Validation Hub {riskmetric} package also assesses whether packages are actively maintained - whether the package has a named maintainer, whether bug reports are being actioned and closed, whether there is a NEWS file and other attributes. This gives a picture of whether the package is actively maintained by the developer / maintainer. Inactive packages increase the associated risk for organisations. If a bug is reported, but not actioned and the community not made aware of the bug, then this is a bad sign for a package. There could be many reasons that a package is no longer maintained - if it works exactly as advertised and has a very limited scope then perhaps it does not need active maintenance, and it may not need new releases. But this should be flagged for the user and their organisation to assess.
+
+### Licensing and usage
+
+Packages made open-source should have an associated license. This details liability from the developer's and user's standpoint, scope of use and any limitations, stipulations or expectations around whether modifications of the source code must also be shared publically. It is the user's responsibility to check whether the license permits them to use and / or modify the package in their intended way. Obviously at an organisation level, it may be beneficical to flag any packages with non-permissive licenses. {riskmetric} helps with that process.
+
+The number of downloads of a package gives some indication of the user base of that package globally. While this doesn't guarantee quality by any means, it does give a measure of how many people are using and interacting with the package and its functions. If the number is large, then an organisation might feel comfortable that issues or errors will be discovered quickly, and that remediation might be also be addressed promptly. If the number is small, then an organisation might wish to examine the package more carefully. This, coupled with a single maintainer, low levels of maintenance, or low test coverage may be a red flag that any issues will be addressed and so risk is increased.
+
+### CRAN
+
+When a package is submitted to the Comprehensive R Archive Network (CRAN), there are a number of checks and assessments performed on a package before it is made available through the CRAN mirrors for download and installation. Many of the checks are automated, but the results of the checks are assessed manually and often actions are sent by the CRAN team back to the developer to remedy. The CRAN team also check many of the attributes given above - documentation, maintainer, successful tests etc.
+
+Packages on CRAN are also assessed for compatibility with other packages on CRAN. Any dependencies, reverse dependencies (packages that depend on the submitted package), are assessed so that we can be sure that packages on CRAN work together as expected. This reduces uncertainty greatly, since any given daily snapshot of CRAN is guaranteed to work with conflicts.
+
+This level of testing and rigour should not be taken for granted. The CRAN team ensures quality in the package set made available across CRAN mirrors globally for millions of R users.
+
+With this, having a package available on CRAN elevates its quality (or lowers its risk) but not to zero.
+
+### Tidyverse / Posit packages
+
+Posit / RStudio PBC issued a statement regarding validation of their {tidyverse}, {tidymodels} and {gt} packages and their r-lib Github organisations in 2020 [@tidyValidation]. In it they detail how the packages listed have verifiable software development life-cycle and meet the attributes defined by the R Validation Hub for low risk packages.
+
+## R package management - the problem
+
+We have discussed above how each CRAN daily snapshot ensures that packages from that snapshot date are guaranteed to together through the CRAN checks and CRAN team oversight. To address the validation requirement of reproducibility and traceability, the obvious answer would be to pick a snapshot date for CRAN packages and commit an R environment to that date, locking the package versions to that snapshot date, testing, documenting and holding it under change control from that point. We would then be able to report the R version, CRAN snapshot date resulting in R package versions for that nominated date. This would enable any third party to recreate our environment and reproduce any analysis done with that environment. All we need is to stick with one snapshot date per release of R. Is that viable?
+
+But what happens if a user downloads a new package from any other source outside of that snapshot date? If that package has dependencies that are now updated, then the installation process will likely download the updated dependencies. Do we know exactly what has been updated and when? Can we rely on reproducibility for this new set? If the user has kept careful note of exactly what has updated, what packages and versions are now being used, then maybe.
+
+And over a period of months and years, as users update packages, add new ones, as packages stop being updated and functionality is superceded by other packages, how can we guarantee that at any given time we can "roll back" to our validated set and reproduce results?
+
+The tension comes because there are two competing priorities:
+
+1.  having a set of packages under a well-managed, change controlled, tested and documented environment.
+
+2.  being flexible enough to update packages, versions at an arbitrary time in order to get the latest, greatest features and functionality to address today's work.
+
+## R package management - possible solutions
+
+At an organisation level, we can use containerisation technologies like Podman or Docker to capture a complete R environment including underlying operating system, base R, and R packages. This will snapshot the complete environment and ensure reproducibility for the long term, as we can return to the container at any point (provided it is held under change control), deploy it and reproduce a given analysis at an arbitrary point in time. Because of the effort required to build, test, document and deploy the environment however, we can't do this on a daily basis (or for every CRAN snapshot date). Instead we may wish to do this periodically - for example with each R minor release e.g. R-4.2, R-4.3. This approach well serves the first priority above - a well-managed, change controlled, tested and documented environment.
+
+But that does not address the second priority above - requiring a flexible environment where users can get the latest and greatest set of packages.
+
+To address this need, we would need to turn to R package environment management tools like {renv}. {renv} works in the context of a project and creates a self-contained cache of R packages within the project so that all packages required for the project are kept alongside the project work. This is ideal for most cases where the managed container doesn't contain all packages required for a project. However it relies on the project owner to maintain this package set and to qualify and document the package set used.
+
+For both approaches, we need a single source of R packages that allows users to "go back in time" to any given snapshot date in order to recreate the state of the R environment used in the project or analysis. Posit provides Package Manager . This provides a snapshot of CRAN across various dates and unique URLs for users to define the specific repository used to access R packages on that snapshot date. Previously Microsoft R Archive Network (MRAN) provided similar functionality, but unfortunately this service is no longer maintained.
+
+While the functionality above provides a means for individuals to instantiate and maintain a reproducible R environment complete with arbitrary packages needed for a specific analysis, it relies on individuals to appropriately document and maintain that environment. The barrier to ***doing it*** is lowered, but the discipline involved in capturing details of the environment and then managing it for the longer term becomes higher than the change controlled container environment, which may be done at the organisational level, rather than the individual level. It's also almost impossible to retrofit the documentation and R package management environment. Who knows whether the environment actually used in the analysis entirely matches the defined package set and local environment presented?
+
+The other issue is that only a minority of analysts are careful enough to manage their environment to this level. And for a "validated environment" for regulatory use, the level of information required to completely reproduce the environment is quite substantial. Are we confident that we have provided sufficient information for agency staff to do so?
+
+## Traceability - Where is the R log?
+
+Many tools are available then to help document what R environment was used for the analysis, and many of these are easily accessible if the analyst chooses to use them.
+
+{sessioninfo} provides information about what packages were loaded within the current R session, what underlying operating system was in use, what R version, what R packages and versions and where those R packages were installed from. This is the minimal information that should be provided for any analysis performed with R. Combined with package management tools like Posit Package Manager or CRAN, this information will allow a good attempt at recreating the environment.
+
+A {renv} lock file is a similar tool that would allow a third party to recreate the R environment used in analysis, and it contains the URL of repositories used to install packages. Provided the URLs are accessible to the third party, it should provide additional confidence in the ability to recreate the environment.
+
+The {logrx} package aims to go another step in providing additional metadata, user, session and run time information. By providing a wrapper for running an R script, it also prevents the possibility of users running commands interactively out of sequence, or picking objects from the Global Environment inside R instead of re-calculating.
+
+This list is not exhaustive by any means, but each tool gives additional information that would assist forensic recreation of the R environment at an arbitrary time point. They do not magically recreate the R environment, only document what ***was*** used.
+
+## The ideal solution
+
+The best solution is to combine a tool such as {logrx} with a well managed container environment deployment of R as described above. This proves that the container was unchanged from the original, tested and documented environment. And assuming that original container is held under Software Development Life Cycle change control, we can be confident of accuracy, reproducibility and traceability, and hence a "validated" environment.
 
 ## How to Contribute
 
