@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.551">
+<meta name="generator" content="quarto-1.4.554">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -270,8 +290,11 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#will-the-regulatory-agencies-accept-data-and-analyses-generated-with-solutions-developed-and-available-as-open-source" id="toc-will-the-regulatory-agencies-accept-data-and-analyses-generated-with-solutions-developed-and-available-as-open-source" class="nav-link active" data-scroll-target="#will-the-regulatory-agencies-accept-data-and-analyses-generated-with-solutions-developed-and-available-as-open-source"><span class="header-section-number">6.1</span> Will the regulatory agencies accept data and analyses generated with solutions developed and available as open source?</a></li>
-  <li><a href="#how-to-contribute" id="toc-how-to-contribute" class="nav-link" data-scroll-target="#how-to-contribute"><span class="header-section-number">6.2</span> How to Contribute</a></li>
-  <li><a href="#guidance" id="toc-guidance" class="nav-link" data-scroll-target="#guidance"><span class="header-section-number">6.3</span> Guidance</a></li>
+  <li><a href="#perceived-fear" id="toc-perceived-fear" class="nav-link" data-scroll-target="#perceived-fear"><span class="header-section-number">6.2</span> (Perceived) Fear</a></li>
+  <li><a href="#reducing-uncertainty" id="toc-reducing-uncertainty" class="nav-link" data-scroll-target="#reducing-uncertainty"><span class="header-section-number">6.3</span> (Reducing) Uncertainty</a></li>
+  <li><a href="#avoiding-doubt" id="toc-avoiding-doubt" class="nav-link" data-scroll-target="#avoiding-doubt"><span class="header-section-number">6.4</span> (Avoiding) Doubt</a></li>
+  <li><a href="#how-to-contribute" id="toc-how-to-contribute" class="nav-link" data-scroll-target="#how-to-contribute"><span class="header-section-number">6.5</span> How to Contribute</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">6.6</span> References</a></li>
   </ul>
 </nav>
     </div>
@@ -305,23 +328,73 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Are there technical considerations for the creation of submission data packages?</p></li>
 </ul>
 </section>
-<section id="how-to-contribute" class="level2" data-number="6.2">
-<h2 data-number="6.2" class="anchored" data-anchor-id="how-to-contribute"><span class="header-section-number">6.2</span> How to Contribute</h2>
-<p>Contribute to the discussion here in GitHub Discussions:</p>
-<ol type="1">
-<li><p><a href="https://github.com/phuse-org/OSTCDA/discussions/6" target="_blank">Will the <strong>FDA</strong> accept data and analyses generated with solutions developed and available as open source?</a></p></li>
-<li><p><a href="https://github.com/phuse-org/OSTCDA/discussions/7" target="_blank">Will <strong>other regulatory agencies</strong> accept data and analyses generated with solutions developed and available as open source?</a></p></li>
-</ol>
+<section id="perceived-fear" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="perceived-fear"><span class="header-section-number">6.2</span> (Perceived) Fear</h2>
+<p>There has been a long debate about whether regulatory agencies would accept submissions using R and Open Source tools. This is in spite of communications from agency staff for <strong><em>over 15 years</em></strong> refuting this and stating that the agency would not and could not endorse any specific software tool for sponsor submissions <span class="citation" data-cites="Bell2006 Soukup2007 FDA2015 Schuette2018">(<a href="references.html#ref-Bell2006" role="doc-biblioref">Bell 2006</a>; <a href="references.html#ref-Soukup2007" role="doc-biblioref">Soukup 2007</a>; <a href="references.html#ref-FDA2015" role="doc-biblioref">Drug Administration (FDA) 2015</a>; <a href="references.html#ref-Schuette2018" role="doc-biblioref">Schuette 2018</a>)</span>. Yet still there has been reticence from pharmaceutical industry sponsors around using R for clinical trials reporting and analysis of key endpoints. Meanwhile clinical pharmacology and pharmacometrics groups within many pharma companies have been using R for over 10 years in regulatory submissions and interactions, preparing graphics for presentation, model diagnostics and data summaries. So while some business areas within the industry are comfortable using R and other open source tools, other parts are more nervous about committing fully to an open source software solution.</p>
+<p>What is driving this nervousness then? If the regulatory agencies are telling us that they will accept submissions with R then what is stopping it from being more widely used within and across pharmaceutical companies?</p>
+<p>Perhaps it is down to fear of having a dossier rejected by a regulatory agency - “Refusal to file” - due to application deficiencies. In this context, could the use of open source software trigger this “Refusal to file”? Since “Refusal to file” could have a significant impact on a company’s reputation, confidence and ultimately their stock price, it is understandable that companies are cagey. Also, who would want to be first to try out this untrodden path? It is easier to follow in the footsteps of somebody else than to forge a path yourself.</p>
 </section>
-<section id="guidance" class="level2" data-number="6.3">
-<h2 data-number="6.3" class="anchored" data-anchor-id="guidance"><span class="header-section-number">6.3</span> Guidance</h2>
+<section id="reducing-uncertainty" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="reducing-uncertainty"><span class="header-section-number">6.3</span> (Reducing) Uncertainty</h2>
+<blockquote class="blockquote">
+<p>“…there are known knowns; there are things we know we know. We also know there are known unknowns; that is to say we know there are some things we do not know. But there are also unknown unknowns — the ones we don’t know we don’t know.”</p>
+<p>– Donald Rumsfeld</p>
+</blockquote>
+<p>Fortunately we now have a growing number of examples of companies who are on this journey towards using more open source software in drug development and, critically, in regulatory interactions and submission <span class="citation" data-cites="Novo2023 Roche2023 OSNDAs">(<a href="references.html#ref-Novo2023" role="doc-biblioref">Knoph 2023</a>; <a href="references.html#ref-Roche2023" role="doc-biblioref">Neitman 2023</a>; <a href="references.html#ref-OSNDAs" role="doc-biblioref">Bowsher, n.d.</a>)</span>. There is also the R Consortium Submissions Working Group <span class="citation" data-cites="SubmissionsWG2021">(<a href="references.html#ref-SubmissionsWG2021" role="doc-biblioref"><span>“R Consortium Submissions Working Group”</span> 2021</a>)</span> - a cross industry pharma working group focusing on improving practices of R-based clinical trial regulatory submissions. This group has open dialogue with colleagues at the US FDA regulatory agency around technical issues of filing submissions using R deliverables and pilots these using open source examples in order to check and verify that submissions via the FDA electronic submissions process are received and can be validated within the agency. This eliminates some elements of fear and uncertainty from sponsors around the technical aspects, allows regulatory agency colleagues to provide feedback with the working group members in an environment which is not high-pressure or business critical to a sponsor. It is in the interest of both regulators and industry to modernise, to acknowledge a shift in tools that are being used to conduct clinical development of new therapeutics and be ready for whatever future state emerges. To be able to do this with increased confidence and mutual understanding is vital to this modernisation.</p>
+<p>The Novo Nordisk experience <span class="citation" data-cites="Novo2023">(<a href="references.html#ref-Novo2023" role="doc-biblioref">Knoph 2023</a>)</span> provides critical learnings. In their filing to US FDA, PMDA and other health authorities, they used a combination of SAS and R to prepare submission datasets and deliverables. They described their process as being an evolution, rather than revolution, using R to replicate tables and figures usually generated via SAS. Key also to the process was building an infrastructure and environment around R that would meet expectations pertaining to quality and reproducibility. This, more so than the replication of SAS output provides the backbone of “validated” work in R. They communicated in advance of submission with the regulatory authorities, which allowed both parties (sponsor and authority) to set expectations and “get ready” in good time. This did not prevent “Information Requests” from the FDA for clarification - causing anxious moments for the sponsor - but in the end this was about information sharing, reaching mutual understanding, for clarification and ensuring that the FDA internal environment would match Novo Nordisk’s rather than a refusal to accept open source software approaches. The results of their work is giving Novo Nordisk and the pharmaceutical industry generally, more confidence to move forward with R and open source tools as the core of their submission work.</p>
+<p>Similarly, Roche <span class="citation" data-cites="Roche2023">(<a href="references.html#ref-Roche2023" role="doc-biblioref">Neitman 2023</a>)</span> is spending a great deal of effort in preparation - organisationally and technologically - for submission to regulatory agencies. The common thread across both Novo Nordisk and Roche / Genentech is about preparation and dialogue within the company (with regulatory, quality assurance and process groups) and with regulatory agencies in the lead up to submission. Proper preparation prevents poor performance, as the aphorism goes.</p>
+</section>
+<section id="avoiding-doubt" class="level2" data-number="6.4">
+<h2 data-number="6.4" class="anchored" data-anchor-id="avoiding-doubt"><span class="header-section-number">6.4</span> (Avoiding) Doubt</h2>
+<p>As has been mentioned, the Submissions Working Group of the R Consortium is actively partnering with US FDA to pilot submissions through the agency’s electronic submissions portal. These pilot submissions are created and presented on Github as open source code, so it is possible for anyone to review what was submitted, how, and the agency’s feedback and report on which elements were successful and any issues found with the submission. The pilots are vital for sponsors to understand the mechanisms of submission using open source software like R, and for regulatory agencies to understand how to reconstitute sponsor software environments, install packages and confirm results. This dialogue reduces the likelihood of any fundamental issues with submission using open source software, but does not completely eliminate sources of potential problems. In a sense, the pilots uncover known unknowns - the things that we expect to cause issues - so that they can be discussed and addressed on both sides. The sponsor needs to be sure to provide sufficient information that the agency has the best chance of recreating the environment for reproducing the results. Through the pilot process then, both parties can understand what needs to be communicated at the time of submission to reduce unexpected findings and business critical issues that need to resolved quickly.</p>
+<p>The pilots are also allowing sponsors and agencies to look at modernising the content of the submission, moving from static tables, listings and figures to more dynamic, interactive presentations through web applications and dynamic HTML presentations. This goes beyond the “evolution” described by Novo Nordisk towards a true “revolution” in what sponsors submit to agencies and how they review the contents of those submissions.</p>
+<p>Yet still some doubts persist. If a sponsor submits analytical results using Tool X, but the agency reviewer re-analyses the data with Tool Y and sees a different result, who owns reconciling the differences? The sponsor, via a time-bound Information Request from the agency? The agency? The developer of Tool X? When the majority of analysis uses only one tool for analysis, this situation is likely to be a rare occurence. But when the toolset available to both sponsors and agencies becomes wider, then resolving these questions is likely to come up more often.</p>
+<p>And what about agencies who typically do not re-analyse sponsor data? How can the industry provide reassurance and proof that analytical environments are validated: accurate, reproducible and traceable? When installation of software into an environment is a one-step process, we can be pretty sure of consistency across analysts. But if there are multiple steps involved, and the software can change almost daily, then how do we ensure this consistency and reproducibility? This is not just the job of IT organisations within sponsor companies, but the responsibility of the individual analyst, to ensure that they are working compliant with organisational processes and in validated environments. Audit trails and traceability helps ensure this, but it is a potential source of doubt for both sponsor and regulatory authority.</p>
+</section>
+<section id="how-to-contribute" class="level2" data-number="6.5">
+<h2 data-number="6.5" class="anchored" data-anchor-id="how-to-contribute"><span class="header-section-number">6.5</span> How to Contribute</h2>
+<p>Contribute to the discussion here in GitHub Discussions:<br>
+<a href="https://github.com/phuse-org/OSTCDA/discussions/6" target="_blank">Will the <strong>FDA</strong> accept data and analyses generated with solutions developed and available as open source?</a></p>
+<p>All contributions should:</p>
 <ul>
 <li><p>Provide your thoughts and perspectives</p></li>
 <li><p>Provide references to articles, webinars, presentations (citations, links)</p></li>
 <li><p>Be respectful in this community</p></li>
 </ul>
+</section>
+<section id="references" class="level2" data-number="6.6">
+<h2 data-number="6.6" class="anchored" data-anchor-id="references"><span class="header-section-number">6.6</span> References</h2>
+<p>Bell, B “Issues with Open Source Statistical Software in Industry: Validation, Legal Issues, and Regulatory Requirements” ASA JSM 2006.</p>
+<p>Sukop, M “Using R: Perspectives of a FDA Statistical RevieweR”. UseR 2007 <a href="https://www.r-project.org/conferences/useR-2007/program/presentations/soukup.pdf" class="uri">https://www.r-project.org/conferences/useR-2007/program/presentations/soukup.pdf</a></p>
+<p>U.S. Food &amp; Drug Administration. (2015, May 6).Statistical Software Clarifing Statement. Retrieved from FDA.gov: <a href="https://www.fda.gov/media/109552/download" class="uri">https://www.fda.gov/media/109552/download</a></p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-Bell2006" class="csl-entry" role="listitem">
+Bell, B. 2006. <span>“Issues with Open Source Statistical Software in Industry: Validation, Legal Issues, and Regulatory Requirements.”</span> <a href="https://ww2.amstat.org/meetings/jsm/2006/onlineprogram/index.cfm?fuseaction=people_index&amp;letter=B" class="uri">https://ww2.amstat.org/meetings/jsm/2006/onlineprogram/index.cfm?fuseaction=people_index&amp;letter=B</a>.
+</div>
+<div id="ref-OSNDAs" class="csl-entry" role="listitem">
+Bowsher, P. n.d. <span>“Open-Source-in-New-Drug-Applications-NDAs-FDA.”</span> <a href="https://github.com/philbowsher/Open-Source-in-New-Drug-Applications-NDAs-FDA" class="uri">https://github.com/philbowsher/Open-Source-in-New-Drug-Applications-NDAs-FDA</a>.
+</div>
+<div id="ref-FDA2015" class="csl-entry" role="listitem">
+Drug Administration (FDA), U. S. Food &amp;. 2015. <span>“Statistical Software Clarifying Statement.”</span> <a href="https://www.fda.gov/media/161196/download" class="uri">https://www.fda.gov/media/161196/download</a>.
+</div>
+<div id="ref-Novo2023" class="csl-entry" role="listitem">
+Knoph, Larsen, A. S. 2023. <span>“Novo Nordisk’s Journey to an r Based FDA Submission.”</span> <a href="https://www.youtube.com/watch?v=t33dS17QHuA" class="uri">https://www.youtube.com/watch?v=t33dS17QHuA</a>.
+</div>
+<div id="ref-Roche2023" class="csl-entry" role="listitem">
+Neitman, Martin, T. 2023. <span>“Shifting to an Open-Source Backbone in Clinical Trials with Roche.”</span> <a href="https://www.youtube.com/watch?v=nqJsLSLd39A" class="uri">https://www.youtube.com/watch?v=nqJsLSLd39A</a>.
+</div>
+<div id="ref-SubmissionsWG2021" class="csl-entry" role="listitem">
+<span>“R Consortium Submissions Working Group.”</span> 2021. <a href="https://rconsortium.github.io/submissions-wg/" class="uri">https://rconsortium.github.io/submissions-wg/</a>.
+</div>
+<div id="ref-Schuette2018" class="csl-entry" role="listitem">
+Schuette, P. 2018. <span>“Using r in a Regulatory Environment: Some FDA Perspectives.”</span> <a href="https://rinpharma.com/publication/rinpharma_7/" class="uri">https://rinpharma.com/publication/rinpharma_7/</a>.
+</div>
+<div id="ref-Soukup2007" class="csl-entry" role="listitem">
+Soukup, M. 2007. <span>“Using r: Perspectives of a FDA Statistical RevieweR.”</span> <a href="https://www.r-project.org/conferences/useR-2007/program/presentations/soukup.pdf" class="uri">https://www.r-project.org/conferences/useR-2007/program/presentations/soukup.pdf</a>; useR.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
