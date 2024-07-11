@@ -1,5 +1,5 @@
 ---
-title: "Funding OS"
+title: "(-) Funding OS"
 ---
 
 ## Is it possible for industry fund open source?

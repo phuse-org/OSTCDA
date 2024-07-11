@@ -1,5 +1,5 @@
 ---
-title: "OS in the Long Run"
+title: "(-) OS in the Long Run"
 ---
 
 ## How do we ensure that the solutions being developed today will exist in the long run?

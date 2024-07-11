@@ -1,5 +1,5 @@
 ---
-title: "Why Open Source?"
+title: "(-) Why Open Source?"
 ---
 
 ## What is the 'why' for using open source solutions in pharma clinical data analytics?

@@ -1,5 +1,5 @@
 ---
-title: "Cost of Open Source"
+title: "(-) Cost of Open Source"
 ---
 
 ## What is the true cost of implementing open source solutions?
