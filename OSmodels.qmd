@@ -1,5 +1,5 @@
 ---
-title: "OS Business Models"
+title: "(-) OS Business Models"
 ---
 
 ## What open source models are available for businesses?

@@ -1,5 +1,5 @@
 ---
-title: "User Development"
+title: "(-) User Development"
 ---
 
 ## How do you transform the traditional Statistical Programmer into the future Data Scientist?

@@ -111,7 +111,7 @@ To further safeguard the project, organizations could consider implementing a fo
 
 ### Cyber Resilience Act
 
-Another topic brought up by James Black is the ["Cyber Resilience Act"](https://www.european-cyber-resilience-act.com/){target="_blank"}. The Cyber Resilience Act is a significant piece of legislation that will introduce new responsibilities specifically for organizations and companies providing open-source software. This act aims to enhance the overall cybersecurity posture of the digital ecosystem by establishing a robust framework for managing cyber risks. 
+Another topic brought up by James Black is the ["Cyber Resilience Act"](https://www.european-cyber-resilience-act.com/){target="_blank"}. The EU Cyber Resilience Act is a significant piece of legislation that will introduce new responsibilities specifically for organizations and companies providing open-source software. This act aims to enhance the overall cybersecurity posture of the digital ecosystem by establishing a robust framework for managing cyber risks. 
 
 For open-source providers, this could mean implementing more stringent security measures, conducting regular vulnerability assessments, and ensuring timely patching and updates. It may also necessitate greater transparency about their security practices and more rigorous reporting of security incidents. 
 
