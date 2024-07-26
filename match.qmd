@@ -2,25 +2,98 @@
 title: "Numerical Matching"
 ---
 
-## Do we need to match SAS numerically when using a different language?
+# What if open source languages and commercial software (such as SAS), do not match numerically with the results they give?
 
--   What if we the same inputs yield similar, but numerically different results?
+-   What if the same inputs yield similar, but numerically different results?
 
--   What if we the same inputs yield drastically different results?
+-   What if the same inputs yield drastically different results?
 
--   What is the truth? Which is correct?
+-   What is the truth? Which is correct? Can any be considered 'correct'?
 
--   What if SAS and R are equivalent, but a third language yields numerical differences?
+# Historical Background
 
-## How to Contribute
+The statistical analysis system (SAS), was developed by a collective of eight USA southern state universities in the late 1960's. The company SAS institute Inc. was founded in 1976, and their first product release of Base SAS, consisted of approximately 300,000 lines of code^1^. During the first 30 years of existance, SAS software became renowned in the highly regulated medical research industry, for its well documented methodology and its high quality, reproducible, robust and reliable analysis implementation. This made it the number one data analysis tool in the pharmaceutical industry and a gold standard for regulatory submissions around the world.
+
+R has available since 1993 with packages being added continuously, providing a continual development cycle and user-led package development^2^. This open-source language has a package repository called CRAN (Comprehensive R Archive Network) with over 21000 packages in it. The momentum and adoption of R in Pharma is growing, likely due to:
+
+1)  the wide range of additional functionality compared to SAS, which can lead to better efficiencies,
+2)  the large quantity of open source development of packages, which is often conducted through github repositories. In recent times, the [pharmaverse](https://pharmaverse.org/e2eclinical/)^3^ project demonstrates multiple packages designed specifically to resolve the needs of conducting analysis in medical research with a focus on the regulatory needs.
+
+SAS and R would have experienced entirely different challenges during their early development periods. For SAS, latency (speed to do computations) was very low compared to modern computers. The time for a computer to implement a complex statistical analysis (or even a simple one) would have initially been very long! This would have made numerical approximations (faster algorithms) very attractive in order to reduce computational time required to conduct analysis.  As computational power improved, the speed to do analysis rapidly improved. The need to simplify an analysis to an approximation or more simple algorithm was less important. Hence SAS increased its functionality adding more methods. However, due to its rigorous reproducibility and backwards compatibility commitments, the 'default' method remained as the original, and new methods (which were often more complex) were added as options to the original SAS procedures.
+
+With R being developed in the 1990's, it didn't have such a restriction on speed of computation. This means that the methods that R defaults to, are often the ones that were most commonly used when that package was developed, or that were documented in the literature with better performance compared to an older methodology.
+
+In conclusion, if you write code in SAS and R without specifying fully your analysis using the optional parameters or knowing your default options, it is very likely that the analysis they conduct could be different. In many cases, adding detail to your code (Specifying all options clearly), specifies exactly the analysis you want SAS or R to do, which then results in SAS and R applying the same methods and you getting the same results. However, there are still cases where some analyses are only available in SAS and some only in R.
+
+The [PHUSE CAMIS Project](https://psiaims.github.io/CAMIS/) compares default analysis methods in SAS, R and Python, documents which options need to be specified in order to obtain a reproduction of the same analysis and identifies cases where software can not replicate the same analysis.
+
+# Why do we need languages / software to align on results and does it need to be identical?
+
+**Statistical Interpretation Perspective**
+
+From a Statistical Interpretation Perspective, results obtained from different languages or software which are in line but not identical would be interpreted in the same way. Hence the conclusion of the trial would not be affected by lack of identical replication of statistical analysis results.
+
+In fact, it is common for regulators to require sensitivity analysis to explore how robust the analysis is to handling of missing data and model assumptions. Therefore, we would hope that by applying slightly different methods would not change interpretation of the results, otherwise we may have concerns regarding the robustness of our analysis and the transferability of those results to the real world.
+
+If results did differ by a clinically important amount, then it would be very important to further investigate and justify the differences.
+
+**In Practice !**
+
+Despite the above, in practice, the medical research industry is governed by strict processes and SOPs to ensure quality of statistical analysis. For this reason, many companies apply a double programming approach to ensure 100% independent replication of results (a full identical match when 2 programmers do the same work independantly). In addition, if the inital work is done by a Contract Research Organization (CRO), working with a pharmaceutical companies, the analysis may be programmed a third time to replicate results in two different companies systems. Finally, when results are submitted to the regulators, they will also program the results and attempt replication.
+
+Therefore, in all these cases if a full identical match cannot be obtained, it is likely that the programmers in all organizations would have to spend substantial time looking into the discrepancy, to try to provide a full explanation and justification, or do updates so a match can be obtained, before the analysis would be passed as acceptable.
+
+Input dataset differences
+
+Parameterization differences
+
+Incorrect model or methods used vs SAP
+
+Problem that the above takes a lot of time, and can affect relationships between clients / regulators, if matches cannot be easily achieved.
+
+# Potential Reasons for Analysis Results being Different
+
+1 Check your input datasets are identical (different input = different output !)
+
+```         
+-   This should include the sort order since some algorithms may work differently if data is differently sorted
+```
+
+2 SAP detail must be thorough.
+
+·Obtain source documents on the derviations the software claims it is doing -- do they claim to do the same thing?  If No. stop !
+
+· If yes: and if possible, break it down/ view source code to check derivation. Do hand calculations match the software, if not why.  If Yes, then which doesn't & why.
+
+·Email the package author to obtain the algorithm -- check SAS help pages
+
+· Run simple datasets vs complex datasets through -- same result? May help to explain discrepancy
+
+·Search for others who found the same problem... stackoverlow, SAS help 3 Checking CAMIS for known discrepancies
+
+# Documenting the Analysis you Plan to Do
+
+It is no longer acceptable, to write statistical analysis plans which describe the analysis in insufficient detail, expecting readers to be using the SAS defaults.  Instead SAPs need to be written with full explanation of the method beign applied, including any detail on convergence methods, continuity corrections applied, and options selected.  This can  often be challenging since the methodology can be statistically complex and statisticians have got so used to SAS, that there is still a bias towards using the methods that SAS does as default rather than the method which is best for the analysis of your data.
+
+# How to Contribute
 
 Contribute to the discussion here in GitHub Discussions:\
 [Do we need to match SAS numerically when using a different language?](https://github.com/phuse-org/OSTCDA/discussions/11){target="_blank"}
 
-## Guidance
+# Guidance
 
 -   Provide your thoughts and perspectives
 
 -   Provide references to articles, webinars, presentations (citations, links)
 
 -   Be respectful in this community
+
+# References
+
+1.  https://www.sas.com/en_us/company-information/history.html
+
+2.  https://royalsocietypublishing.org/doi/10.1098/rsos.221550
+
+3.  https://pharmaverse.org/e2eclinical/
+
+4.  https://psiaims.github.io/CAMIS/
