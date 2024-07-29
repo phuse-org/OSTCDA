@@ -2,7 +2,7 @@
 title: "Numerical Matching"
 ---
 
-# What if open source languages and commercial software (such as SAS), do not match numerically with the results they give?
+## What if open source languages and commercial software (such as SAS), do not match numerically with the analysis results they give?
 
 -   What if the same inputs yield similar, but numerically different results?
 
@@ -10,77 +10,125 @@ title: "Numerical Matching"
 
 -   What is the truth? Which is correct? Can any be considered 'correct'?
 
-# Historical Background
+## Historical Background
 
-The statistical analysis system (SAS), was developed by a collective of eight USA southern state universities in the late 1960's. The company SAS institute Inc. was founded in 1976, and their first product release of Base SAS, consisted of approximately 300,000 lines of code^1^. During the first 30 years of existance, SAS software became renowned in the highly regulated medical research industry, for its well documented methodology and its high quality, reproducible, robust and reliable analysis implementation. This made it the number one data analysis tool in the pharmaceutical industry and a gold standard for regulatory submissions around the world.
+The statistical analysis system (SAS), was developed by a collective of eight USA southern state universities in the late 1960's. The company SAS institute Inc. was founded in 1976, and their first product release of Base SAS, consisted of approximately 300,000 lines of code^1^. During the first 30 years of existence, SAS software became renowned in the highly regulated medical research industry, for its well documented methodology and its high quality, reproducible, robust and reliable analysis implementation. This made it the number one data analysis tool in the pharmaceutical industry and a gold standard for regulatory submissions around the world.
 
 R has available since 1993 with packages being added continuously, providing a continual development cycle and user-led package development^2^. This open-source language has a package repository called CRAN (Comprehensive R Archive Network) with over 21000 packages in it. The momentum and adoption of R in Pharma is growing, likely due to:
 
-1)  the wide range of additional functionality compared to SAS, which can lead to better efficiencies,
+1)  the wide range of additional functionality compared to SAS, which can lead to better efficiency,
 2)  the large quantity of open source development of packages, which is often conducted through github repositories. In recent times, the [pharmaverse](https://pharmaverse.org/e2eclinical/)^3^ project demonstrates multiple packages designed specifically to resolve the needs of conducting analysis in medical research with a focus on the regulatory needs.
 
-SAS and R would have experienced entirely different challenges during their early development periods. For SAS, latency (speed to do computations) was very low compared to modern computers. The time for a computer to implement a complex statistical analysis (or even a simple one) would have initially been very long! This would have made numerical approximations (faster algorithms) very attractive in order to reduce computational time required to conduct analysis.  As computational power improved, the speed to do analysis rapidly improved. The need to simplify an analysis to an approximation or more simple algorithm was less important. Hence SAS increased its functionality adding more methods. However, due to its rigorous reproducibility and backwards compatibility commitments, the 'default' method remained as the original, and new methods (which were often more complex) were added as options to the original SAS procedures.
+SAS and R would have experienced entirely different challenges during their early development periods. For SAS, latency (speed to do computations) was very low compared to modern computers. The time for a computer to implement a complex statistical analysis (or even a simple one) would have initially been very long! This would have made numerical approximations (faster algorithms) very attractive in order to reduce computational time required to conduct analysis. As computational power improved, the speed to do analysis rapidly improved. The need to simplify an analysis to an approximation or more simple algorithm was less important. Hence SAS increased its functionality adding more methods. However, due to its rigorous reproducibility and backwards compatibility commitments, the 'default' method remained as the original, and new methods (which were often more complex) were added as options to the original SAS procedures.
 
 With R being developed in the 1990's, it didn't have such a restriction on speed of computation. This means that the methods that R defaults to, are often the ones that were most commonly used when that package was developed, or that were documented in the literature with better performance compared to an older methodology.
 
-In conclusion, if you write code in SAS and R without specifying fully your analysis using the optional parameters or knowing your default options, it is very likely that the analysis they conduct could be different. In many cases, adding detail to your code (Specifying all options clearly), specifies exactly the analysis you want SAS or R to do, which then results in SAS and R applying the same methods and you getting the same results. However, there are still cases where some analyses are only available in SAS and some only in R.
+In conclusion, if you write code in SAS and R without specifying fully your analysis using the optional parameters or knowing your default options, it is very likely that the analysis they conduct could be different. In many cases, adding detail to your code (Specifying all options clearly), specifies exactly the analysis you want SAS or R to do, which then ensures that SAS and R are applying the same methods and you get the same results. However, there are still cases where some analyses are only available in SAS and some only in R.
 
-The [PHUSE CAMIS Project](https://psiaims.github.io/CAMIS/) compares default analysis methods in SAS, R and Python, documents which options need to be specified in order to obtain a reproduction of the same analysis and identifies cases where software can not replicate the same analysis.
+The [PHUSE CAMIS Project](https://psiaims.github.io/CAMIS/)^4^ compares default analysis methods in SAS, R and Python, documents which options need to be specified in order to obtain a reproduction of the same analysis and identifies cases where software can not replicate the same analysis.
 
-# Why do we need languages / software to align on results and does it need to be identical?
+## Why do we need languages / software to align on results and does it need to be identical?
 
-**Statistical Interpretation Perspective**
+### Statistical Interpretation Perspective
 
-From a Statistical Interpretation Perspective, results obtained from different languages or software which are in line but not identical would be interpreted in the same way. Hence the conclusion of the trial would not be affected by lack of identical replication of statistical analysis results.
+From a Statistical Interpretation Perspective, results obtained from different languages or software which are in line (similar) but not identical would be interpreted in the same way. Hence the conclusion of the trial would not be affected by lack of identical replication of statistical analysis results.
 
-In fact, it is common for regulators to require sensitivity analysis to explore how robust the analysis is to handling of missing data and model assumptions. Therefore, we would hope that by applying slightly different methods would not change interpretation of the results, otherwise we may have concerns regarding the robustness of our analysis and the transferability of those results to the real world.
+In fact, it is common for regulators to require sensitivity analysis to explore how robust the analysis is to handling of missing data and model assumptions. Therefore, we would hope that applying slightly different methods, would not change interpretation of the results, otherwise we may have concerns regarding the robustness of our analysis and the transferability of those results to the real world.
 
 If results did differ by a clinically important amount, then it would be very important to further investigate and justify the differences.
 
-**In Practice !**
+### In Practice !
 
-Despite the above, in practice, the medical research industry is governed by strict processes and SOPs to ensure quality of statistical analysis. For this reason, many companies apply a double programming approach to ensure 100% independent replication of results (a full identical match when 2 programmers do the same work independantly). In addition, if the inital work is done by a Contract Research Organization (CRO), working with a pharmaceutical companies, the analysis may be programmed a third time to replicate results in two different companies systems. Finally, when results are submitted to the regulators, they will also program the results and attempt replication.
+Despite the above, in practice, the medical research industry is governed by strict processes and Standard operative procedures (SOPs) to ensure quality of statistical analysis. For this reason, many companies apply a double programming approach to ensure 100% independent replication of results. This requires a full identical match to be obtained when two programmers do the same work independently. In addition, if the initial work is done by a Contract Research Organization (CRO), working with a pharmaceutical company, the analysis may be programmed a third time to replicate results in the two different companies systems. Finally, when results are submitted to the regulators, they will also program the results and attempt replication.
 
-Therefore, in all these cases if a full identical match cannot be obtained, it is likely that the programmers in all organizations would have to spend substantial time looking into the discrepancy, to try to provide a full explanation and justification, or do updates so a match can be obtained, before the analysis would be passed as acceptable.
+Therefore, in all these cases if a full identical match cannot be obtained, this introduces uncertainty, apprehension and nervousness about the results being presented. Are they correct ? ! Why don't we get the same results doing the same analysis in another language / software.
 
-Input dataset differences
+It is likely that the statisticians, data analysts or programmers in all organizations would have to spend substantial time looking into the discrepancy, to try to provide a full explanation and justification, or do updates so a match can be obtained, before the analysis would be passed as acceptable and trustworthy. This is often at a critical time in the drug development program and can adversely affect relationships between customers / clients and regulators, if matches cannot be easily achieved.
 
-Parameterization differences
+## Possible Reasons for Analysis Results being Different
 
-Incorrect model or methods used vs SAP
+Common reasons for not obtaining a match when using different software consist of:
 
-Problem that the above takes a lot of time, and can affect relationships between clients / regulators, if matches cannot be easily achieved.
+-   Input dataset differences
 
-# Potential Reasons for Analysis Results being Different
+    -   Check your input datasets are identical (different input = different output !)
 
-1 Check your input datasets are identical (different input = different output !)
+    -   NOTE: This may need to also include the sort order since some algorithms may work differently if data is differently sorted
 
-```         
--   This should include the sort order since some algorithms may work differently if data is differently sorted
-```
+-   Different model or methods used compared to your statistical analysis plan (SAP)
 
-2 SAP detail must be thorough.
+    -   Perhaps the SAP clearly specifies the analysis, however your results is not in line, due to differences in the default options, handling of missing data or tied data, modelling assumptions, method, algorithms, modelling values, convergence methods, optimization routines or parameterization it is using
 
-·Obtain source documents on the derviations the software claims it is doing -- do they claim to do the same thing?  If No. stop !
+    -   Check the software / package documentation to verify it is doing the analysis method specified in the SAP. NOTE: you may have to do your own research to fully understand how methods are being implemented in software. Replication by hand or in additional programming to see if you can test the results versus what you would expect using the equations. Check on website help pages, StackOverflow etc, to see if others have already found the issue. Contact the software company or author to request clarity on the method the software is implementing.
 
-· If yes: and if possible, break it down/ view source code to check derivation. Do hand calculations match the software, if not why.  If Yes, then which doesn't & why.
+    -   Check [PHUSE CAMIS Project](https://psiaims.github.io/CAMIS/)^4^ for any additional detail already available. If you find something not already documented, please consider contributing
 
-·Email the package author to obtain the algorithm -- check SAS help pages
+    -   NOTE: sometimes the results may match in most cases, with exception for a particular scenario in your data (small samples, tied data, missing data or thresholds being met), which results in different handling of these cases being made by the software / languages and hence different methods being used and different results obtained.
 
-· Run simple datasets vs complex datasets through -- same result? May help to explain discrepancy
+-   SAP does not specify enough detail of what analysis is required
 
-·Search for others who found the same problem... stackoverlow, SAS help 3 Checking CAMIS for known discrepancies
+    -   SAP is ambiguous - there are different ways to do the analysis method and the SAP does not clearly specify the method that should be applied.
 
-# Documenting the Analysis you Plan to Do
+    -   It is not sufficient to write a SAP with the SAS defaults being assumed. The method needs to be fully specified such that it can be replicated in any language or software.
 
-It is no longer acceptable, to write statistical analysis plans which describe the analysis in insufficient detail, expecting readers to be using the SAS defaults.  Instead SAPs need to be written with full explanation of the method beign applied, including any detail on convergence methods, continuity corrections applied, and options selected.  This can  often be challenging since the methodology can be statistically complex and statisticians have got so used to SAS, that there is still a bias towards using the methods that SAS does as default rather than the method which is best for the analysis of your data.
+    -   If the method is not clearly specified in the SAP, default methods may be assumed, and these may be different across software / languages.
 
-# How to Contribute
+    -   Update SAP to be more specific.
+
+-   Same Methods are being applied but different rounding of the final result. SAS and R round differently by default. See [here](https://psiaims.github.io/CAMIS/Comp/r-sas_rounding.html) for more detail.
+
+-   There is a bug is the software / package derivation and the results are incorrect
+
+    -   This is the least commonly found issue when renown software and packages are being used. It is more common that the method being implemented is actually planned by the software / package authors to be different, rather than incorrectly programmed.
+
+## Best practice steps
+
+The [White paper](https://phuse.s3.eu-central-1.amazonaws.com/Deliverables/Data+Visualisation+%26+Open+Source+Technology/WP077.pdf)^5^ describes key considerations when understanding differences in statistical methodology implementations across programming languages.
+
+The Key Message is to **ensure that the SAP fully documents the analysis method you plan to do and ensure that the software you use is implementating that analysis method.**
+
+It is no longer acceptable, to write statistical analysis plans which describe the analysis in insufficient detail, expecting readers to be using the SAS defaults. Instead SAPs need to be written with full explanation of the method being applied, including any detail on convergence methods, continuity corrections applied, and options selected. This can often be challenging since the methodology can be statistically complex and statisticians have got so used to SAS, that there is still a bias towards using the methods that SAS does as default rather than the method which is best for the analysis of your data.
+
+## Example 1 : Signed Rank Test
+
+SAP states: For this 2-period, cross-over study comparing Treatments A and B, a wilcoxon signed-rank test will be applied.
+
+The analysis is run in SAS and R and slightly different p-values are obtained.
+
+After much research, it is found to be due to the following:
+
+SAS describes its method [here](https://support.sas.com/documentation/cdl/en/procstat/63104/HTML/default/viewer.htm#procstat_univariate_sect029.htm)^6^. For samples \<=20 it applies the exact method (scaled binomial distributions). For samples \>20 it uses an approximation method using the student's t distribution. It also has a method for handling of tied data.
+
+CAMIS repo describe the R options [here](https://psiaims.github.io/CAMIS/R/wilcoxonsr_hodges_lehman.html). Using stats package (version 3.6.2), allows you to specify if you want to use an exact method or normal approximation for any sample size. However there is no method for handling tied data, R excludes these results from the analysis.
+
+Hence for samples without ties and with \<20 observations, SAS and R p-values match, however if you do have tied results or \>20 observations, it's likely that you will get slightly different p-values in SAS and R.
+
+SAP should be updated (for example) to say: For this 2-period, cross-over study comparing Treatments A and B, a wilcoxon signed-rank test **using a normal approximation** **as described in the stats package (version 3.6.2)** will be applied.
+
+## Example 2: Survival Analysis, Kaplan-Meier and Log Rank Test
+
+SAP states: Kaplan-Meier plots (with 95% CIs) of Overall Survival will be presented by treatment group. Overall survival will be analyzed using a stratified log-rank test with hazard ratio and 95% CI from the cox-proportional hazards model.
+
+The analysis is run in SAS and R and although the p-values from the Cox-proportional hazard model are in agreement, we get slightly different confidence intervals on the Kaplan-Meier plots and for the estimate of the Hazard ratio (+/- 95% CIs) estimated from the Cox-proportional hazard model.
+
+After much research, it is found to be due to the following as documented on the CAMIS repository [here](https://psiaims.github.io/CAMIS/Comp/r-sas_survival.html).
+
+-   In SAS, the default Kaplan-Meier confidence interval calculation method is using the log-log method whereas in R package `survival::survfit` function the default method is the log method.
+
+-   In SAS, the default method for handling of ties in a Cox-propotional hazard model is to use the breslow method, however, in R package `survival::coxph` , the default method is efron.
+
+Both of these issues can be resolved but adding options to the code to specify the method. However, the SAP did not specify the methods to use fully enough.
+
+SAP should be updated (for example) to say: Kaplan-Meier plots (with 95% CIs **calculated using the log-log method**) of Overall Survival will be presented by treatment group. Overall survival will be analyzed using a stratified log-rank test with hazard ratio and 95% CI from the cox-proportional hazards model **calculated using** **the efron method in the case of tied survival times**.
+
+## How to Contribute
 
 Contribute to the discussion here in GitHub Discussions:\
 [Do we need to match SAS numerically when using a different language?](https://github.com/phuse-org/OSTCDA/discussions/11){target="_blank"}
 
-# Guidance
+Contribute to the CAMIS repository [here](https://psiaims.github.io/CAMIS/contribution/contribution.html).
+
+## Guidance
 
 -   Provide your thoughts and perspectives
 
@@ -88,7 +136,7 @@ Contribute to the discussion here in GitHub Discussions:\
 
 -   Be respectful in this community
 
-# References
+## References
 
 1.  https://www.sas.com/en_us/company-information/history.html
 
@@ -97,3 +145,7 @@ Contribute to the discussion here in GitHub Discussions:\
 3.  https://pharmaverse.org/e2eclinical/
 
 4.  https://psiaims.github.io/CAMIS/
+
+5.  https://phuse.s3.eu-central-1.amazonaws.com/Deliverables/Data+Visualisation+%26+Open+Source+Technology/WP077.pdf
+
+6.  https://support.sas.com/documentation/cdl/en/procstat/63104/HTML/default/viewer.htm#procstat_univariate_sect029.htm
