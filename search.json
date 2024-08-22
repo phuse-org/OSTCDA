@@ -514,17 +514,77 @@
     "href": "match.html",
     "title": "10  Numerical Matching",
     "section": "",
-    "text": "10.1 Do we need to match SAS numerically when using a different language?",
+    "text": "10.1 What if open source languages and commercial software (such as SAS), do not match numerically with the analysis results they give?",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Numerical Matching</span>"
     ]
   },
   {
-    "objectID": "match.html#do-we-need-to-match-sas-numerically-when-using-a-different-language",
-    "href": "match.html#do-we-need-to-match-sas-numerically-when-using-a-different-language",
+    "objectID": "match.html#what-if-open-source-languages-and-commercial-software-such-as-sas-do-not-match-numerically-with-the-analysis-results-they-give",
+    "href": "match.html#what-if-open-source-languages-and-commercial-software-such-as-sas-do-not-match-numerically-with-the-analysis-results-they-give",
     "title": "10  Numerical Matching",
     "section": "",
-    "text": "What if we the same inputs yield similar, but numerically different results?\nWhat if we the same inputs yield drastically different results?\nWhat is the truth? Which is correct?\nWhat if SAS and R are equivalent, but a third language yields numerical differences?",
+    "text": "What if the same inputs yield similar, but numerically different results?\nWhat if the same inputs yield drastically different results?\nWhat is the truth? Which is correct? Can any be considered ‘correct’?",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Numerical Matching</span>"
+    ]
+  },
+  {
+    "objectID": "match.html#historical-background",
+    "href": "match.html#historical-background",
+    "title": "10  Numerical Matching",
+    "section": "10.2 Historical Background",
+    "text": "10.2 Historical Background\nThe statistical analysis system SAS was developed by a collective of eight USA southern state universities in the late 1960’s. The SAS Institute Inc. was founded in 1976, and their first product release of Base SAS, consisted of approximately 300,000 lines of code1. During the first 30 years of existence, SAS software became renowned in the highly regulated medical research industry, for its well documented methodology and its high quality, reproducible, robust and reliable analysis implementation. This made it the number one data analysis tool in the pharmaceutical industry and a gold standard for regulatory submissions around the world.\nR has been available since 1993 with packages being added continuously, providing a continual development cycle and user-led package development2. This open-source language has a package repository called CRAN (Comprehensive R Archive Network) with over 21000 packages in it. The momentum and adoption of R in Pharma is growing, likely due to:\n\nit being a common tool used by students, academics and other industries,\nit’s ability to produce interactive reporting and graphics\nthe large quantity of open source development of packages, which is often conducted through github repositories. Recently, the pharmaverse3 has been created which pulls together multiple packages designed specifically to resolve the needs of conducting analysis in medical research with a focus on the regulatory needs.\n\nIt is commonly found that if the user does not change the default options in SAS and R for a particular analysis, then the results that are output are different! But why is this …?!\nSAS and R would have experienced entirely different challenges during their early development periods. For SAS, latency (speed to do computations) was very low compared to modern computers. The time for a computer to implement a complex statistical analysis (or even a simple one) would have initially been very long! This would have made numerical approximations (faster algorithms) very attractive in order to reduce computational time required to conduct analysis. As computational power improved, the speed to do analysis rapidly improved. The need to simplify an analysis to an approximation or more simple algorithm was less important. Hence SAS increased its functionality adding more methods. However, due to its rigorous reproducibility and backwards compatibility commitments, the ‘default’ method remained as the original, and new methods (which were often more complex) were added as options to the original SAS procedures.\nWith R being developed in the 1990’s, it didn’t have such a restriction on speed of computation. This means that the methods that R defaults to, are often the ones that were most commonly used when that package was developed, or that were documented in the literature with better performance compared to an older methodology.\nIn conclusion, if you write code in SAS and R without specifying fully your analysis using the optional parameters or knowing your default options, it is very likely that the analysis they conduct could be different. In many cases, adding detail to your code (Specifying all options clearly), specifies exactly the analysis you want SAS or R to do, which then ensures that SAS and R are applying the same methods and you get the same results. However, there are still cases where some analyses are only available in SAS and some only in R.\nThe PHUSE CAMIS Project4 compares default analysis methods in SAS, R and Python, documents which options need to be specified in order to obtain a reproduction of the same analysis and identifies cases where software can not replicate the same analysis.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Numerical Matching</span>"
+    ]
+  },
+  {
+    "objectID": "match.html#why-do-we-need-languages-software-to-align-on-results-and-does-it-need-to-be-identical",
+    "href": "match.html#why-do-we-need-languages-software-to-align-on-results-and-does-it-need-to-be-identical",
+    "title": "10  Numerical Matching",
+    "section": "10.3 Why do we need languages / software to align on results and does it need to be identical?",
+    "text": "10.3 Why do we need languages / software to align on results and does it need to be identical?\n\n10.3.1 Statistical Interpretation Perspective\nFrom a Statistical Interpretation Perspective, results obtained from different languages or software which are in line (similar) but not identical would be interpreted in the same way. Hence the conclusion of the trial would not be affected by lack of identical replication of statistical analysis results.\nIn fact, it is common for regulators to require sensitivity analysis to explore how robust the analysis is to handling of missing data and model assumptions. Therefore, we would hope that applying slightly different methods, would not change interpretation of the results, otherwise we may have concerns regarding the robustness of our analysis and the transferability of those results to the real world.\nIf results did differ by a clinically important amount, then it would be very important to further investigate and justify the differences.\n\n\n10.3.2 In Practice !\nDespite the above, in practice, the medical research industry is governed by strict processes and Standard Operative Procedures (SOPs) to ensure quality of statistical analysis. For this reason, many companies apply a double programming approach to ensure 100% independent replication of results. This requires a full identical match to be obtained when two programmers do the same work independently. In addition, if the initial work is done by a Contract Research Organization (CRO), working with a pharmaceutical company, the analysis may be programmed a third time to replicate results in the two different companies systems. Finally, when results are submitted to the regulators, they will also program the results and attempt replication.\nTherefore, in all these cases if a full identical match cannot be obtained, this introduces uncertainty, apprehension and nervousness about the results being presented. Are they correct ? ! Why don’t we get the same results doing the same analysis in another language / software.\nIt is likely that the statisticians, data analysts or programmers in all organizations would have to spend substantial time looking into the discrepancy, to try to provide a full explanation and justification, or do updates so a match can be obtained, before the analysis would be passed as acceptable and trustworthy. This is often at a critical time in the drug development program and can adversely affect relationships between customers / clients and regulators, if matches cannot be easily achieved.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Numerical Matching</span>"
+    ]
+  },
+  {
+    "objectID": "match.html#possible-reasons-for-analysis-results-being-different",
+    "href": "match.html#possible-reasons-for-analysis-results-being-different",
+    "title": "10  Numerical Matching",
+    "section": "10.4 Possible Reasons for Analysis Results being Different",
+    "text": "10.4 Possible Reasons for Analysis Results being Different\nCommon reasons for not obtaining a match when using different software consist of:\n\nInput dataset differences\n\nCheck your input datasets are identical (different input = different output !)\nNOTE: This may need to also include the sort order since some algorithms may work differently if data is differently sorted\n\nDifferent model or methods used compared to your statistical analysis plan (SAP)\n\nPerhaps the SAP clearly specifies the analysis, however your results is not in line, due to differences in the default options, handling of missing data or tied data, modelling assumptions, method, algorithms, modelling values, convergence methods, optimization routines or parameterization it is using\nCheck the software / package documentation to verify it is doing the analysis method specified in the SAP. NOTE: you may have to do your own research to fully understand how methods are being implemented in software. Replication by hand or in additional programming to see if you can test the results versus what you would expect using the equations. Check on website help pages, StackOverflow etc, to see if others have already found the issue. Contact the software company or author to request clarity on the method the software is implementing.\nCheck PHUSE CAMIS Project4 for any additional detail already available. If you find something not already documented, please consider contributing\nNOTE: sometimes the results may match in most cases, with exception for a particular scenario in your data (small samples, tied data, missing data or thresholds being met), which results in different handling of these cases being made by the software / languages and hence different methods being used and different results obtained.\n\nSAP does not specify enough detail of what analysis is required\n\nSAP is ambiguous - there are different ways to do the analysis method and the SAP does not clearly specify the method that should be applied.\nIt is not sufficient to write a SAP with the SAS defaults being assumed. The method needs to be fully specified such that it can be replicated in any language or software.\nIf the method is not clearly specified in the SAP, default methods may be assumed, and these may be different across software / languages.\nUpdate SAP to be more specific.\n\nSame Methods are being applied but different rounding of the final result. SAS and R round differently by default. See here for more detail.\nThere is a bug is the software / package derivation and the results are incorrect\n\nThis is the least commonly found issue when renown software and packages are being used. It is more common that the method being implemented is actually planned by the software / package authors to be different, rather than incorrectly programmed.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Numerical Matching</span>"
+    ]
+  },
+  {
+    "objectID": "match.html#best-practice-steps",
+    "href": "match.html#best-practice-steps",
+    "title": "10  Numerical Matching",
+    "section": "10.5 Best practice steps",
+    "text": "10.5 Best practice steps\nThe White paper5 describes key considerations when understanding differences in statistical methodology implementations across programming languages.\nThe Key Message is to ensure that the SAP fully documents the analysis method you plan to do and ensure that the software you use is implementating that analysis method.\nIt is no longer acceptable, to write statistical analysis plans which describe the analysis in insufficient detail, expecting readers to be using the SAS defaults. Instead SAPs need to be written with full explanation of the method being applied, including any detail on convergence methods, continuity corrections applied, and options selected. This can often be challenging since the methodology can be statistically complex and statisticians have got so used to SAS, that there is still a bias towards using the methods that SAS does as default rather than the method which is best for the analysis of your data.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Numerical Matching</span>"
+    ]
+  },
+  {
+    "objectID": "match.html#example-1-signed-rank-test",
+    "href": "match.html#example-1-signed-rank-test",
+    "title": "10  Numerical Matching",
+    "section": "10.6 Example 1 : Signed Rank Test",
+    "text": "10.6 Example 1 : Signed Rank Test\nSAP states: For this 2-period, cross-over study comparing Treatments A and B, a wilcoxon signed-rank test will be applied.\nThe analysis is run in SAS and R and slightly different p-values are obtained.\nAfter much research, it is found to be due to the following:\nSAS describes its method here6. For samples &lt;=20 it applies the exact method (scaled binomial distributions). For samples &gt;20 it uses an approximation method using the student’s t distribution. It also has a method for handling of tied data.\nCAMIS repo describe the R options here. Using stats package (version 3.6.2), allows you to specify if you want to use an exact method or normal approximation for any sample size. However there is no method for handling tied data, R excludes these results from the analysis.\nHence for samples without ties and with &lt;20 observations, SAS and R p-values match, however if you do have tied results or &gt;20 observations, it’s likely that you will get slightly different p-values in SAS and R.\nSAP should be updated (for example) to say: For this 2-period, cross-over study comparing Treatments A and B, a wilcoxon signed-rank test using a normal approximation as described in the stats package (version 3.6.2) will be applied.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Numerical Matching</span>"
+    ]
+  },
+  {
+    "objectID": "match.html#example-2-survival-analysis-kaplan-meier-and-log-rank-test",
+    "href": "match.html#example-2-survival-analysis-kaplan-meier-and-log-rank-test",
+    "title": "10  Numerical Matching",
+    "section": "10.7 Example 2: Survival Analysis, Kaplan-Meier and Log Rank Test",
+    "text": "10.7 Example 2: Survival Analysis, Kaplan-Meier and Log Rank Test\nSAP states: Kaplan-Meier plots (with 95% CIs) of Overall Survival will be presented by treatment group. Overall survival will be analyzed using a stratified log-rank test with hazard ratio and 95% CI from the cox-proportional hazards model.\nThe analysis is run in SAS and R and although the p-values from the Cox-proportional hazard model are in agreement, we get slightly different confidence intervals on the Kaplan-Meier plots and for the estimate of the Hazard ratio (+/- 95% CIs) estimated from the Cox-proportional hazard model.\nAfter much research, it is found to be due to the following as documented on the CAMIS repository here.\n\nIn SAS, the default Kaplan-Meier confidence interval calculation method is using the log-log method whereas in R package survival::survfit function the default method is the log method.\nIn SAS, the default method for handling of ties in a Cox-propotional hazard model is to use the breslow method, however, in R package survival::coxph , the default method is efron.\n\nBoth of these issues can be resolved but adding options to the code to specify the method. However, the SAP did not specify the methods to use fully enough.\nSAP should be updated (for example) to say: Kaplan-Meier plots (with 95% CIs calculated using the log-log method) of Overall Survival will be presented by treatment group. Overall survival will be analyzed using a stratified log-rank test with hazard ratio and 95% CI from the cox-proportional hazards model calculated using the efron method in the case of tied survival times.",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Numerical Matching</span>"
     ]
@@ -533,8 +593,8 @@
     "objectID": "match.html#how-to-contribute",
     "href": "match.html#how-to-contribute",
     "title": "10  Numerical Matching",
-    "section": "10.2 How to Contribute",
-    "text": "10.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nDo we need to match SAS numerically when using a different language?",
+    "section": "10.8 How to Contribute",
+    "text": "10.8 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nDo we need to match SAS numerically when using a different language?\nContribute to the CAMIS repository here.",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Numerical Matching</span>"
     ]
@@ -543,8 +603,18 @@
     "objectID": "match.html#guidance",
     "href": "match.html#guidance",
     "title": "10  Numerical Matching",
-    "section": "10.3 Guidance",
-    "text": "10.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
+    "section": "10.9 Guidance",
+    "text": "10.9 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Numerical Matching</span>"
+    ]
+  },
+  {
+    "objectID": "match.html#references",
+    "href": "match.html#references",
+    "title": "10  Numerical Matching",
+    "section": "10.10 References",
+    "text": "10.10 References\n\nhttps://www.sas.com/en_us/company-information/history.html\nhttps://royalsocietypublishing.org/doi/10.1098/rsos.221550\nhttps://pharmaverse.org/e2eclinical/\nhttps://psiaims.github.io/CAMIS/\nhttps://phuse.s3.eu-central-1.amazonaws.com/Deliverables/Data+Visualisation+%26+Open+Source+Technology/WP077.pdf\nhttps://support.sas.com/documentation/cdl/en/procstat/63104/HTML/default/viewer.htm#procstat_univariate_sect029.htm",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Numerical Matching</span>"
     ]

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.54">
+<meta name="generator" content="quarto-1.5.56">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -269,9 +269,20 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#do-we-need-to-match-sas-numerically-when-using-a-different-language" id="toc-do-we-need-to-match-sas-numerically-when-using-a-different-language" class="nav-link active" data-scroll-target="#do-we-need-to-match-sas-numerically-when-using-a-different-language"><span class="header-section-number">10.1</span> Do we need to match SAS numerically when using a different language?</a></li>
-  <li><a href="#how-to-contribute" id="toc-how-to-contribute" class="nav-link" data-scroll-target="#how-to-contribute"><span class="header-section-number">10.2</span> How to Contribute</a></li>
-  <li><a href="#guidance" id="toc-guidance" class="nav-link" data-scroll-target="#guidance"><span class="header-section-number">10.3</span> Guidance</a></li>
+  <li><a href="#what-if-open-source-languages-and-commercial-software-such-as-sas-do-not-match-numerically-with-the-analysis-results-they-give" id="toc-what-if-open-source-languages-and-commercial-software-such-as-sas-do-not-match-numerically-with-the-analysis-results-they-give" class="nav-link active" data-scroll-target="#what-if-open-source-languages-and-commercial-software-such-as-sas-do-not-match-numerically-with-the-analysis-results-they-give"><span class="header-section-number">10.1</span> What if open source languages and commercial software (such as SAS), do not match numerically with the analysis results they give?</a></li>
+  <li><a href="#historical-background" id="toc-historical-background" class="nav-link" data-scroll-target="#historical-background"><span class="header-section-number">10.2</span> Historical Background</a></li>
+  <li><a href="#why-do-we-need-languages-software-to-align-on-results-and-does-it-need-to-be-identical" id="toc-why-do-we-need-languages-software-to-align-on-results-and-does-it-need-to-be-identical" class="nav-link" data-scroll-target="#why-do-we-need-languages-software-to-align-on-results-and-does-it-need-to-be-identical"><span class="header-section-number">10.3</span> Why do we need languages / software to align on results and does it need to be identical?</a>
+  <ul class="collapse">
+  <li><a href="#statistical-interpretation-perspective" id="toc-statistical-interpretation-perspective" class="nav-link" data-scroll-target="#statistical-interpretation-perspective"><span class="header-section-number">10.3.1</span> Statistical Interpretation Perspective</a></li>
+  <li><a href="#in-practice" id="toc-in-practice" class="nav-link" data-scroll-target="#in-practice"><span class="header-section-number">10.3.2</span> In Practice !</a></li>
+  </ul></li>
+  <li><a href="#possible-reasons-for-analysis-results-being-different" id="toc-possible-reasons-for-analysis-results-being-different" class="nav-link" data-scroll-target="#possible-reasons-for-analysis-results-being-different"><span class="header-section-number">10.4</span> Possible Reasons for Analysis Results being Different</a></li>
+  <li><a href="#best-practice-steps" id="toc-best-practice-steps" class="nav-link" data-scroll-target="#best-practice-steps"><span class="header-section-number">10.5</span> Best practice steps</a></li>
+  <li><a href="#example-1-signed-rank-test" id="toc-example-1-signed-rank-test" class="nav-link" data-scroll-target="#example-1-signed-rank-test"><span class="header-section-number">10.6</span> Example 1 : Signed Rank Test</a></li>
+  <li><a href="#example-2-survival-analysis-kaplan-meier-and-log-rank-test" id="toc-example-2-survival-analysis-kaplan-meier-and-log-rank-test" class="nav-link" data-scroll-target="#example-2-survival-analysis-kaplan-meier-and-log-rank-test"><span class="header-section-number">10.7</span> Example 2: Survival Analysis, Kaplan-Meier and Log Rank Test</a></li>
+  <li><a href="#how-to-contribute" id="toc-how-to-contribute" class="nav-link" data-scroll-target="#how-to-contribute"><span class="header-section-number">10.8</span> How to Contribute</a></li>
+  <li><a href="#guidance" id="toc-guidance" class="nav-link" data-scroll-target="#guidance"><span class="header-section-number">10.9</span> Guidance</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">10.10</span> References</a></li>
   </ul>
 </nav>
     </div>
@@ -297,27 +308,126 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="do-we-need-to-match-sas-numerically-when-using-a-different-language" class="level2" data-number="10.1">
-<h2 data-number="10.1" class="anchored" data-anchor-id="do-we-need-to-match-sas-numerically-when-using-a-different-language"><span class="header-section-number">10.1</span> Do we need to match SAS numerically when using a different language?</h2>
+<section id="what-if-open-source-languages-and-commercial-software-such-as-sas-do-not-match-numerically-with-the-analysis-results-they-give" class="level2" data-number="10.1">
+<h2 data-number="10.1" class="anchored" data-anchor-id="what-if-open-source-languages-and-commercial-software-such-as-sas-do-not-match-numerically-with-the-analysis-results-they-give"><span class="header-section-number">10.1</span> What if open source languages and commercial software (such as SAS), do not match numerically with the analysis results they give?</h2>
 <ul>
-<li><p>What if we the same inputs yield similar, but numerically different results?</p></li>
-<li><p>What if we the same inputs yield drastically different results?</p></li>
-<li><p>What is the truth? Which is correct?</p></li>
-<li><p>What if SAS and R are equivalent, but a third language yields numerical differences?</p></li>
+<li><p>What if the same inputs yield similar, but numerically different results?</p></li>
+<li><p>What if the same inputs yield drastically different results?</p></li>
+<li><p>What is the truth? Which is correct? Can any be considered ‘correct’?</p></li>
 </ul>
 </section>
-<section id="how-to-contribute" class="level2" data-number="10.2">
-<h2 data-number="10.2" class="anchored" data-anchor-id="how-to-contribute"><span class="header-section-number">10.2</span> How to Contribute</h2>
+<section id="historical-background" class="level2" data-number="10.2">
+<h2 data-number="10.2" class="anchored" data-anchor-id="historical-background"><span class="header-section-number">10.2</span> Historical Background</h2>
+<p>The statistical analysis system <a href="https://www.sas.com/en_us/home.html">SAS</a> was developed by a collective of eight USA southern state universities in the late 1960’s. The SAS Institute Inc.&nbsp;was founded in 1976, and their first product release of Base SAS, consisted of approximately 300,000 lines of code<sup>1</sup>. During the first 30 years of existence, SAS software became renowned in the highly regulated medical research industry, for its well documented methodology and its high quality, reproducible, robust and reliable analysis implementation. This made it the number one data analysis tool in the pharmaceutical industry and a gold standard for regulatory submissions around the world.</p>
+<p>R has been available since 1993 with packages being added continuously, providing a continual development cycle and user-led package development<sup>2</sup>. This open-source language has a package repository called <a href="The Comprehensive R Archive Network (r-project.org)">CRAN</a> (Comprehensive R Archive Network) with over 21000 packages in it. The momentum and adoption of R in Pharma is growing, likely due to:</p>
+<ol type="1">
+<li>it being a common tool used by students, academics and other industries,</li>
+<li>it’s ability to produce interactive reporting and graphics</li>
+<li>the large quantity of open source development of packages, which is often conducted through github repositories. Recently, the <a href="https://pharmaverse.org/e2eclinical/">pharmaverse</a><sup>3</sup> has been created which pulls together multiple packages designed specifically to resolve the needs of conducting analysis in medical research with a focus on the regulatory needs.</li>
+</ol>
+<p><strong>It is commonly found that if the user does not change the default options in SAS and R for a particular analysis, then the results that are output are different! But why is this …?!</strong></p>
+<p>SAS and R would have experienced entirely different challenges during their early development periods. For SAS, latency (speed to do computations) was very low compared to modern computers. The time for a computer to implement a complex statistical analysis (or even a simple one) would have initially been very long! This would have made numerical approximations (faster algorithms) very attractive in order to reduce computational time required to conduct analysis. As computational power improved, the speed to do analysis rapidly improved. The need to simplify an analysis to an approximation or more simple algorithm was less important. Hence SAS increased its functionality adding more methods. However, due to its rigorous reproducibility and backwards compatibility commitments, the ‘default’ method remained as the original, and new methods (which were often more complex) were added as options to the original SAS procedures.</p>
+<p>With R being developed in the 1990’s, it didn’t have such a restriction on speed of computation. This means that the methods that R defaults to, are often the ones that were most commonly used when that package was developed, or that were documented in the literature with better performance compared to an older methodology.</p>
+<p><strong>In conclusion,</strong> if you write code in SAS and R without specifying fully your analysis using the optional parameters or knowing your default options, it is very likely that the analysis they conduct could be different. In many cases, adding detail to your code (Specifying all options clearly), specifies exactly the analysis you want SAS or R to do, which then ensures that SAS and R are applying the same methods and you get the same results. However, there are still cases where some analyses are only available in SAS and some only in R.</p>
+<p>The <a href="https://psiaims.github.io/CAMIS/">PHUSE CAMIS Project</a><sup>4</sup> compares default analysis methods in SAS, R and Python, documents which options need to be specified in order to obtain a reproduction of the same analysis and identifies cases where software can not replicate the same analysis.</p>
+</section>
+<section id="why-do-we-need-languages-software-to-align-on-results-and-does-it-need-to-be-identical" class="level2" data-number="10.3">
+<h2 data-number="10.3" class="anchored" data-anchor-id="why-do-we-need-languages-software-to-align-on-results-and-does-it-need-to-be-identical"><span class="header-section-number">10.3</span> Why do we need languages / software to align on results and does it need to be identical?</h2>
+<section id="statistical-interpretation-perspective" class="level3" data-number="10.3.1">
+<h3 data-number="10.3.1" class="anchored" data-anchor-id="statistical-interpretation-perspective"><span class="header-section-number">10.3.1</span> Statistical Interpretation Perspective</h3>
+<p>From a Statistical Interpretation Perspective, results obtained from different languages or software which are in line (similar) but not identical would be interpreted in the same way. Hence the conclusion of the trial would not be affected by lack of identical replication of statistical analysis results.</p>
+<p>In fact, it is common for regulators to require sensitivity analysis to explore how robust the analysis is to handling of missing data and model assumptions. Therefore, we would hope that applying slightly different methods, would not change interpretation of the results, otherwise we may have concerns regarding the robustness of our analysis and the transferability of those results to the real world.</p>
+<p>If results did differ by a clinically important amount, then it would be very important to further investigate and justify the differences.</p>
+</section>
+<section id="in-practice" class="level3" data-number="10.3.2">
+<h3 data-number="10.3.2" class="anchored" data-anchor-id="in-practice"><span class="header-section-number">10.3.2</span> In Practice !</h3>
+<p>Despite the above, in practice, the medical research industry is governed by strict processes and Standard Operative Procedures (SOPs) to ensure quality of statistical analysis. For this reason, many companies apply a double programming approach to ensure 100% independent replication of results. This requires a full identical match to be obtained when two programmers do the same work independently. In addition, if the initial work is done by a Contract Research Organization (CRO), working with a pharmaceutical company, the analysis may be programmed a third time to replicate results in the two different companies systems. Finally, when results are submitted to the regulators, they will also program the results and attempt replication.</p>
+<p>Therefore, in all these cases if a full identical match cannot be obtained, this introduces uncertainty, apprehension and nervousness about the results being presented. Are they correct ? ! Why don’t we get the same results doing the same analysis in another language / software.</p>
+<p>It is likely that the statisticians, data analysts or programmers in all organizations would have to spend substantial time looking into the discrepancy, to try to provide a full explanation and justification, or do updates so a match can be obtained, before the analysis would be passed as acceptable and trustworthy. This is often at a critical time in the drug development program and can adversely affect relationships between customers / clients and regulators, if matches cannot be easily achieved.</p>
+</section>
+</section>
+<section id="possible-reasons-for-analysis-results-being-different" class="level2" data-number="10.4">
+<h2 data-number="10.4" class="anchored" data-anchor-id="possible-reasons-for-analysis-results-being-different"><span class="header-section-number">10.4</span> Possible Reasons for Analysis Results being Different</h2>
+<p>Common reasons for not obtaining a match when using different software consist of:</p>
+<ul>
+<li><p>Input dataset differences</p>
+<ul>
+<li><p>Check your input datasets are identical (different input = different output !)</p></li>
+<li><p>NOTE: This may need to also include the sort order since some algorithms may work differently if data is differently sorted</p></li>
+</ul></li>
+<li><p>Different model or methods used compared to your statistical analysis plan (SAP)</p>
+<ul>
+<li><p>Perhaps the SAP clearly specifies the analysis, however your results is not in line, due to differences in the default options, handling of missing data or tied data, modelling assumptions, method, algorithms, modelling values, convergence methods, optimization routines or parameterization it is using</p></li>
+<li><p>Check the software / package documentation to verify it is doing the analysis method specified in the SAP. NOTE: you may have to do your own research to fully understand how methods are being implemented in software. Replication by hand or in additional programming to see if you can test the results versus what you would expect using the equations. Check on website help pages, StackOverflow etc, to see if others have already found the issue. Contact the software company or author to request clarity on the method the software is implementing.</p></li>
+<li><p>Check <a href="https://psiaims.github.io/CAMIS/">PHUSE CAMIS Project</a><sup>4</sup> for any additional detail already available. If you find something not already documented, please consider contributing</p></li>
+<li><p>NOTE: sometimes the results may match in most cases, with exception for a particular scenario in your data (small samples, tied data, missing data or thresholds being met), which results in different handling of these cases being made by the software / languages and hence different methods being used and different results obtained.</p></li>
+</ul></li>
+<li><p>SAP does not specify enough detail of what analysis is required</p>
+<ul>
+<li><p>SAP is ambiguous - there are different ways to do the analysis method and the SAP does not clearly specify the method that should be applied.</p></li>
+<li><p>It is not sufficient to write a SAP with the SAS defaults being assumed. The method needs to be fully specified such that it can be replicated in any language or software.</p></li>
+<li><p>If the method is not clearly specified in the SAP, default methods may be assumed, and these may be different across software / languages.</p></li>
+<li><p>Update SAP to be more specific.</p></li>
+</ul></li>
+<li><p>Same Methods are being applied but different rounding of the final result. SAS and R round differently by default. See <a href="https://psiaims.github.io/CAMIS/Comp/r-sas_rounding.html">here</a> for more detail.</p></li>
+<li><p>There is a bug is the software / package derivation and the results are incorrect</p>
+<ul>
+<li>This is the least commonly found issue when renown software and packages are being used. It is more common that the method being implemented is actually planned by the software / package authors to be different, rather than incorrectly programmed.</li>
+</ul></li>
+</ul>
+</section>
+<section id="best-practice-steps" class="level2" data-number="10.5">
+<h2 data-number="10.5" class="anchored" data-anchor-id="best-practice-steps"><span class="header-section-number">10.5</span> Best practice steps</h2>
+<p>The <a href="https://phuse.s3.eu-central-1.amazonaws.com/Deliverables/Data+Visualisation+%26+Open+Source+Technology/WP077.pdf">White paper</a><sup>5</sup> describes key considerations when understanding differences in statistical methodology implementations across programming languages.</p>
+<p>The Key Message is to <strong>ensure that the SAP fully documents the analysis method you plan to do and ensure that the software you use is implementating that analysis method.</strong></p>
+<p>It is no longer acceptable, to write statistical analysis plans which describe the analysis in insufficient detail, expecting readers to be using the SAS defaults. Instead SAPs need to be written with full explanation of the method being applied, including any detail on convergence methods, continuity corrections applied, and options selected. This can often be challenging since the methodology can be statistically complex and statisticians have got so used to SAS, that there is still a bias towards using the methods that SAS does as default rather than the method which is best for the analysis of your data.</p>
+</section>
+<section id="example-1-signed-rank-test" class="level2" data-number="10.6">
+<h2 data-number="10.6" class="anchored" data-anchor-id="example-1-signed-rank-test"><span class="header-section-number">10.6</span> Example 1 : Signed Rank Test</h2>
+<p>SAP states: For this 2-period, cross-over study comparing Treatments A and B, a wilcoxon signed-rank test will be applied.</p>
+<p>The analysis is run in SAS and R and slightly different p-values are obtained.</p>
+<p>After much research, it is found to be due to the following:</p>
+<p>SAS describes its method <a href="https://support.sas.com/documentation/cdl/en/procstat/63104/HTML/default/viewer.htm#procstat_univariate_sect029.htm">here</a><sup>6</sup>. For samples &lt;=20 it applies the exact method (scaled binomial distributions). For samples &gt;20 it uses an approximation method using the student’s t distribution. It also has a method for handling of tied data.</p>
+<p>CAMIS repo describe the R options <a href="https://psiaims.github.io/CAMIS/R/wilcoxonsr_hodges_lehman.html">here</a>. Using stats package (version 3.6.2), allows you to specify if you want to use an exact method or normal approximation for any sample size. However there is no method for handling tied data, R excludes these results from the analysis.</p>
+<p>Hence for samples without ties and with &lt;20 observations, SAS and R p-values match, however if you do have tied results or &gt;20 observations, it’s likely that you will get slightly different p-values in SAS and R.</p>
+<p>SAP should be updated (for example) to say: For this 2-period, cross-over study comparing Treatments A and B, a wilcoxon signed-rank test <strong>using a normal approximation</strong> <strong>as described in the stats package (version 3.6.2)</strong> will be applied.</p>
+</section>
+<section id="example-2-survival-analysis-kaplan-meier-and-log-rank-test" class="level2" data-number="10.7">
+<h2 data-number="10.7" class="anchored" data-anchor-id="example-2-survival-analysis-kaplan-meier-and-log-rank-test"><span class="header-section-number">10.7</span> Example 2: Survival Analysis, Kaplan-Meier and Log Rank Test</h2>
+<p>SAP states: Kaplan-Meier plots (with 95% CIs) of Overall Survival will be presented by treatment group. Overall survival will be analyzed using a stratified log-rank test with hazard ratio and 95% CI from the cox-proportional hazards model.</p>
+<p>The analysis is run in SAS and R and although the p-values from the Cox-proportional hazard model are in agreement, we get slightly different confidence intervals on the Kaplan-Meier plots and for the estimate of the Hazard ratio (+/- 95% CIs) estimated from the Cox-proportional hazard model.</p>
+<p>After much research, it is found to be due to the following as documented on the CAMIS repository <a href="https://psiaims.github.io/CAMIS/Comp/r-sas_survival.html">here</a>.</p>
+<ul>
+<li><p>In SAS, the default Kaplan-Meier confidence interval calculation method is using the log-log method whereas in R package <code>survival::survfit</code> function the default method is the log method.</p></li>
+<li><p>In SAS, the default method for handling of ties in a Cox-propotional hazard model is to use the breslow method, however, in R package <code>survival::coxph</code> , the default method is efron.</p></li>
+</ul>
+<p>Both of these issues can be resolved but adding options to the code to specify the method. However, the SAP did not specify the methods to use fully enough.</p>
+<p>SAP should be updated (for example) to say: Kaplan-Meier plots (with 95% CIs <strong>calculated using the log-log method</strong>) of Overall Survival will be presented by treatment group. Overall survival will be analyzed using a stratified log-rank test with hazard ratio and 95% CI from the cox-proportional hazards model <strong>calculated using</strong> <strong>the efron method in the case of tied survival times</strong>.</p>
+</section>
+<section id="how-to-contribute" class="level2" data-number="10.8">
+<h2 data-number="10.8" class="anchored" data-anchor-id="how-to-contribute"><span class="header-section-number">10.8</span> How to Contribute</h2>
 <p>Contribute to the discussion here in GitHub Discussions:<br>
 <a href="https://github.com/phuse-org/OSTCDA/discussions/11" target="_blank">Do we need to match SAS numerically when using a different language?</a></p>
+<p>Contribute to the CAMIS repository <a href="https://psiaims.github.io/CAMIS/contribution/contribution.html">here</a>.</p>
 </section>
-<section id="guidance" class="level2" data-number="10.3">
-<h2 data-number="10.3" class="anchored" data-anchor-id="guidance"><span class="header-section-number">10.3</span> Guidance</h2>
+<section id="guidance" class="level2" data-number="10.9">
+<h2 data-number="10.9" class="anchored" data-anchor-id="guidance"><span class="header-section-number">10.9</span> Guidance</h2>
 <ul>
 <li><p>Provide your thoughts and perspectives</p></li>
 <li><p>Provide references to articles, webinars, presentations (citations, links)</p></li>
 <li><p>Be respectful in this community</p></li>
 </ul>
+</section>
+<section id="references" class="level2" data-number="10.10">
+<h2 data-number="10.10" class="anchored" data-anchor-id="references"><span class="header-section-number">10.10</span> References</h2>
+<ol type="1">
+<li><p>https://www.sas.com/en_us/company-information/history.html</p></li>
+<li><p>https://royalsocietypublishing.org/doi/10.1098/rsos.221550</p></li>
+<li><p>https://pharmaverse.org/e2eclinical/</p></li>
+<li><p>https://psiaims.github.io/CAMIS/</p></li>
+<li><p>https://phuse.s3.eu-central-1.amazonaws.com/Deliverables/Data+Visualisation+%26+Open+Source+Technology/WP077.pdf</p></li>
+<li><p>https://support.sas.com/documentation/cdl/en/procstat/63104/HTML/default/viewer.htm#procstat_univariate_sect029.htm</p></li>
+</ol>
 
 
 </section>
