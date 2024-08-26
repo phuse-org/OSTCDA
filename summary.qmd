@@ -4,18 +4,34 @@ title: "What is Open Source?"
 
 ## What is Open Source?
 
-When someone says 'open source' - what does that mean to you?\
-What are the important characteristics of something that is regarded as 'open source'?
+The [Open Source Initiative](https://opensource.org/osd){target="_blank"} delineates a number of characteristics of what it means to be **open source**, including free distribution, available source code, and the ability to create derived works.
 
--   Does the cost matter?
--   Does the ability to review the code matter?
--   Does the ability to reuse the code matter?
--   Does the ability to modify the code matter?
+According to [Merriam-Webster](https://www.merriam-webster.com/dictionary/open-source){target="_blank"}, open source is “having the source code freely available for possible modification and redistribution”.
+
+[Wikipedia](https://en.wikipedia.org/wiki/Open-source_software){target="_blank"} defines open-source software (OSS) as a computer software that is released under a license in which the copyright holder grants users the rights to use, study, change and distribute the software and its source code to anyone and for any purpose.
+
+All three of these sources refer to the ability to see the code, use the code, change the code, and share the code. And to be able to do so without any cost.
+
+### How is this enabled?
+
+Fundamentally, the code is owned by someone - by some entity, whether an individual, an organization, or a group of other entities. The owner of the code have the right to disseminate the code openly and describe how it can be used by others. This is accomplished through a license agreement (discussed in another section). For any piece of **open source code**, the owner of that code has decided to release it publicly with an associated license that defines how others may use or modify the code.
+
+In a paper entitled \*[Open Source Technologies in Clinical Research](https://phuse.s3.eu-central-1.amazonaws.com/Archive/2020/Connect/US/Virtual/PAP_TT10.pdf){target="_blank"}, as part of the 2020 PHUSE US Connect, Bruce Wienckowski et al. write that "open source software includes permission to use the source code, design documents, or content of the product." This is in contrast to proprietary software which is not typically distributed free of charge and "typically has licensed limitations on how that software can be used."
+
+Data submitted for review by a health authority to approve a medicine, therapy, or vaccine into the market it governs are expected to be ***accurate***, ***reproducible***, and ***traceable*** from the point of collection to the final analytic report. The ability to demonstrate the integrity of all data transformations has been perceived to be more challenging with open source solutions (relative to proprietary or commercial solutions).
+
+In this publication, we aim to explore the numerous questions that have been raised by practitioners of data analytics for clinical research. These questions are aimed at managing the perceived risk of leveraging tools built on open source software for analyzing clinical trial data to support market applications of medicines, therapies, and vaccines based on evidence of safety and efficacy. The answers to some of these questions are becoming well understood in the industry while other answers are less complete. Our objective is to comprehensively compile this knowledge for ease of reference by others.
 
 ## How to Contribute
 
-Contribute to the discussion here in GitHub Discussions:\
+You may continue to contribute to this discussion here in GitHub Discussions:\
 [What is open source?](https://github.com/phuse-org/OSTCDA/discussions/1){target="_blank"}
+
+-   Comment on content already developed
+
+-   Add additional content or perspectives for consideration
+
+-   Upvote content that is particularly valuable
 
 ## Guidance
 
@@ -24,15 +40,3 @@ Contribute to the discussion here in GitHub Discussions:\
 -   Provide references to articles, webinars, presentations (citations, links)
 
 -   Be respectful in this community
-
-## Examples
-
-[**Example 1:**]{.underline} The Open Source Initiative provides a [definition](https://opensource.org/osd/):
-
--   Free distribution
-
--   Available source code
-
--   Derived works possible
-
-[**Example 2:**]{.underline} [Merriam-Webster](#0){style="font-size: 11.4pt;"} defines open source as "having the source code freely available for possible modification and redistribution".
