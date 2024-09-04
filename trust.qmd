@@ -1,5 +1,5 @@
 ---
-title: "Establishing Trust"
+title: "(-) Establishing Trust"
 ---
 
 ## Can an open source solution be trusted?
