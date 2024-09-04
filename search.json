@@ -54,7 +54,7 @@
     "href": "summary.html",
     "title": "1  What is Open Source?",
     "section": "",
-    "text": "1.1 What is Open Source?\nWhen someone says ‘open source’ - what does that mean to you?\nWhat are the important characteristics of something that is regarded as ‘open source’?",
+    "text": "1.1 What is Open Source?\nThe Open Source Initiative delineates a number of characteristics of what it means to be open source, including free distribution, available source code, and the ability to create derived works.\nAccording to Merriam-Webster, open source is “having the source code freely available for possible modification and redistribution”.\nWikipedia defines open-source software (OSS) as a computer software that is released under a license in which the copyright holder grants users the rights to use, study, change and distribute the software and its source code to anyone and for any purpose.\nAll three of these sources refer to the ability to see the code, use the code, change the code, and share the code. And to be able to do so without any cost.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>What is Open Source?</span>"
     ]
@@ -64,7 +64,7 @@
     "href": "summary.html#what-is-open-source",
     "title": "1  What is Open Source?",
     "section": "",
-    "text": "Does the cost matter?\nDoes the ability to review the code matter?\nDoes the ability to reuse the code matter?\nDoes the ability to modify the code matter?",
+    "text": "1.1.1 How is this enabled?\nFundamentally, the code is owned by someone - by some entity, whether an individual, an organization, or a group of other entities. The owner of the code have the right to disseminate the code openly and describe how it can be used by others. This is accomplished through a license agreement (discussed in another section). For any piece of open source code, the owner of that code has decided to release it publicly with an associated license that defines how others may use or modify the code.\nIn a paper entitled *Open Source Technologies in Clinical Research, as part of the 2020 PHUSE US Connect, Bruce Wienckowski et al. write that “open source software includes permission to use the source code, design documents, or content of the product.” This is in contrast to proprietary software which is not typically distributed free of charge and “typically has licensed limitations on how that software can be used.”\nData submitted for review by a health authority to approve a medicine, therapy, or vaccine into the market it governs are expected to be accurate, reproducible, and traceable from the point of collection to the final analytic report. The ability to demonstrate the integrity of all data transformations has been perceived to be more challenging with open source solutions (relative to proprietary or commercial solutions).\nIn this publication, we aim to explore the numerous questions that have been raised by practitioners of data analytics for clinical research. These questions are aimed at managing the perceived risk of leveraging tools built on open source software for analyzing clinical trial data to support market applications of medicines, therapies, and vaccines based on evidence of safety and efficacy. The answers to some of these questions are becoming well understood in the industry while other answers are less complete. Our objective is to comprehensively compile this knowledge for ease of reference by others.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>What is Open Source?</span>"
     ]
@@ -74,7 +74,7 @@
     "href": "summary.html#how-to-contribute",
     "title": "1  What is Open Source?",
     "section": "1.2 How to Contribute",
-    "text": "1.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nWhat is open source?",
+    "text": "1.2 How to Contribute\nYou may continue to contribute to this discussion here in GitHub Discussions:\nWhat is open source?\n\nComment on content already developed\nAdd additional content or perspectives for consideration\nUpvote content that is particularly valuable",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>What is Open Source?</span>"
     ]
@@ -85,16 +85,6 @@
     "title": "1  What is Open Source?",
     "section": "1.3 Guidance",
     "text": "1.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>What is Open Source?</span>"
-    ]
-  },
-  {
-    "objectID": "summary.html#examples",
-    "href": "summary.html#examples",
-    "title": "1  What is Open Source?",
-    "section": "1.4 Examples",
-    "text": "1.4 Examples\nExample 1: The Open Source Initiative provides a definition:\n\nFree distribution\nAvailable source code\nDerived works possible\n\nExample 2: Merriam-Webster defines open source as “having the source code freely available for possible modification and redistribution”.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>What is Open Source?</span>"
     ]
