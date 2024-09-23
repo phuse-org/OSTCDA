@@ -44,15 +44,104 @@ And what about agencies who typically do not re-analyse sponsor data? How can th
 
 The industry offers a diverse range of experiences that can significantly enhance your professional growth. Below is an overview of various industry experiences gathered so far:
 
-Sponsor/Agency | FDA | EMA | NMPA | PMDA | Health Canada
--- | -- | -- | -- | -- | --
-RConsortium Pilot | Submitted <br/>-	Accepted | Not done
-Novo Nordisk <br/>[Presentation](https://www.youtube.com/watch?v=t33dS17QHuA) | Submitted <br/><ul><li>Big data ADaM programmed in R and pre-announced this during Type C and B meeting packages</li><li>Remaining ADaM in SAS and double programmed in R (where applicable)</li><li>All TFL in R</li><li>Following requests from FDA all TFL programs and internal R packages submitted. Packages packed using pkglite.</li><li>[Additional guidance](https://github.com/NNaikp/phuse-css-2023/blob/main/submission-files/instructions-to-programs-in-r.pdf) and informal meeting with FDA statisticians on restoring R environment was held</li></ul> | Submitted content using R | Same as PMDA | <ul><li>Big data ADaM programmed in R and pre-announced during additional eSubmission meeting</li><li>Remaining ADaM in SAS and double programmed in R (where applicable)</li><li>All TFL in R programs submitted</li></ul>| Submitted content using R
-Roche <br/>[Presentation](https://www.youtube.com/watch?v=BlJNILSoZlM&t=2187s) | Submitted content using R <br/><ul><li>Initial pushback from the FDA reviewer to accept R, they wanted SAS instead.</li><li>Roche pushed back and submitted in R (based on Technical Conformance Guidance)</li><li>key message - acceptance of R may vary between different agency reviewers</li><li>key message - have the content & format discussions early with the agency</li></ul> | Submitted content using R <br/>(no comments received so far) | Submitted content using R <br/>(no comments received so far) |	
-SwissMedic | 
-Merck | Submitted <br><ul><li>Multiple successful submissions</li><li>GxP platform available</li><li>Reproducible environment</li></ul>			
-Astellas Pharma |-	(2021) for using R markdown to submit programs<br/>- [Example](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/212608Orig1s006.pdf)
-General | | They don’t reanalyse |  | They don’t reanalyse
+```{=html}
+<table>
+  <colgroup>
+    <col style="width: 25%">
+    <col style="width: 25%">
+    <col style="width: 50%">
+  </colgroup>
+  <thead>
+    <tr>
+      <th>Sponsor</th>
+      <th>Agency</th>
+      <th>Experiences</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>RConsortium Pilot</strong> <br/><a href="https://github.com/RConsortium/submissions-wg">Info</a></td>
+      <td>FDA</td>
+      <td>Submitted<br/><ul><li>Accepted</li></ul></td>
+    </tr>
+    <tr>
+      <td rowspan="5"><strong>Novo Nordisk</strong><br/><a href="https://www.youtube.com/watch?v=t33dS17QHuA">Presentation</a></td>
+      <td>FDA</td>
+      <td>Submitted<br/>
+        <ul>
+          <li>Big data ADaM programmed in R and pre-announced this during Type C and B meeting packages</li>
+          <li>Remaining ADaM in SAS and double programmed in R (where applicable)</li>
+          <li>All TFL in R</li>
+          <li>Following requests from FDA all TFL programs and internal R packages submitted. Packages packed using pkglite.</li>
+          <li><a href="https://github.com/NNaikp/phuse-css-2023/blob/main/submission-files/instructions-to-programs-in-r.pdf">Additional guidance</a> and informal meeting with FDA statisticians on restoring R environment was held</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>      
+      <td>EMA</td>
+      <td>Submitted content using R</td>
+    </tr>
+    <tr>      
+      <td>NMPA</td>    
+      <td>Same as PMDA</td>
+    </tr>
+    <tr>      
+      <td>PMDA</td>
+      <td>
+        Submitted<br/>
+        <ul>
+          <li>Big data ADaM programmed in R and pre-announced during additional eSubmission meeting</li>
+          <li>Remaining ADaM in SAS and double programmed in R (where applicable)</li>
+          <li>All TFL in R programs submitted</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>      
+      <td>Health Canada</td>
+      <td>Submitted content using R</td>
+    </tr>
+    <tr>
+      <td rowspan="3"><strong>Roche</strong> <br/><a href="https://www.youtube.com/watch?v=BlJNILSoZlM&t=2187s">Presentation</a></td>
+      <td>FDA</td>
+      <td>Submitted content using R <br/>
+        <ul>
+          <li>Initial pushback from the FDA reviewer to accept R, they wanted SAS instead.</li>
+          <li>Roche pushed back and submitted in R (based on Technical Conformance Guidance)</li>
+          <li>Key message - acceptance of R may vary between different agency reviewers</li>
+          <li>Key message - have the content & format discussions early with the agency</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>      
+      <td>EMA</td>
+      <td>Submitted content using R <br/>(no comments received so far)</td>
+    </tr>
+    <tr>      
+      <td>NMPA</td>
+      <td>Submitted content using R <br/>(no comments received so far)</td>
+    </tr>
+    <tr>
+      <td><strong>SwissMedic</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Merck</strong></td>
+      <td>FDA</td>
+      <td>Submitted <br/>
+        <ul>
+          <li>Multiple successful submissions</li>
+          <li>GxP platform available</li>
+          <li>Reproducible environment</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Astellas Pharma</strong></td>
+      <td>FDA</td>
+      <td>(2021) for using R markdown to submit programs <br/> <a href="https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/212608Orig1s006.pdf">Example</a></td>
+    </tr>
+  </tbody>
+</table>
+```
 
 ## How to Contribute
 
