@@ -1,5 +1,5 @@
 ---
-title: "(-) Numerical Matching"
+title: "Numerical Matching"
 ---
 
 ## What if open source languages and commercial software (such as SAS), do not match numerically with the analysis results they give?
@@ -124,20 +124,12 @@ Both of these issues can be resolved but adding options to the code to specify t
 
 SAP should be updated (for example) to say: Kaplan-Meier plots (with 95% CIs **calculated using the log-log method**) of Overall Survival will be presented by treatment group. Overall survival will be analyzed using a stratified log-rank test with hazard ratio and 95% CI from the cox-proportional hazards model **calculated using** **the efron method in the case of tied survival times**.
 
-## How to Contribute
+## Discussion
 
 Contribute to the discussion here in GitHub Discussions:\
 [Do we need to match SAS numerically when using a different language?](https://github.com/phuse-org/OSTCDA/discussions/11){target="_blank"}
 
 Contribute to the CAMIS repository [here](https://psiaims.github.io/CAMIS/contribution/contribution.html).
-
-## Guidance
-
--   Provide your thoughts and perspectives
-
--   Provide references to articles, webinars, presentations (citations, links)
-
--   Be respectful in this community
 
 ## References
 

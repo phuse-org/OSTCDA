@@ -1,5 +1,5 @@
 ---
-title: "(-) What is Open Source?"
+title: "What is Open Source?"
 ---
 
 ## What is Open Source?
@@ -22,21 +22,8 @@ Data submitted for review by a health authority to approve a medicine, therapy, 
 
 In this publication, we aim to explore the numerous questions that have been raised by practitioners of data analytics for clinical research. These questions are aimed at managing the perceived risk of leveraging tools built on open source software for analyzing clinical trial data to support market applications of medicines, therapies, and vaccines based on evidence of safety and efficacy. The answers to some of these questions are becoming well understood in the industry while other answers are less complete. Our objective is to comprehensively compile this knowledge for ease of reference by others.
 
-## How to Contribute
+## Discussion
 
 You may continue to contribute to this discussion here in GitHub Discussions:\
 [What is open source?](https://github.com/phuse-org/OSTCDA/discussions/1){target="_blank"}
 
--   Comment on content already developed
-
--   Add additional content or perspectives for consideration
-
--   Upvote content that is particularly valuable
-
-## Guidance
-
--   Provide your thoughts and perspectives
-
--   Provide references to articles, webinars, presentations (citations, links)
-
--   Be respectful in this community
