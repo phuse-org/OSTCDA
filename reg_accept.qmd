@@ -40,6 +40,20 @@ Yet still some doubts persist. If a sponsor submits analytical results using Too
 
 And what about agencies who typically do not re-analyse sponsor data? How can the industry provide reassurance and proof that analytical environments are validated: accurate, reproducible and traceable? When installation of software into an environment is a one-step process, we can be pretty sure of consistency across analysts. But if there are multiple steps involved, and the software can change almost daily, then how do we ensure this consistency and reproducibility? This is not just the job of IT organisations within sponsor companies, but the responsibility of the individual analyst, to ensure that they are working compliant with organisational processes and in validated environments. Audit trails and traceability helps ensure this, but it is a potential source of doubt for both sponsor and regulatory authority.
 
+## Industry Experiences
+
+The industry offers a diverse range of experiences that can significantly enhance your professional growth. Below is an overview of various industry experiences gathered so far:
+
+Sponsor/Agency | FDA | EMA | NMPA | PMDA | Health Canada
+-- | -- | -- | -- | -- | --
+RConsortium Pilot | Submitted <br/>-	Accepted | Not done
+Novo Nordisk <br/>[Presentation](https://www.youtube.com/watch?v=t33dS17QHuA) | Submitted <br/><ul><li>Big data ADaM programmed in R and pre-announced this during Type C and B meeting packages</li><li>Remaining ADaM in SAS and double programmed in R (where applicable)</li><li>All TFL in R</li><li>Following requests from FDA all TFL programs and internal R packages submitted. Packages packed using pkglite.</li><li>[Additional guidance](https://github.com/NNaikp/phuse-css-2023/blob/main/submission-files/instructions-to-programs-in-r.pdf) and informal meeting with FDA statisticians on restoring R environment was held</li></ul> | Submitted content using R | Same as PMDA | <ul><li>Big data ADaM programmed in R and pre-announced during additional eSubmission meeting</li><li>Remaining ADaM in SAS and double programmed in R (where applicable)</li><li>All TFL in R programs submitted</li></ul>| Submitted content using R
+Roche <br/>[Presentation](https://www.youtube.com/watch?v=BlJNILSoZlM&t=2187s) | Submitted content using R <br/><ul><li>Initial pushback from the FDA reviewer to accept R, they wanted SAS instead.</li><li>Roche pushed back and submitted in R (based on Technical Conformance Guidance)</li><li>key message - acceptance of R may vary between different agency reviewers</li><li>key message - have the content & format discussions early with the agency</li></ul> | Submitted content using R <br/>(no comments received so far) | Submitted content using R <br/>(no comments received so far) |	
+SwissMedic | 
+Merck | Submitted <br><ul><li>Multiple successful submissions</li><li>GxP platform available</li><li>Reproducible environment</li></ul>			
+Astellas Pharma |-	(2021) for using R markdown to submit programs<br/>- [Example](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/212608Orig1s006.pdf)
+General | | They don’t reanalyse |  | They don’t reanalyse
+
 ## How to Contribute
 
 Contribute to the discussion here in GitHub Discussions:\
