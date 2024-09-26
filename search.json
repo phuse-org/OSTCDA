@@ -52,41 +52,31 @@
   {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "1  (-) What is Open Source?",
+    "title": "1  What is Open Source?",
     "section": "",
     "text": "1.1 What is Open Source?\nThe Open Source Initiative delineates a number of characteristics of what it means to be open source, including free distribution, available source code, and the ability to create derived works.\nAccording to Merriam-Webster, open source is “having the source code freely available for possible modification and redistribution”.\nWikipedia defines open-source software (OSS) as a computer software that is released under a license in which the copyright holder grants users the rights to use, study, change and distribute the software and its source code to anyone and for any purpose.\nAll three of these sources refer to the ability to see the code, use the code, change the code, and share the code. And to be able to do so without any cost.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>(-) What is Open Source?</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>What is Open Source?</span>"
     ]
   },
   {
     "objectID": "summary.html#what-is-open-source",
     "href": "summary.html#what-is-open-source",
-    "title": "1  (-) What is Open Source?",
+    "title": "1  What is Open Source?",
     "section": "",
     "text": "1.1.1 How is this enabled?\nFundamentally, the code is owned by someone - by some entity, whether an individual, an organization, or a group of other entities. The owner of the code have the right to disseminate the code openly and describe how it can be used by others. This is accomplished through a license agreement (discussed in another section). For any piece of open source code, the owner of that code has decided to release it publicly with an associated license that defines how others may use or modify the code.\nIn a paper entitled *Open Source Technologies in Clinical Research, as part of the 2020 PHUSE US Connect, Bruce Wienckowski et al. write that “open source software includes permission to use the source code, design documents, or content of the product.” This is in contrast to proprietary software which is not typically distributed free of charge and “typically has licensed limitations on how that software can be used.”\nData submitted for review by a health authority to approve a medicine, therapy, or vaccine into the market it governs are expected to be accurate, reproducible, and traceable from the point of collection to the final analytic report. The ability to demonstrate the integrity of all data transformations has been perceived to be more challenging with open source solutions (relative to proprietary or commercial solutions).\nIn this publication, we aim to explore the numerous questions that have been raised by practitioners of data analytics for clinical research. These questions are aimed at managing the perceived risk of leveraging tools built on open source software for analyzing clinical trial data to support market applications of medicines, therapies, and vaccines based on evidence of safety and efficacy. The answers to some of these questions are becoming well understood in the industry while other answers are less complete. Our objective is to comprehensively compile this knowledge for ease of reference by others.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>(-) What is Open Source?</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>What is Open Source?</span>"
     ]
   },
   {
-    "objectID": "summary.html#how-to-contribute",
-    "href": "summary.html#how-to-contribute",
-    "title": "1  (-) What is Open Source?",
-    "section": "1.2 How to Contribute",
-    "text": "1.2 How to Contribute\nYou may continue to contribute to this discussion here in GitHub Discussions:\nWhat is open source?\n\nComment on content already developed\nAdd additional content or perspectives for consideration\nUpvote content that is particularly valuable",
+    "objectID": "summary.html#discussion",
+    "href": "summary.html#discussion",
+    "title": "1  What is Open Source?",
+    "section": "1.2 Discussion",
+    "text": "1.2 Discussion\nYou may continue to contribute to this discussion here in GitHub Discussions:\nWhat is open source?",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>(-) What is Open Source?</span>"
-    ]
-  },
-  {
-    "objectID": "summary.html#guidance",
-    "href": "summary.html#guidance",
-    "title": "1  (-) What is Open Source?",
-    "section": "1.3 Guidance",
-    "text": "1.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>(-) What is Open Source?</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>What is Open Source?</span>"
     ]
   },
   {
@@ -110,21 +100,11 @@
     ]
   },
   {
-    "objectID": "why.html#how-to-contribute",
-    "href": "why.html#how-to-contribute",
+    "objectID": "why.html#discussion",
+    "href": "why.html#discussion",
     "title": "2  (-) Why Open Source?",
-    "section": "2.2 How to Contribute",
-    "text": "2.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nWhat is the ‘why’ for open source?",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>(-) Why Open Source?</span>"
-    ]
-  },
-  {
-    "objectID": "why.html#guidance",
-    "href": "why.html#guidance",
-    "title": "2  (-) Why Open Source?",
-    "section": "2.3 Guidance",
-    "text": "2.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
+    "section": "2.2 Discussion",
+    "text": "2.2 Discussion\nContribute to the discussion here in GitHub Discussions:\nWhat is the ‘why’ for open source?",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>(-) Why Open Source?</span>"
     ]
@@ -150,21 +130,11 @@
     ]
   },
   {
-    "objectID": "trust.html#how-to-contribute",
-    "href": "trust.html#how-to-contribute",
+    "objectID": "trust.html#discussion",
+    "href": "trust.html#discussion",
     "title": "3  (-) Establishing Trust",
-    "section": "3.2 How to Contribute",
-    "text": "3.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nCan an open source solution be trusted to be accurate?",
-    "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>(-) Establishing Trust</span>"
-    ]
-  },
-  {
-    "objectID": "trust.html#guidance",
-    "href": "trust.html#guidance",
-    "title": "3  (-) Establishing Trust",
-    "section": "3.3 Guidance",
-    "text": "3.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
+    "section": "3.2 Discussion",
+    "text": "3.2 Discussion\nContribute to the discussion here in GitHub Discussions:\nCan an open source solution be trusted to be accurate?",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>(-) Establishing Trust</span>"
     ]
@@ -200,11 +170,11 @@
     ]
   },
   {
-    "objectID": "doc_trust.html#how-to-contribute",
-    "href": "doc_trust.html#how-to-contribute",
+    "objectID": "doc_trust.html#discussion",
+    "href": "doc_trust.html#discussion",
     "title": "4  Documenting Trust",
-    "section": "4.3 How to Contribute",
-    "text": "4.3 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nHow do you document your trust in an open source solution to satisfy a third-party inquiry?\nAll contributions should:\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
+    "section": "4.3 Discussion",
+    "text": "4.3 Discussion\nContribute to the discussion here in GitHub Discussions:\nHow do you document your trust in an open source solution to satisfy a third-party inquiry?",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Documenting Trust</span>"
     ]
@@ -230,21 +200,11 @@
     ]
   },
   {
-    "objectID": "cost.html#how-to-contribute",
-    "href": "cost.html#how-to-contribute",
+    "objectID": "cost.html#discussion",
+    "href": "cost.html#discussion",
     "title": "5  (-) Cost of Open Source",
-    "section": "5.2 How to Contribute",
-    "text": "5.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nWhat is the true cost of implementing open source solutions into clinical data analytic processes??",
-    "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>(-) Cost of Open Source</span>"
-    ]
-  },
-  {
-    "objectID": "cost.html#guidance",
-    "href": "cost.html#guidance",
-    "title": "5  (-) Cost of Open Source",
-    "section": "5.3 Guidance",
-    "text": "5.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
+    "section": "5.2 Discussion",
+    "text": "5.2 Discussion\nContribute to the discussion here in GitHub Discussions:\nWhat is the true cost of implementing open source solutions into clinical data analytic processes??",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>(-) Cost of Open Source</span>"
     ]
@@ -300,11 +260,11 @@
     ]
   },
   {
-    "objectID": "reg_accept.html#how-to-contribute",
-    "href": "reg_accept.html#how-to-contribute",
+    "objectID": "reg_accept.html#discussion",
+    "href": "reg_accept.html#discussion",
     "title": "6  Regulatory Acceptance",
-    "section": "6.5 How to Contribute",
-    "text": "6.5 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nWill the FDA accept data and analyses generated with solutions developed and available as open source?\nAll contributions should:\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
+    "section": "6.5 Discussion",
+    "text": "6.5 Discussion\nContribute to the discussion here in GitHub Discussions:\nWill the FDA accept data and analyses generated with solutions developed and available as open source?",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Regulatory Acceptance</span>"
     ]
@@ -400,21 +360,11 @@
     ]
   },
   {
-    "objectID": "art.html#how-to-contribute",
-    "href": "art.html#how-to-contribute",
+    "objectID": "art.html#discussion",
+    "href": "art.html#discussion",
     "title": "7  GxP Compliance",
-    "section": "7.8 How to Contribute",
-    "text": "7.8 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nHow do you establish reproducibility and traceability with open source solutions?",
-    "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>GxP Compliance</span>"
-    ]
-  },
-  {
-    "objectID": "art.html#guidance",
-    "href": "art.html#guidance",
-    "title": "7  GxP Compliance",
-    "section": "7.9 Guidance",
-    "text": "7.9 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community\n\n\n\n\n\nClark, Aaron, Robert Krajcik, Jeff Thompson, Lars Andersen, Andrew Borgman, Marly Gotti, Maya Gans, Aravind Reddy Kallem, and Fission Labs India Pvt Ltd. 2023. Riskassessment: A Web App Designed to Interface with the ‘Riskmetric‘ Package. https://github.com/pharmaR/riskassessment.\n\n\nHester, Jim. 2023. Covr: Test Coverage for Packages. https://covr.r-lib.org.\n\n\nKelkhoff, Doug, and Andrew McNeil. 2024. Covtracer: Tools for Contextualizing Tests. https://github.com/genentech/covtracer.\n\n\nR Validation Hub, Doug Kelkhoff, Marly Gotti, Eli Miller, Kevin K, Yilong Zhang, Eric Milliman, and Juliane Manitz. 2024. Riskmetric: Risk Metrics to Evaluating r Packages. https://pharmar.github.io/riskmetric/.\n\n\nRStudio Team. 2020. RStudio: Integrated Development Environment for r. Boston, MA: RStudio, PBC. http://www.rstudio.com/.\n\n\n“Tidyverse, Tidymodels, r-Lib, and Gt r Packages: Regulatory Compliance and Validation Issues.” 2020. Posit / RStudio PBC. https://www.rstudio.com/assets/img/validation-tidy.pdf.\n\n\nWickham, Hadley, and Jenny Bryan. 2023. R Packages. O’Reilly Media, Incorporated.\n\n\nWickham, Hadley, Peter Danenberg, Gábor Csárdi, and Manuel Eugster. 2024. Roxygen2: In-Line Documentation for r. https://roxygen2.r-lib.org/.\n\n\nWickham, Hadley, Jay Hesselberth, and Maëlle Salmon. 2023. Pkgdown: Make Static HTML Documentation for a Package. https://pkgdown.r-lib.org.",
+    "section": "7.8 Discussion",
+    "text": "7.8 Discussion\nContribute to the discussion here in GitHub Discussions:\nHow do you establish reproducibility and traceability with open source solutions?\n\n\n\n\nClark, Aaron, Robert Krajcik, Jeff Thompson, Lars Andersen, Andrew Borgman, Marly Gotti, Maya Gans, Aravind Reddy Kallem, and Fission Labs India Pvt Ltd. 2023. Riskassessment: A Web App Designed to Interface with the ‘Riskmetric‘ Package. https://github.com/pharmaR/riskassessment.\n\n\nHester, Jim. 2023. Covr: Test Coverage for Packages. https://covr.r-lib.org.\n\n\nKelkhoff, Doug, and Andrew McNeil. 2024. Covtracer: Tools for Contextualizing Tests. https://github.com/genentech/covtracer.\n\n\nR Validation Hub, Doug Kelkhoff, Marly Gotti, Eli Miller, Kevin K, Yilong Zhang, Eric Milliman, and Juliane Manitz. 2024. Riskmetric: Risk Metrics to Evaluating r Packages. https://pharmar.github.io/riskmetric/.\n\n\nRStudio Team. 2020. RStudio: Integrated Development Environment for r. Boston, MA: RStudio, PBC. http://www.rstudio.com/.\n\n\n“Tidyverse, Tidymodels, r-Lib, and Gt r Packages: Regulatory Compliance and Validation Issues.” 2020. Posit / RStudio PBC. https://www.rstudio.com/assets/img/validation-tidy.pdf.\n\n\nWickham, Hadley, and Jenny Bryan. 2023. R Packages. O’Reilly Media, Incorporated.\n\n\nWickham, Hadley, Peter Danenberg, Gábor Csárdi, and Manuel Eugster. 2024. Roxygen2: In-Line Documentation for r. https://roxygen2.r-lib.org/.\n\n\nWickham, Hadley, Jay Hesselberth, and Maëlle Salmon. 2023. Pkgdown: Make Static HTML Documentation for a Package. https://pkgdown.r-lib.org.",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>GxP Compliance</span>"
     ]
@@ -440,21 +390,11 @@
     ]
   },
   {
-    "objectID": "users.html#how-to-contribute",
-    "href": "users.html#how-to-contribute",
+    "objectID": "users.html#discussion",
+    "href": "users.html#discussion",
     "title": "8  (-) User Support",
-    "section": "8.2 How to Contribute",
-    "text": "8.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nHow do we support users in managing an ever-evolving environment of Open Source solutions?",
-    "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>(-) User Support</span>"
-    ]
-  },
-  {
-    "objectID": "users.html#guidance",
-    "href": "users.html#guidance",
-    "title": "8  (-) User Support",
-    "section": "8.3 Guidance",
-    "text": "8.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
+    "section": "8.2 Discussion",
+    "text": "8.2 Discussion\nContribute to the discussion here in GitHub Discussions:\nHow do we support users in managing an ever-evolving environment of Open Source solutions?",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>(-) User Support</span>"
     ]
@@ -480,21 +420,11 @@
     ]
   },
   {
-    "objectID": "user_dev.html#how-to-contribute",
-    "href": "user_dev.html#how-to-contribute",
+    "objectID": "user_dev.html#discussion",
+    "href": "user_dev.html#discussion",
     "title": "9  (-) User Development",
-    "section": "9.2 How to Contribute",
-    "text": "9.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nHow do you transform the traditional Statistical Programmer into the future Data Scientist?",
-    "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>(-) User Development</span>"
-    ]
-  },
-  {
-    "objectID": "user_dev.html#guidance",
-    "href": "user_dev.html#guidance",
-    "title": "9  (-) User Development",
-    "section": "9.3 Guidance",
-    "text": "9.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
+    "section": "9.2 Discussion",
+    "text": "9.2 Discussion\nContribute to the discussion here in GitHub Discussions:\nHow do you transform the traditional Statistical Programmer into the future Data Scientist?",
     "crumbs": [
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>(-) User Development</span>"
     ]
@@ -502,111 +432,101 @@
   {
     "objectID": "match.html",
     "href": "match.html",
-    "title": "10  (-) Numerical Matching",
+    "title": "10  Numerical Matching",
     "section": "",
     "text": "10.1 What if open source languages and commercial software (such as SAS), do not match numerically with the analysis results they give?",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>(-) Numerical Matching</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Numerical Matching</span>"
     ]
   },
   {
     "objectID": "match.html#what-if-open-source-languages-and-commercial-software-such-as-sas-do-not-match-numerically-with-the-analysis-results-they-give",
     "href": "match.html#what-if-open-source-languages-and-commercial-software-such-as-sas-do-not-match-numerically-with-the-analysis-results-they-give",
-    "title": "10  (-) Numerical Matching",
+    "title": "10  Numerical Matching",
     "section": "",
     "text": "What if the same inputs yield similar, but numerically different results?\nWhat if the same inputs yield drastically different results?\nWhat is the truth? Which is correct? Can any be considered ‘correct’?",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>(-) Numerical Matching</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Numerical Matching</span>"
     ]
   },
   {
     "objectID": "match.html#historical-background",
     "href": "match.html#historical-background",
-    "title": "10  (-) Numerical Matching",
+    "title": "10  Numerical Matching",
     "section": "10.2 Historical Background",
     "text": "10.2 Historical Background\nThe statistical analysis system SAS was developed by a collective of eight USA southern state universities in the late 1960’s. The SAS Institute Inc. was founded in 1976, and their first product release of Base SAS, consisted of approximately 300,000 lines of code1. During the first 30 years of existence, SAS software became renowned in the highly regulated medical research industry, for its well documented methodology and its high quality, reproducible, robust and reliable analysis implementation. This made it the number one data analysis tool in the pharmaceutical industry and a gold standard for regulatory submissions around the world.\nR has been available since 1993 with packages being added continuously, providing a continual development cycle and user-led package development2. This open-source language has a package repository called CRAN (Comprehensive R Archive Network) with over 21000 packages in it. The momentum and adoption of R in Pharma is growing, likely due to:\n\nit being a common tool used by students, academics and other industries,\nit’s ability to produce interactive reporting and graphics\nthe large quantity of open source development of packages, which is often conducted through github repositories. Recently, the pharmaverse3 has been created which pulls together multiple packages designed specifically to resolve the needs of conducting analysis in medical research with a focus on the regulatory needs.\n\nIt is commonly found that if the user does not change the default options in SAS and R for a particular analysis, then the results that are output are different! But why is this …?!\nSAS and R would have experienced entirely different challenges during their early development periods. For SAS, latency (speed to do computations) was very low compared to modern computers. The time for a computer to implement a complex statistical analysis (or even a simple one) would have initially been very long! This would have made numerical approximations (faster algorithms) very attractive in order to reduce computational time required to conduct analysis. As computational power improved, the speed to do analysis rapidly improved. The need to simplify an analysis to an approximation or more simple algorithm was less important. Hence SAS increased its functionality adding more methods. However, due to its rigorous reproducibility and backwards compatibility commitments, the ‘default’ method remained as the original, and new methods (which were often more complex) were added as options to the original SAS procedures.\nWith R being developed in the 1990’s, it didn’t have such a restriction on speed of computation. This means that the methods that R defaults to, are often the ones that were most commonly used when that package was developed, or that were documented in the literature with better performance compared to an older methodology.\nIn conclusion, if you write code in SAS and R without specifying fully your analysis using the optional parameters or knowing your default options, it is very likely that the analysis they conduct could be different. In many cases, adding detail to your code (Specifying all options clearly), specifies exactly the analysis you want SAS or R to do, which then ensures that SAS and R are applying the same methods and you get the same results. However, there are still cases where some analyses are only available in SAS and some only in R.\nThe PHUSE CAMIS Project4 compares default analysis methods in SAS, R and Python, documents which options need to be specified in order to obtain a reproduction of the same analysis and identifies cases where software can not replicate the same analysis.",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>(-) Numerical Matching</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Numerical Matching</span>"
     ]
   },
   {
     "objectID": "match.html#why-do-we-need-languages-software-to-align-on-results-and-does-it-need-to-be-identical",
     "href": "match.html#why-do-we-need-languages-software-to-align-on-results-and-does-it-need-to-be-identical",
-    "title": "10  (-) Numerical Matching",
+    "title": "10  Numerical Matching",
     "section": "10.3 Why do we need languages / software to align on results and does it need to be identical?",
     "text": "10.3 Why do we need languages / software to align on results and does it need to be identical?\n\n10.3.1 Statistical Interpretation Perspective\nFrom a Statistical Interpretation Perspective, results obtained from different languages or software which are in line (similar) but not identical would be interpreted in the same way. Hence the conclusion of the trial would not be affected by lack of identical replication of statistical analysis results.\nIn fact, it is common for regulators to require sensitivity analysis to explore how robust the analysis is to handling of missing data and model assumptions. Therefore, we would hope that applying slightly different methods, would not change interpretation of the results, otherwise we may have concerns regarding the robustness of our analysis and the transferability of those results to the real world.\nIf results did differ by a clinically important amount, then it would be very important to further investigate and justify the differences.\n\n\n10.3.2 In Practice !\nDespite the above, in practice, the medical research industry is governed by strict processes and Standard Operative Procedures (SOPs) to ensure quality of statistical analysis. For this reason, many companies apply a double programming approach to ensure 100% independent replication of results. This requires a full identical match to be obtained when two programmers do the same work independently. In addition, if the initial work is done by a Contract Research Organization (CRO), working with a pharmaceutical company, the analysis may be programmed a third time to replicate results in the two different companies systems. Finally, when results are submitted to the regulators, they will also program the results and attempt replication.\nTherefore, in all these cases if a full identical match cannot be obtained, this introduces uncertainty, apprehension and nervousness about the results being presented. Are they correct ? ! Why don’t we get the same results doing the same analysis in another language / software.\nIt is likely that the statisticians, data analysts or programmers in all organizations would have to spend substantial time looking into the discrepancy, to try to provide a full explanation and justification, or do updates so a match can be obtained, before the analysis would be passed as acceptable and trustworthy. This is often at a critical time in the drug development program and can adversely affect relationships between customers / clients and regulators, if matches cannot be easily achieved.",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>(-) Numerical Matching</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Numerical Matching</span>"
     ]
   },
   {
     "objectID": "match.html#possible-reasons-for-analysis-results-being-different",
     "href": "match.html#possible-reasons-for-analysis-results-being-different",
-    "title": "10  (-) Numerical Matching",
+    "title": "10  Numerical Matching",
     "section": "10.4 Possible Reasons for Analysis Results being Different",
     "text": "10.4 Possible Reasons for Analysis Results being Different\nCommon reasons for not obtaining a match when using different software consist of:\n\nInput dataset differences\n\nCheck your input datasets are identical (different input = different output !)\nNOTE: This may need to also include the sort order since some algorithms may work differently if data is differently sorted\n\nDifferent model or methods used compared to your statistical analysis plan (SAP)\n\nPerhaps the SAP clearly specifies the analysis, however your results is not in line, due to differences in the default options, handling of missing data or tied data, modelling assumptions, method, algorithms, modelling values, convergence methods, optimization routines or parameterization it is using\nCheck the software / package documentation to verify it is doing the analysis method specified in the SAP. NOTE: you may have to do your own research to fully understand how methods are being implemented in software. Replication by hand or in additional programming to see if you can test the results versus what you would expect using the equations. Check on website help pages, StackOverflow etc, to see if others have already found the issue. Contact the software company or author to request clarity on the method the software is implementing.\nCheck PHUSE CAMIS Project4 for any additional detail already available. If you find something not already documented, please consider contributing\nNOTE: sometimes the results may match in most cases, with exception for a particular scenario in your data (small samples, tied data, missing data or thresholds being met), which results in different handling of these cases being made by the software / languages and hence different methods being used and different results obtained.\n\nSAP does not specify enough detail of what analysis is required\n\nSAP is ambiguous - there are different ways to do the analysis method and the SAP does not clearly specify the method that should be applied.\nIt is not sufficient to write a SAP with the SAS defaults being assumed. The method needs to be fully specified such that it can be replicated in any language or software.\nIf the method is not clearly specified in the SAP, default methods may be assumed, and these may be different across software / languages.\nUpdate SAP to be more specific.\n\nSame Methods are being applied but different rounding of the final result. SAS and R round differently by default. See here for more detail.\nThere is a bug is the software / package derivation and the results are incorrect\n\nThis is the least commonly found issue when renown software and packages are being used. It is more common that the method being implemented is actually planned by the software / package authors to be different, rather than incorrectly programmed.",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>(-) Numerical Matching</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Numerical Matching</span>"
     ]
   },
   {
     "objectID": "match.html#best-practice-steps",
     "href": "match.html#best-practice-steps",
-    "title": "10  (-) Numerical Matching",
+    "title": "10  Numerical Matching",
     "section": "10.5 Best practice steps",
     "text": "10.5 Best practice steps\nThe White paper5 describes key considerations when understanding differences in statistical methodology implementations across programming languages.\nThe Key Message is to ensure that the SAP fully documents the analysis method you plan to do and ensure that the software you use is implementating that analysis method.\nIt is no longer acceptable, to write statistical analysis plans which describe the analysis in insufficient detail, expecting readers to be using the SAS defaults. Instead SAPs need to be written with full explanation of the method being applied, including any detail on convergence methods, continuity corrections applied, and options selected. This can often be challenging since the methodology can be statistically complex and statisticians have got so used to SAS, that there is still a bias towards using the methods that SAS does as default rather than the method which is best for the analysis of your data.",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>(-) Numerical Matching</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Numerical Matching</span>"
     ]
   },
   {
     "objectID": "match.html#example-1-signed-rank-test",
     "href": "match.html#example-1-signed-rank-test",
-    "title": "10  (-) Numerical Matching",
+    "title": "10  Numerical Matching",
     "section": "10.6 Example 1 : Signed Rank Test",
     "text": "10.6 Example 1 : Signed Rank Test\nSAP states: For this 2-period, cross-over study comparing Treatments A and B, a wilcoxon signed-rank test will be applied.\nThe analysis is run in SAS and R and slightly different p-values are obtained.\nAfter much research, it is found to be due to the following:\nSAS describes its method here6. For samples &lt;=20 it applies the exact method (scaled binomial distributions). For samples &gt;20 it uses an approximation method using the student’s t distribution. It also has a method for handling of tied data.\nCAMIS repo describe the R options here. Using stats package (version 3.6.2), allows you to specify if you want to use an exact method or normal approximation for any sample size. However there is no method for handling tied data, R excludes these results from the analysis.\nHence for samples without ties and with &lt;20 observations, SAS and R p-values match, however if you do have tied results or &gt;20 observations, it’s likely that you will get slightly different p-values in SAS and R.\nSAP should be updated (for example) to say: For this 2-period, cross-over study comparing Treatments A and B, a wilcoxon signed-rank test using a normal approximation as described in the stats package (version 3.6.2) will be applied.",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>(-) Numerical Matching</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Numerical Matching</span>"
     ]
   },
   {
     "objectID": "match.html#example-2-survival-analysis-kaplan-meier-and-log-rank-test",
     "href": "match.html#example-2-survival-analysis-kaplan-meier-and-log-rank-test",
-    "title": "10  (-) Numerical Matching",
+    "title": "10  Numerical Matching",
     "section": "10.7 Example 2: Survival Analysis, Kaplan-Meier and Log Rank Test",
     "text": "10.7 Example 2: Survival Analysis, Kaplan-Meier and Log Rank Test\nSAP states: Kaplan-Meier plots (with 95% CIs) of Overall Survival will be presented by treatment group. Overall survival will be analyzed using a stratified log-rank test with hazard ratio and 95% CI from the cox-proportional hazards model.\nThe analysis is run in SAS and R and although the p-values from the Cox-proportional hazard model are in agreement, we get slightly different confidence intervals on the Kaplan-Meier plots and for the estimate of the Hazard ratio (+/- 95% CIs) estimated from the Cox-proportional hazard model.\nAfter much research, it is found to be due to the following as documented on the CAMIS repository here.\n\nIn SAS, the default Kaplan-Meier confidence interval calculation method is using the log-log method whereas in R package survival::survfit function the default method is the log method.\nIn SAS, the default method for handling of ties in a Cox-propotional hazard model is to use the breslow method, however, in R package survival::coxph , the default method is efron.\n\nBoth of these issues can be resolved but adding options to the code to specify the method. However, the SAP did not specify the methods to use fully enough.\nSAP should be updated (for example) to say: Kaplan-Meier plots (with 95% CIs calculated using the log-log method) of Overall Survival will be presented by treatment group. Overall survival will be analyzed using a stratified log-rank test with hazard ratio and 95% CI from the cox-proportional hazards model calculated using the efron method in the case of tied survival times.",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>(-) Numerical Matching</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Numerical Matching</span>"
     ]
   },
   {
-    "objectID": "match.html#how-to-contribute",
-    "href": "match.html#how-to-contribute",
-    "title": "10  (-) Numerical Matching",
-    "section": "10.8 How to Contribute",
-    "text": "10.8 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nDo we need to match SAS numerically when using a different language?\nContribute to the CAMIS repository here.",
+    "objectID": "match.html#discussion",
+    "href": "match.html#discussion",
+    "title": "10  Numerical Matching",
+    "section": "10.8 Discussion",
+    "text": "10.8 Discussion\nContribute to the discussion here in GitHub Discussions:\nDo we need to match SAS numerically when using a different language?\nContribute to the CAMIS repository here.",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>(-) Numerical Matching</span>"
-    ]
-  },
-  {
-    "objectID": "match.html#guidance",
-    "href": "match.html#guidance",
-    "title": "10  (-) Numerical Matching",
-    "section": "10.9 Guidance",
-    "text": "10.9 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
-    "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>(-) Numerical Matching</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Numerical Matching</span>"
     ]
   },
   {
     "objectID": "match.html#references",
     "href": "match.html#references",
-    "title": "10  (-) Numerical Matching",
-    "section": "10.10 References",
-    "text": "10.10 References\n\nhttps://www.sas.com/en_us/company-information/history.html\nhttps://royalsocietypublishing.org/doi/10.1098/rsos.221550\nhttps://pharmaverse.org/e2eclinical/\nhttps://psiaims.github.io/CAMIS/\nhttps://phuse.s3.eu-central-1.amazonaws.com/Deliverables/Data+Visualisation+%26+Open+Source+Technology/WP077.pdf\nhttps://support.sas.com/documentation/cdl/en/procstat/63104/HTML/default/viewer.htm#procstat_univariate_sect029.htm",
+    "title": "10  Numerical Matching",
+    "section": "10.9 References",
+    "text": "10.9 References\n\nhttps://www.sas.com/en_us/company-information/history.html\nhttps://royalsocietypublishing.org/doi/10.1098/rsos.221550\nhttps://pharmaverse.org/e2eclinical/\nhttps://psiaims.github.io/CAMIS/\nhttps://phuse.s3.eu-central-1.amazonaws.com/Deliverables/Data+Visualisation+%26+Open+Source+Technology/WP077.pdf\nhttps://support.sas.com/documentation/cdl/en/procstat/63104/HTML/default/viewer.htm#procstat_univariate_sect029.htm",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>(-) Numerical Matching</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Numerical Matching</span>"
     ]
   },
   {
@@ -630,21 +550,11 @@
     ]
   },
   {
-    "objectID": "longrun.html#how-to-contribute",
-    "href": "longrun.html#how-to-contribute",
+    "objectID": "longrun.html#discussion",
+    "href": "longrun.html#discussion",
     "title": "11  (-) OS in the Long Run",
-    "section": "11.2 How to Contribute",
-    "text": "11.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nHow do we ensure that the solutions being developed today will exist in the long run?",
-    "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>(-) OS in the Long Run</span>"
-    ]
-  },
-  {
-    "objectID": "longrun.html#guidance",
-    "href": "longrun.html#guidance",
-    "title": "11  (-) OS in the Long Run",
-    "section": "11.3 Guidance",
-    "text": "11.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
+    "section": "11.2 Discussion",
+    "text": "11.2 Discussion\nContribute to the discussion here in GitHub Discussions:\nHow do we ensure that the solutions being developed today will exist in the long run?",
     "crumbs": [
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>(-) OS in the Long Run</span>"
     ]
@@ -670,21 +580,11 @@
     ]
   },
   {
-    "objectID": "fundOS.html#how-to-contribute",
-    "href": "fundOS.html#how-to-contribute",
+    "objectID": "fundOS.html#discussion",
+    "href": "fundOS.html#discussion",
     "title": "12  (-) Funding OS",
-    "section": "12.2 How to Contribute",
-    "text": "12.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nIs it possible for industry fund open source?",
-    "crumbs": [
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>(-) Funding OS</span>"
-    ]
-  },
-  {
-    "objectID": "fundOS.html#guidance",
-    "href": "fundOS.html#guidance",
-    "title": "12  (-) Funding OS",
-    "section": "12.3 Guidance",
-    "text": "12.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
+    "section": "12.2 Discussion",
+    "text": "12.2 Discussion\nContribute to the discussion here in GitHub Discussions:\nIs it possible for industry fund open source?",
     "crumbs": [
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>(-) Funding OS</span>"
     ]
@@ -730,11 +630,11 @@
     ]
   },
   {
-    "objectID": "liability.html#how-to-contribute",
-    "href": "liability.html#how-to-contribute",
+    "objectID": "liability.html#discussion",
+    "href": "liability.html#discussion",
     "title": "13  Liability with OS",
-    "section": "13.4 How to Contribute",
-    "text": "13.4 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nAre contributors to open source exposing themselves to any liability of their solutions?\nAll contributions should:\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
+    "section": "13.4 Discussion",
+    "text": "13.4 Discussion\nContribute to the discussion here in GitHub Discussions:\nAre contributors to open source exposing themselves to any liability of their solutions?",
     "crumbs": [
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Liability with OS</span>"
     ]
@@ -790,11 +690,11 @@
     ]
   },
   {
-    "objectID": "legal.html#how-to-contribute",
-    "href": "legal.html#how-to-contribute",
+    "objectID": "legal.html#discussion",
+    "href": "legal.html#discussion",
     "title": "14  Legal Concerns",
-    "section": "14.5 How to Contribute",
-    "text": "14.5 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nAre there any legal concerns or ramifications from open source development (on the user, developer, organization)?\nAll contributions should:\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
+    "section": "14.5 Discussion",
+    "text": "14.5 Discussion\nContribute to the discussion here in GitHub Discussions:\nAre there any legal concerns or ramifications from open source development (on the user, developer, organization)?",
     "crumbs": [
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>Legal Concerns</span>"
     ]
@@ -820,21 +720,11 @@
     ]
   },
   {
-    "objectID": "OSmodels.html#how-to-contribute",
-    "href": "OSmodels.html#how-to-contribute",
+    "objectID": "OSmodels.html#discussion",
+    "href": "OSmodels.html#discussion",
     "title": "15  (-) OS Business Models",
-    "section": "15.2 How to Contribute",
-    "text": "15.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nWhat open source models are available for businesses?",
-    "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>(-) OS Business Models</span>"
-    ]
-  },
-  {
-    "objectID": "OSmodels.html#guidance",
-    "href": "OSmodels.html#guidance",
-    "title": "15  (-) OS Business Models",
-    "section": "15.3 Guidance",
-    "text": "15.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
+    "section": "15.2 Discussion",
+    "text": "15.2 Discussion\nContribute to the discussion here in GitHub Discussions:\nWhat open source models are available for businesses?",
     "crumbs": [
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>(-) OS Business Models</span>"
     ]
@@ -860,23 +750,53 @@
     ]
   },
   {
-    "objectID": "whatelse.html#how-to-contribute",
-    "href": "whatelse.html#how-to-contribute",
+    "objectID": "whatelse.html#discussion",
+    "href": "whatelse.html#discussion",
     "title": "16  (-) What Else?",
-    "section": "16.2 How to Contribute",
-    "text": "16.2 How to Contribute\nContribute to the discussion here in GitHub Discussions:\nWhat else can we do?",
+    "section": "16.2 Discussion",
+    "text": "16.2 Discussion\nContribute to the discussion here in GitHub Discussions:\nWhat else can we do?",
     "crumbs": [
       "<span class='chapter-number'>16</span>  <span class='chapter-title'>(-) What Else?</span>"
     ]
   },
   {
-    "objectID": "whatelse.html#guidance",
-    "href": "whatelse.html#guidance",
-    "title": "16  (-) What Else?",
-    "section": "16.3 Guidance",
-    "text": "16.3 Guidance\n\nProvide your thoughts and perspectives\nProvide references to articles, webinars, presentations (citations, links)\nBe respectful in this community",
+    "objectID": "contribute.html",
+    "href": "contribute.html",
+    "title": "Contribute",
+    "section": "",
+    "text": "Join discussions\nShare your industry expertise and contribute to the collective knowledge by joining our discussions. These discussions are a valuable resource, providing citable and sometimes quotable input that will culminate in a “state of the union”-style manuscript. This manuscript aims to address questions that have been sufficiently explored and to focus on those that still need attention.\nWe encourage you to visit the Discussions section to share your thoughts, resources, or perspectives. If you identify a key question that has been overlooked, feel free to start a new discussion thread!",
     "crumbs": [
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>(-) What Else?</span>"
+      "Contribute"
+    ]
+  },
+  {
+    "objectID": "contribute.html#provide-feedback-questions-suggestions",
+    "href": "contribute.html#provide-feedback-questions-suggestions",
+    "title": "Contribute",
+    "section": "Provide Feedback, Questions, Suggestions",
+    "text": "Provide Feedback, Questions, Suggestions\nYour feedback is crucial to our progress. Please use the Issues area to share general feedback, ask questions, or make suggestions. You can also propose new paragraphs or information that you believe would be valuable for inclusion.",
+    "crumbs": [
+      "Contribute"
+    ]
+  },
+  {
+    "objectID": "contribute.html#pull-requests",
+    "href": "contribute.html#pull-requests",
+    "title": "Contribute",
+    "section": "Pull Requests",
+    "text": "Pull Requests\nIf you are familiar with git, we welcome you to contribute directly by submitting Pull Requests. Your contributions are highly appreciated and will help improve the manuscript.",
+    "crumbs": [
+      "Contribute"
+    ]
+  },
+  {
+    "objectID": "contribute.html#guidance",
+    "href": "contribute.html#guidance",
+    "title": "Contribute",
+    "section": "Guidance",
+    "text": "Guidance\n\nShare your thoughts and perspectives to enrich the discussions.\nProvide references to relevant articles, webinars, and presentations (citations and links are encouraged).\nMaintain a respectful and constructive tone within the community.\n\nYour active participation is essential to the success of this project. Together, we can advance our understanding and address the remaining questions effectively.",
+    "crumbs": [
+      "Contribute"
     ]
   },
   {

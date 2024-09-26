@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>10&nbsp; (-) Numerical Matching – Open Source Technology in Clinical Data Analysis</title>
+<title>10&nbsp; Numerical Matching – Open Source Technology in Clinical Data Analysis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./match.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">(-) Numerical Matching</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./match.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Numerical Matching</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -160,7 +160,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">(-) What is Open Source?</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">What is Open Source?</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -214,7 +214,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./match.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">(-) Numerical Matching</span></span></a>
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Numerical Matching</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -255,6 +255,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./contribute.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Contribute</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./references.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">References</span></a>
   </div>
@@ -280,9 +286,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#best-practice-steps" id="toc-best-practice-steps" class="nav-link" data-scroll-target="#best-practice-steps"><span class="header-section-number">10.5</span> Best practice steps</a></li>
   <li><a href="#example-1-signed-rank-test" id="toc-example-1-signed-rank-test" class="nav-link" data-scroll-target="#example-1-signed-rank-test"><span class="header-section-number">10.6</span> Example 1 : Signed Rank Test</a></li>
   <li><a href="#example-2-survival-analysis-kaplan-meier-and-log-rank-test" id="toc-example-2-survival-analysis-kaplan-meier-and-log-rank-test" class="nav-link" data-scroll-target="#example-2-survival-analysis-kaplan-meier-and-log-rank-test"><span class="header-section-number">10.7</span> Example 2: Survival Analysis, Kaplan-Meier and Log Rank Test</a></li>
-  <li><a href="#how-to-contribute" id="toc-how-to-contribute" class="nav-link" data-scroll-target="#how-to-contribute"><span class="header-section-number">10.8</span> How to Contribute</a></li>
-  <li><a href="#guidance" id="toc-guidance" class="nav-link" data-scroll-target="#guidance"><span class="header-section-number">10.9</span> Guidance</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">10.10</span> References</a></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion"><span class="header-section-number">10.8</span> Discussion</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">10.9</span> References</a></li>
   </ul>
 </nav>
     </div>
@@ -291,7 +296,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">(-) Numerical Matching</span></h1>
+<h1 class="title"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Numerical Matching</span></h1>
 </div>
 
 
@@ -404,22 +409,14 @@ ul.task-list li input[type="checkbox"] {
 <p>Both of these issues can be resolved but adding options to the code to specify the method. However, the SAP did not specify the methods to use fully enough.</p>
 <p>SAP should be updated (for example) to say: Kaplan-Meier plots (with 95% CIs <strong>calculated using the log-log method</strong>) of Overall Survival will be presented by treatment group. Overall survival will be analyzed using a stratified log-rank test with hazard ratio and 95% CI from the cox-proportional hazards model <strong>calculated using</strong> <strong>the efron method in the case of tied survival times</strong>.</p>
 </section>
-<section id="how-to-contribute" class="level2" data-number="10.8">
-<h2 data-number="10.8" class="anchored" data-anchor-id="how-to-contribute"><span class="header-section-number">10.8</span> How to Contribute</h2>
+<section id="discussion" class="level2" data-number="10.8">
+<h2 data-number="10.8" class="anchored" data-anchor-id="discussion"><span class="header-section-number">10.8</span> Discussion</h2>
 <p>Contribute to the discussion here in GitHub Discussions:<br>
 <a href="https://github.com/phuse-org/OSTCDA/discussions/11" target="_blank">Do we need to match SAS numerically when using a different language?</a></p>
 <p>Contribute to the CAMIS repository <a href="https://psiaims.github.io/CAMIS/contribution/contribution.html">here</a>.</p>
 </section>
-<section id="guidance" class="level2" data-number="10.9">
-<h2 data-number="10.9" class="anchored" data-anchor-id="guidance"><span class="header-section-number">10.9</span> Guidance</h2>
-<ul>
-<li><p>Provide your thoughts and perspectives</p></li>
-<li><p>Provide references to articles, webinars, presentations (citations, links)</p></li>
-<li><p>Be respectful in this community</p></li>
-</ul>
-</section>
-<section id="references" class="level2" data-number="10.10">
-<h2 data-number="10.10" class="anchored" data-anchor-id="references"><span class="header-section-number">10.10</span> References</h2>
+<section id="references" class="level2" data-number="10.9">
+<h2 data-number="10.9" class="anchored" data-anchor-id="references"><span class="header-section-number">10.9</span> References</h2>
 <ol type="1">
 <li><p>https://www.sas.com/en_us/company-information/history.html</p></li>
 <li><p>https://royalsocietypublishing.org/doi/10.1098/rsos.221550</p></li>
