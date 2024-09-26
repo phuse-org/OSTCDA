@@ -260,11 +260,21 @@
     ]
   },
   {
+    "objectID": "reg_accept.html#industry-experiences",
+    "href": "reg_accept.html#industry-experiences",
+    "title": "6  Regulatory Acceptance",
+    "section": "6.5 Industry Experiences",
+    "text": "6.5 Industry Experiences\nThe industry offers a diverse range of experiences that can significantly enhance your professional growth. Below is an overview of various industry experiences gathered so far:\n\n\n\n\n\n\n\n\nSponsor\nAgency\nExperiences\n\n\n\n\nRConsortium Pilot\nInfo\nFDA\nSubmitted\n\n\nAccepted\n\n\n\nNovo Nordisk\nPresentation\nFDA\nSubmitted\n\n\nBig data ADaM programmed in R and pre-announced this during Type C and B meeting packages\nRemaining ADaM in SAS and double programmed in R (where applicable)\nAll TFL in R\nFollowing requests from FDA all TFL programs and internal R packages submitted. Packages packed using pkglite.\nAdditional guidance and informal meeting with FDA statisticians on restoring R environment was held\n\n\n\nEMA\nSubmitted content using R\n\n\nNMPA\nSame as PMDA\n\n\nPMDA\nSubmitted\n\n\nBig data ADaM programmed in R and pre-announced during additional eSubmission meeting\nRemaining ADaM in SAS and double programmed in R (where applicable)\nAll TFL in R programs submitted\n\n\n\nHealth Canada\nSubmitted content using R\n\n\nRoche\nPresentation\nFDA\nSubmitted content using R\n\n\nInitial pushback from the FDA reviewer to accept R, they wanted SAS instead.\nRoche pushed back and submitted in R (based on Technical Conformance Guidance)\nKey message - acceptance of R may vary between different agency reviewers\nKey message - have the content & format discussions early with the agency\n\n\n\nEMA\nSubmitted content using R\n(no comments received so far)\n\n\nNMPA\nSubmitted content using R\n(no comments received so far)\n\n\nSwissMedic\n\n\n\n\nMerck\nFDA\nSubmitted\n\n\nMultiple successful submissions\nGxP platform available\nReproducible environment\n\n\n\nAstellas Pharma\nFDA\n(2021) for using R markdown to submit programs\nExample",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Regulatory Acceptance</span>"
+    ]
+  },
+  {
     "objectID": "reg_accept.html#discussion",
     "href": "reg_accept.html#discussion",
     "title": "6  Regulatory Acceptance",
-    "section": "6.5 Discussion",
-    "text": "6.5 Discussion\nContribute to the discussion here in GitHub Discussions:\nWill the FDA accept data and analyses generated with solutions developed and available as open source?",
+    "section": "6.6 Discussion",
+    "text": "6.6 Discussion\nContribute to the discussion here in GitHub Discussions:\nWill the FDA accept data and analyses generated with solutions developed and available as open source?",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Regulatory Acceptance</span>"
     ]
@@ -273,8 +283,8 @@
     "objectID": "reg_accept.html#references",
     "href": "reg_accept.html#references",
     "title": "6  Regulatory Acceptance",
-    "section": "6.6 References",
-    "text": "6.6 References\nBell, B “Issues with Open Source Statistical Software in Industry: Validation, Legal Issues, and Regulatory Requirements” ASA JSM 2006.\nSukop, M “Using R: Perspectives of a FDA Statistical RevieweR”. UseR 2007 https://www.r-project.org/conferences/useR-2007/program/presentations/soukup.pdf\nU.S. Food & Drug Administration. (2015, May 6).Statistical Software Clarifing Statement. Retrieved from FDA.gov: https://www.fda.gov/media/109552/download\n\n\n\n\nBell, B. 2006. “Issues with Open Source Statistical Software in Industry: Validation, Legal Issues, and Regulatory Requirements.” https://ww2.amstat.org/meetings/jsm/2006/onlineprogram/index.cfm?fuseaction=people_index&letter=B.\n\n\nBowsher, P. n.d. “Open-Source-in-New-Drug-Applications-NDAs-FDA.” https://github.com/philbowsher/Open-Source-in-New-Drug-Applications-NDAs-FDA.\n\n\nDrug Administration (FDA), U. S. Food &. 2015. “Statistical Software Clarifying Statement.” https://www.fda.gov/media/161196/download.\n\n\nKnoph, Larsen, A. S. 2023. “Novo Nordisk’s Journey to an r Based FDA Submission.” https://www.youtube.com/watch?v=t33dS17QHuA.\n\n\nNeitman, Martin, T. 2023. “Shifting to an Open-Source Backbone in Clinical Trials with Roche.” https://www.youtube.com/watch?v=nqJsLSLd39A.\n\n\n“R Consortium Submissions Working Group.” 2021. https://rconsortium.github.io/submissions-wg/.\n\n\nSchuette, P. 2018. “Using r in a Regulatory Environment: Some FDA Perspectives.” https://rinpharma.com/publication/rinpharma_7/.\n\n\nSoukup, M. 2007. “Using r: Perspectives of a FDA Statistical RevieweR.” https://www.r-project.org/conferences/useR-2007/program/presentations/soukup.pdf; useR.",
+    "section": "6.7 References",
+    "text": "6.7 References\nBell, B “Issues with Open Source Statistical Software in Industry: Validation, Legal Issues, and Regulatory Requirements” ASA JSM 2006.\nSukop, M “Using R: Perspectives of a FDA Statistical RevieweR”. UseR 2007 https://www.r-project.org/conferences/useR-2007/program/presentations/soukup.pdf\nU.S. Food & Drug Administration. (2015, May 6).Statistical Software Clarifing Statement. Retrieved from FDA.gov: https://www.fda.gov/media/109552/download\n\n\n\n\nBell, B. 2006. “Issues with Open Source Statistical Software in Industry: Validation, Legal Issues, and Regulatory Requirements.” https://ww2.amstat.org/meetings/jsm/2006/onlineprogram/index.cfm?fuseaction=people_index&letter=B.\n\n\nBowsher, P. n.d. “Open-Source-in-New-Drug-Applications-NDAs-FDA.” https://github.com/philbowsher/Open-Source-in-New-Drug-Applications-NDAs-FDA.\n\n\nDrug Administration (FDA), U. S. Food &. 2015. “Statistical Software Clarifying Statement.” https://www.fda.gov/media/161196/download.\n\n\nKnoph, Larsen, A. S. 2023. “Novo Nordisk’s Journey to an r Based FDA Submission.” https://www.youtube.com/watch?v=t33dS17QHuA.\n\n\nNeitman, Martin, T. 2023. “Shifting to an Open-Source Backbone in Clinical Trials with Roche.” https://www.youtube.com/watch?v=nqJsLSLd39A.\n\n\n“R Consortium Submissions Working Group.” 2021. https://rconsortium.github.io/submissions-wg/.\n\n\nSchuette, P. 2018. “Using r in a Regulatory Environment: Some FDA Perspectives.” https://rinpharma.com/publication/rinpharma_7/.\n\n\nSoukup, M. 2007. “Using r: Perspectives of a FDA Statistical RevieweR.” https://www.r-project.org/conferences/useR-2007/program/presentations/soukup.pdf; useR.",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Regulatory Acceptance</span>"
     ]
