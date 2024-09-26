@@ -119,15 +119,7 @@ While the specifics of the act are still being finalized, it's clear that it wil
 
 For single-individual open-source projects, the impact might be less direct. However, it could still influence the way these projects are managed. For instance, the act might encourage individual developers to adopt more robust security practices, such as conducting regular vulnerability assessments and ensuring timely patching and updates.
 
-## How to Contribute
+## Discussion
 
 Contribute to the discussion here in GitHub Discussions:\
 [Are there any legal concerns or ramifications from open source development (on the user, developer, organization)?](https://github.com/phuse-org/OSTCDA/discussions/15){target="_blank"}
-
-All contributions should:
-
--   Provide your thoughts and perspectives
-
--   Provide references to articles, webinars, presentations (citations, links)
-
--   Be respectful in this community

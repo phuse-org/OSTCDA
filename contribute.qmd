@@ -1,0 +1,24 @@
+# Contribute {.unnumbered}
+
+## Join discussions
+
+Share your industry expertise and contribute to the collective knowledge by joining our [discussions](https://github.com/phuse-org/OSTCDA/discussions). These discussions are a valuable resource, providing citable and sometimes quotable input that will culminate in a "state of the union"-style manuscript. This manuscript aims to address questions that have been sufficiently explored and to focus on those that still need attention.
+
+We encourage you to visit the [Discussions section](https://github.com/phuse-org/OSTCDA/discussions) to share your thoughts, resources, or perspectives. If you identify a key question that has been overlooked, feel free to start a new discussion thread!
+
+## Provide Feedback, Questions, Suggestions 
+
+Your feedback is crucial to our progress. Please use the [Issues](https://github.com/phuse-org/OSTCDA/issues) area to share general feedback, ask questions, or make suggestions. You can also propose new paragraphs or information that you believe would be valuable for inclusion.
+
+## Pull Requests
+
+If you are familiar with git, we welcome you to contribute directly by submitting [Pull Requests](https://github.com/phuse-org/OSTCDA/pulls). Your contributions are highly appreciated and will help improve the manuscript.
+
+
+## Guidance
+
+-   Share your thoughts and perspectives to enrich the discussions.
+-   Provide references to relevant articles, webinars, and presentations (citations and links are encouraged).
+-   Maintain a respectful and constructive tone within the community.
+
+Your active participation is essential to the success of this project. Together, we can advance our understanding and address the remaining questions effectively.

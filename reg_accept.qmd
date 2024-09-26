@@ -40,18 +40,10 @@ Yet still some doubts persist. If a sponsor submits analytical results using Too
 
 And what about agencies who typically do not re-analyse sponsor data? How can the industry provide reassurance and proof that analytical environments are validated: accurate, reproducible and traceable? When installation of software into an environment is a one-step process, we can be pretty sure of consistency across analysts. But if there are multiple steps involved, and the software can change almost daily, then how do we ensure this consistency and reproducibility? This is not just the job of IT organisations within sponsor companies, but the responsibility of the individual analyst, to ensure that they are working compliant with organisational processes and in validated environments. Audit trails and traceability helps ensure this, but it is a potential source of doubt for both sponsor and regulatory authority.
 
-## How to Contribute
+## Discussion
 
 Contribute to the discussion here in GitHub Discussions:\
 [Will the **FDA** accept data and analyses generated with solutions developed and available as open source?](https://github.com/phuse-org/OSTCDA/discussions/6){target="_blank"}
-
-All contributions should:
-
--   Provide your thoughts and perspectives
-
--   Provide references to articles, webinars, presentations (citations, links)
-
--   Be respectful in this community
 
 ## References
 

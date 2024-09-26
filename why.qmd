@@ -10,15 +10,7 @@ title: "(-) Why Open Source?"
 
 -   Why are leaders of organizations in Data Management, Biostatistics, and Programming devoting resources toward the development, testing, and adoption of open source solutions?
 
-## How to Contribute
+## Discussion
 
 Contribute to the discussion here in GitHub Discussions:\
 [What is the 'why' for open source?](https://github.com/phuse-org/OSTCDA/discussions/2){target="_blank"}
-
-## Guidance
-
--   Provide your thoughts and perspectives
-
--   Provide references to articles, webinars, presentations (citations, links)
-
--   Be respectful in this community

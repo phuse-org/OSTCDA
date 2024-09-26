@@ -37,6 +37,7 @@ book:
     - legal.qmd
     - OSmodels.qmd
     - whatelse.qmd
+    - contribute.qmd
     - references.qmd
 
 bibliography: references.bib
