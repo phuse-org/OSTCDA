@@ -77,15 +77,7 @@ These packages help a user perform and document risk assessments on R packages, 
 
 PHUSE's [End-to-End Open-Source Collaboration Guidance](https://phuse-org.github.io/E2E-OS-Guidance/) references a [Case Studies Repository](https://github.com/pharmaR/case_studies), "which contains examples from Roche, Merck and Novartis on how they approach validation and risk mitigation." The main takeaway, according to James Black, is of "the 4 companies that shared their process for assessing R packages, each company currently takes a very different approach." Coline Zeballos presented on Roche's to package validation at the [R/Pharma conference](https://rinpharma.com/), both in [2021](https://www.youtube.com/watch?v=xksxuvXVimM) and [2022](https://www.youtube.com/watch?v=ZfZpypQ1jSM) (co-presenting with Doug Kelkhoff).
 
-## How to Contribute
+## Discussion
 
 Contribute to the discussion here in GitHub Discussions:\
 [How do you document your trust in an open source solution to satisfy a third-party inquiry?](https://github.com/phuse-org/OSTCDA/discussions/5)
-
-All contributions should:
-
--   Provide your thoughts and perspectives
-
--   Provide references to articles, webinars, presentations (citations, links)
-
--   Be respectful in this community

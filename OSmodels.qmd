@@ -10,17 +10,7 @@ title: "(-) OS Business Models"
 
 -   [Wikipedia page](https://en.wikipedia.org/wiki/Business_models_for_open-source_software){target="_blank"}
 
-## How to Contribute
+## Discussion
 
 Contribute to the discussion here in GitHub Discussions:\
 [What open source models are available for businesses?](https://github.com/phuse-org/OSTCDA/discussions/16){target="_blank"}
-
-## Guidance
-
--   Provide your thoughts and perspectives
-
--   Provide references to articles, webinars, presentations (citations, links)
-
--   Be respectful in this community
-
-

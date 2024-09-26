@@ -10,15 +10,7 @@ This is very open ended and initially intended as a catch-all for the future con
 
 -   What other questions are being asked and/or need to be addressed?
 
-## How to Contribute
+## Discussion
 
 Contribute to the discussion here in GitHub Discussions:\
 [What else can we do?](https://github.com/phuse-org/OSTCDA/discussions/17){target="_blank"}
-
-## Guidance
-
--   Provide your thoughts and perspectives
-
--   Provide references to articles, webinars, presentations (citations, links)
-
--   Be respectful in this community

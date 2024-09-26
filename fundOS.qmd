@@ -12,15 +12,7 @@ title: "(-) Funding OS"
 
 -   Are there examples of this in other industries?
 
-## How to Contribute
+## Discussion
 
 Contribute to the discussion here in GitHub Discussions:\
 [Is it possible for industry fund open source?](https://github.com/phuse-org/OSTCDA/discussions/13){target="_blank"}
-
-## Guidance
-
--   Provide your thoughts and perspectives
-
--   Provide references to articles, webinars, presentations (citations, links)
-
--   Be respectful in this community

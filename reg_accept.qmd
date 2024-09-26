@@ -143,18 +143,10 @@ The industry offers a diverse range of experiences that can significantly enhanc
 </table>
 ```
 
-## How to Contribute
+## Discussion
 
 Contribute to the discussion here in GitHub Discussions:\
 [Will the **FDA** accept data and analyses generated with solutions developed and available as open source?](https://github.com/phuse-org/OSTCDA/discussions/6){target="_blank"}
-
-All contributions should:
-
--   Provide your thoughts and perspectives
-
--   Provide references to articles, webinars, presentations (citations, links)
-
--   Be respectful in this community
 
 ## References
 
