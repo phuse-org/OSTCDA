@@ -700,11 +700,21 @@
     ]
   },
   {
+    "objectID": "legal.html#resources-and-links",
+    "href": "legal.html#resources-and-links",
+    "title": "14  Legal Concerns",
+    "section": "14.5 Resources and Links",
+    "text": "14.5 Resources and Links\n\nOpen Source Initiative - Definition & Overview of Licenses - https://opensource.org/\nChoose a License - Overview of commonly used licenses - https://choosealicense.com/licenses/\nPresentation video - “Open Source Licenses - Practicalities and the Legal Side” - https://youtu.be/6CtoH2yZb-I\nCyber Resilience Act - https://www.european-cyber-resilience-act.com/",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Legal Concerns</span>"
+    ]
+  },
+  {
     "objectID": "legal.html#discussion",
     "href": "legal.html#discussion",
     "title": "14  Legal Concerns",
-    "section": "14.5 Discussion",
-    "text": "14.5 Discussion\nContribute to the discussion here in GitHub Discussions:\nAre there any legal concerns or ramifications from open source development (on the user, developer, organization)?",
+    "section": "14.6 Discussion",
+    "text": "14.6 Discussion\nContribute to the discussion here in GitHub Discussions:\nAre there any legal concerns or ramifications from open source development (on the user, developer, organization)?",
     "crumbs": [
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>Legal Concerns</span>"
     ]
