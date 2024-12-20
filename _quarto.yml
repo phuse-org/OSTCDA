@@ -38,6 +38,7 @@ book:
     - OSmodels.qmd
     - whatelse.qmd
     - contribute.qmd
+    - resources.qmd
     - references.qmd
 
 bibliography: references.bib
