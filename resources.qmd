@@ -1,0 +1,39 @@
+---
+title: "Resources"
+---
+
+```{=html}
+<table>
+  <caption>As described in the section above, Quarto tables are great.</caption>
+  <thead>
+    <tr>
+      <th>Header 1</th>
+      <th>Header 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/African_Bush_Elephant.jpg/220px-African_Bush_Elephant.jpg" alt="African Bush Elephant" /></td>
+      <td>Regular output</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+
+| Resource                                                         | Link                                                                                               |
+|------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| CAMIS Working Group (PSI/AIMS / PHUSE)                           | https://psiaims.github.io/CAMIS/                                                                   |
+| CDISC COSA                                                       | https://www.cdisc.org/cosa                                                                         |
+| Dataset-JSON WG (CDISC | PHUSE)                                  | https://phuse.global/Working_Groups                                                                |
+| Modernization of Statistical Analytics Framework (Transcelerate) | https://www.transceleratebiopharmainc.com/assets/modernization-of-statistical-analytics-solutions/ |
+| Open Pharma                                                      | https://openpharma.github.io/                                                                      |
+| Open Source Portal for Clinical Study Evaluations                | https://www.glacon.eu/portal                                                                       |
+| OpenStudyBuilder                                                 | https://openstudybuilder.com/                                                                      |
+| pharmaverse                                                      | https://pharmaverse.org/                                                                           |
+| R Adoption Webinar Series (R Consortium)                         | https://r-consortium.org/webinars/webinars.html                                                    |
+| R for Clinical Study Reports and Submission                      | https://r4csr.org/                                                                                 |
+| R Submission Pilots (R Consortium)                               | https://github.com/RConsortium/submissions-wg                                                      |
+| R Validation Hub White Paper                                     | https://www.pharmar.org/white-paper/                                                               |
+
+: Resource Link {.striped .hover}
