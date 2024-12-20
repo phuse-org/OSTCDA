@@ -790,6 +790,16 @@
     ]
   },
   {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "17  Resources",
+    "section": "",
+    "text": "18 Resources for Open Source\n\nResource Link\n\n\n\n\n\n\nResource\nLink\n\n\n\n\nCAMIS Working Group (PSI/AIMS / PHUSE)\nhttps://psiaims.github.io/CAMIS/\n\n\nCDISC COSA\nhttps://www.cdisc.org/cosa\n\n\nDataset-JSON WG (CDISC\nPHUSE)\n\n\nModernization of Statistical Analytics Framework (Transcelerate)\nhttps://www.transceleratebiopharmainc.com/assets/modernization-of-statistical-analytics-solutions/\n\n\nOpen Pharma\nhttps://openpharma.github.io/\n\n\nOpen Source Portal for Clinical Study Evaluations\nhttps://www.glacon.eu/portal\n\n\nOpenStudyBuilder\nhttps://openstudybuilder.com/\n\n\npharmaverse\nhttps://pharmaverse.org/\n\n\nR Adoption Webinar Series (R Consortium)\nhttps://r-consortium.org/webinars/webinars.html\n\n\nR for Clinical Study Reports and Submission\nhttps://r4csr.org/\n\n\nR Submission Pilots (R Consortium)\nhttps://github.com/RConsortium/submissions-wg\n\n\nR Validation Hub White Paper\nhttps://www.pharmar.org/white-paper/\n\n\nEnd-to-End Open-source Collaboration Guidance\nhttps://phuse-org.github.io/E2E-OS-Guidance/",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
     "objectID": "references.html",
     "href": "references.html",
     "title": "References",
