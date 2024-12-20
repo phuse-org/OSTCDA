@@ -2,35 +2,7 @@
 title: "Resources"
 ---
 
-HTML Table
-
-```{=html}
-<table>
-  <caption>Resources</caption>
-  <thead>
-    <tr>
-      <th>Resource</th>
-      <th>Link</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr> <td> CAMIS Working Group (PSI/AIMS / PHUSE)                           </td> <td> https://psiaims.github.io/CAMIS/>                                                                  </td> </tr>
-    <tr> <td> CDISC COSA                                                       </td> <td> https://www.cdisc.org/cosa                                                                         </td> </tr>
-    <tr> <td> Dataset-JSON WG (CDISC | PHUSE)                                  </td> <td> https://phuse.global/Working_Groups                                                                </td> </tr>
-    <tr> <td> Modernization of Statistical Analytics Framework (Transcelerate) </td> <td> https://www.transceleratebiopharmainc.com/assets/modernization-of-statistical-analytics-solutions/ </td> </tr>
-    <tr> <td> Open Pharma                                                      </td> <td> https://openpharma.github.io/                                                                      </td> </tr>
-    <tr> <td> Open Source Portal for Clinical Study Evaluations                </td> <td> https://www.glacon.eu/portal                                                                       </td> </tr>
-    <tr> <td> OpenStudyBuilder                                                 </td> <td> https://openstudybuilder.com/                                                                      </td> </tr>
-    <tr> <td> pharmaverse                                                      </td> <td> https://pharmaverse.org/                                                                           </td> </tr>
-    <tr> <td> R Adoption Webinar Series (R Consortium)                         </td> <td> https://r-consortium.org/webinars/webinars.html                                                    </td> </tr>
-    <tr> <td> R for Clinical Study Reports and Submission                      </td> <td> https://r4csr.org/                                                                                 </td> </tr>
-    <tr> <td> R Submission Pilots (R Consortium)                               </td> <td> https://github.com/RConsortium/submissions-wg                                                      </td> </tr>
-    <tr> <td> R Validation Hub White Paper                                     </td> <td> https://www.pharmar.org/white-paper/                                                               </td> </tr>
-  </tbody>
-</table>
-```
-
-Pipe Table
+# Resources for Open Source
 
 | Resource                                                         | Link                                                                                               |
 |------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
@@ -46,5 +18,6 @@ Pipe Table
 | R for Clinical Study Reports and Submission                      | https://r4csr.org/                                                                                 |
 | R Submission Pilots (R Consortium)                               | https://github.com/RConsortium/submissions-wg                                                      |
 | R Validation Hub White Paper                                     | https://www.pharmar.org/white-paper/                                                               |
+| End-to-End Open-source Collaboration Guidance                    | https://phuse-org.github.io/E2E-OS-Guidance/                                                       |
 
 : Resource Link {.striped .hover}
